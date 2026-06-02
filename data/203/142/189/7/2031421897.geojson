@@ -2,10 +2,12 @@
   "id": 2031421897,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-01",
+    "date:cessation_upper": "2026-06-01",
     "date:inception_lower": "2026-06-01",
     "date:inception_upper": "2026-06-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-01",
+    "edtf:cessation": "2026-06-01T10:53:19-07:00",
+    "edtf:inception": "2026-06-01T23:01:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.3376055,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A21N",
     "icao:airline": "UAL",
     "icao:base_airline": "SWR",
     "lbl:latitude": 37.621173,
     "lbl:longitude": -122.390131,
+    "sfomuseum:aircraft_id": 1377564297,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260601-A-SWR-3302",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N24537",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "148151391",
+      "swim:gufi": "KS7825422Z"
+    },
     "wof:country": "US",
     "wof:created": 1780416508,
     "wof:geomhash": "3123a4aff4021144fa8973299956ba97",
@@ -92,9 +106,10 @@
       102533269,
       1159285413,
       1947304491,
-      1159286475
+      1159286475,
+      1377564297
     ],
-    "wof:lastmodified": 1780416508,
+    "wof:lastmodified": 1780417099,
     "wof:name": "UA325 (SEA-SFO)",
     "wof:parent_id": 1947304491,
     "wof:placetype": "custom",

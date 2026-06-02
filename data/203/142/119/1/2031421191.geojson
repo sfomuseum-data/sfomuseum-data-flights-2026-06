@@ -2,10 +2,12 @@
   "id": 2031421191,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-01",
+    "date:cessation_upper": "2026-06-01",
     "date:inception_lower": "2026-06-01",
     "date:inception_upper": "2026-06-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-01",
+    "edtf:cessation": "2026-06-01T15:05:00Z",
+    "edtf:inception": "2026-06-01T11:20:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "SY",
     "flysfo:date": "2026-06-01",
@@ -21,9 +23,11 @@
     "geom:latitude": 41.2506555,
     "geom:longitude": -107.78563,
     "iata:airline": "SY",
+    "icao:aircraft": "B738",
     "icao:airline": "SCX",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285227,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102531131,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N801SY",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,9 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "148095804"
+    },
     "wof:country": "US",
     "wof:created": 1780416425,
     "wof:geomhash": "0c6e1b69ec0e7e239d3f5365b057a47f",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 2031421191,
     "wof:involves": [
-      102527513,
       102531131,
       1159285227,
-      1947304281
+      1947304281,
+      1159289871,
+      102527513
     ],
-    "wof:lastmodified": 1780416425,
+    "wof:lastmodified": 1780417115,
     "wof:name": "SY391 (MSP-SFO)",
     "wof:parent_id": 1947304281,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 2031421031,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-01",
+    "date:cessation_upper": "2026-06-01",
     "date:inception_lower": "2026-06-01",
     "date:inception_upper": "2026-06-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-01",
+    "edtf:cessation": "2026-06-01T19:48:24Z",
+    "edtf:inception": "2026-06-01T14:23:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "PD",
     "flysfo:base_airline": "",
@@ -39,6 +41,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +59,9 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "148105290"
+    },
     "wof:country": "US",
     "wof:created": 1780416407,
     "wof:geomhash": "c362a07ec1dacdc6f288623946bd8d01",
@@ -94,7 +103,7 @@
       1947304385,
       1159283849
     ],
-    "wof:lastmodified": 1780416407,
+    "wof:lastmodified": 1780417115,
     "wof:name": "PD671 (YYZ-SFO)",
     "wof:parent_id": 1947304385,
     "wof:placetype": "custom",

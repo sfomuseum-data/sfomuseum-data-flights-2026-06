@@ -2,10 +2,12 @@
   "id": 2031420317,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-01",
+    "date:cessation_upper": "2026-06-01",
     "date:inception_lower": "2026-06-01",
     "date:inception_upper": "2026-06-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-01",
+    "edtf:cessation": "2026-06-01T08:39:18-07:00",
+    "edtf:inception": "2026-06-01T21:26:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:date": "2026-06-01",
@@ -21,9 +23,11 @@
     "geom:latitude": 41.602067,
     "geom:longitude": -122.484166,
     "iata:airline": "DL",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102532251,
@@ -34,7 +38,17 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N662DN",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "148144437",
+      "swim:gufi": "KS726612a9"
+    },
     "wof:country": "US",
     "wof:created": 1780416324,
     "wof:geomhash": "3af422147b92e6fa9912d38a57ea404a",
@@ -46,12 +60,12 @@
     ],
     "wof:id": 2031420317,
     "wof:involves": [
-      102527513,
-      102532251,
       1159284261,
-      -1
+      1159289939,
+      102527513,
+      102532251
     ],
-    "wof:lastmodified": 1780416324,
+    "wof:lastmodified": 1780417093,
     "wof:name": "DL8962 (PDX-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

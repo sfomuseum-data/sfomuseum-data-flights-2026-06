@@ -2,10 +2,12 @@
   "id": 2031426471,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-06-01",
-    "date:inception_upper": "2026-06-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-01",
+    "date:cessation_lower": "2026-06-02",
+    "date:cessation_upper": "2026-06-02",
+    "date:inception_lower": "2026-06-02",
+    "date:inception_upper": "2026-06-02",
+    "edtf:cessation": "2026-06-02T09:34:00Z",
+    "edtf:inception": "2026-06-02T04:38:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -102.4509355,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.618249,
     "lbl:longitude": -122.381477,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533243,
     "sfomuseum:base_flight_id": "20260601-D-ANZ-2223",
@@ -39,6 +43,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +60,9 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "148088077"
+    },
     "wof:country": "US",
     "wof:created": 1780417020,
     "wof:geomhash": "eed3ad030b4c80153105b635669626b5",
@@ -88,13 +98,14 @@
     ],
     "wof:id": 2031426471,
     "wof:involves": [
+      1947304631,
+      1159283697,
+      1528104575,
       102533243,
       102527513,
-      1159285413,
-      1947304631,
-      1159283697
+      1159285413
     ],
-    "wof:lastmodified": 1780417020,
+    "wof:lastmodified": 1780417119,
     "wof:name": "UA649 (SFO-TPA)",
     "wof:parent_id": 1947304631,
     "wof:placetype": "custom",

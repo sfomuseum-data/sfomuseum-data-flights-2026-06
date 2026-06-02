@@ -2,10 +2,12 @@
   "id": 2031421593,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-06-01",
-    "date:inception_upper": "2026-06-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-01",
+    "date:cessation_lower": "2026-06-02",
+    "date:cessation_upper": "2026-06-02",
+    "date:inception_lower": "2026-06-02",
+    "date:inception_upper": "2026-06-02",
+    "edtf:cessation": "2026-06-01T21:44:36-07:00",
+    "edtf:inception": "2026-06-02T06:29:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -98.2742345,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B752",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.621107,
     "lbl:longitude": -122.389874,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260601-A-ANZ-9135",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N17104",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "148154447",
+      "swim:gufi": "KN200153KI"
+    },
     "wof:country": "US",
     "wof:created": 1780416472,
     "wof:geomhash": "5afbf99c4360a00cfc0890f48cccf304",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 2031421593,
     "wof:involves": [
+      1159289939,
       102527513,
       102530049,
       1159285413,
       1947304475,
       1159283697
     ],
-    "wof:lastmodified": 1780416472,
+    "wof:lastmodified": 1780417097,
     "wof:name": "UA1558 (EWR-SFO)",
     "wof:parent_id": 1947304475,
     "wof:placetype": "custom",

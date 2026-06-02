@@ -2,10 +2,12 @@
   "id": 2031419595,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-06-01",
-    "date:inception_upper": "2026-06-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-01",
+    "date:cessation_lower": "2026-06-02",
+    "date:cessation_upper": "2026-06-02",
+    "date:inception_lower": "2026-06-02",
+    "date:inception_upper": "2026-06-02",
+    "edtf:cessation": "2026-06-02T03:56:51Z",
+    "edtf:inception": "2026-06-02T02:48:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -120.38022649999999,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B39M",
     "icao:airline": "ASA",
     "icao:base_airline": "BAW",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260601-A-BAW-7609",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N707AL",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KL046343RE"
+    },
     "wof:country": "US",
     "wof:created": 1780416240,
     "wof:geomhash": "f16008bc2ad68c6d1bc593247c6c74a9",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 2031419595,
     "wof:involves": [
+      1947304385,
+      1159284021,
+      1528104577,
       102527513,
       102533795,
-      1159283813,
-      1947304385,
-      1159284021
+      1159283813
     ],
-    "wof:lastmodified": 1780416240,
+    "wof:lastmodified": 1780417091,
     "wof:name": "AS221 (LAX-SFO)",
     "wof:parent_id": 1947304385,
     "wof:placetype": "custom",

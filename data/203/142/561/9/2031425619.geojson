@@ -2,10 +2,12 @@
   "id": 2031425619,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-01",
+    "date:cessation_upper": "2026-06-01",
     "date:inception_lower": "2026-06-01",
     "date:inception_upper": "2026-06-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-01",
+    "edtf:cessation": "2026-06-01T23:46:36Z",
+    "edtf:inception": "2026-06-01T06:26:54-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2026-06-01",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.180931,
     "geom:longitude": -106.3692875,
     "iata:airline": "WN",
+    "icao:aircraft": "B38M",
     "icao:airline": "SWA",
     "lbl:latitude": 37.616969,
     "lbl:longitude": -122.381363,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 1746879059,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N8740A",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "148134694",
+      "swim:gufi": "KO623282Hn"
+    },
     "wof:country": "US",
     "wof:created": 1780416926,
     "wof:geomhash": "17371a5d27e54a99ca50752d2b6a5e79",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 2031425619,
     "wof:involves": [
+      1947304599,
+      1528104575,
       1746879059,
       102527513,
-      1159285591,
-      1947304599
+      1159285591
     ],
-    "wof:lastmodified": 1780416926,
+    "wof:lastmodified": 1780417107,
     "wof:name": "WN4219 (SFO-STL)",
     "wof:parent_id": 1947304599,
     "wof:placetype": "custom",

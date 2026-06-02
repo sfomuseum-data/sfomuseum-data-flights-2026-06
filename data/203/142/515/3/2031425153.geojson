@@ -2,10 +2,12 @@
   "id": 2031425153,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-06-01",
-    "date:inception_upper": "2026-06-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-01",
+    "date:cessation_lower": "2026-06-02",
+    "date:cessation_upper": "2026-06-02",
+    "date:inception_lower": "2026-06-02",
+    "date:inception_upper": "2026-06-02",
+    "edtf:cessation": "2026-06-02T11:03:00Z",
+    "edtf:inception": "2026-06-02T06:01:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "B6",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -98.07939400000001,
     "iata:airline": "B6",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "JBU",
     "icao:base_airline": "RAM",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159284583,
     "sfomuseum:arrival_id": 102534365,
     "sfomuseum:base_flight_id": "20260601-D-RAM-9561",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N807JB",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "148088872",
+      "swim:gufi": "KO152403O0"
+    },
     "wof:country": "US",
     "wof:created": 1780416874,
     "wof:geomhash": "1348792a172720778d3219cc18ccd8ee",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 2031425153,
     "wof:involves": [
+      1159285081,
+      1159292085,
       102534365,
       102527513,
       1159284583,
-      1947304297,
-      1159285081
+      1947304297
     ],
-    "wof:lastmodified": 1780416874,
+    "wof:lastmodified": 1780417106,
     "wof:name": "B616 (SFO-JFK)",
     "wof:parent_id": 1947304297,
     "wof:placetype": "custom",

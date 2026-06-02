@@ -2,10 +2,12 @@
   "id": 2031421529,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-01",
+    "date:cessation_upper": "2026-06-01",
     "date:inception_lower": "2026-06-01",
     "date:inception_upper": "2026-06-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-01",
+    "edtf:cessation": "2026-06-01T00:09:04-07:00",
+    "edtf:inception": "2026-06-01T13:32:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2026-06-01",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.427454999999995,
     "geom:longitude": -121.5070865,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61705,
     "lbl:longitude": -122.380838,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102527351,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N492UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "148103928",
+      "swim:gufi": "KL454102hk"
+    },
     "wof:country": "US",
     "wof:created": 1780416465,
     "wof:geomhash": "2af895d7dc7816e28cbc6da81f2a802b",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 2031421529,
     "wof:involves": [
+      1159292085,
       102527513,
       102527351,
       1159285413,
       1947304601
     ],
-    "wof:lastmodified": 1780416465,
+    "wof:lastmodified": 1780417097,
     "wof:name": "UA1205 (SBP-SFO)",
     "wof:parent_id": 1947304601,
     "wof:placetype": "custom",

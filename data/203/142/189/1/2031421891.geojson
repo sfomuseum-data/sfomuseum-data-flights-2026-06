@@ -2,10 +2,12 @@
   "id": 2031421891,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-06-01",
-    "date:inception_upper": "2026-06-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-01",
+    "date:cessation_lower": "2026-06-01",
+    "date:cessation_upper": "2026-06-01",
+    "date:inception_lower": "2026-06-02",
+    "date:inception_upper": "2026-06-02",
+    "edtf:cessation": "2026-06-01T13:59:37-07:00",
+    "edtf:inception": "2026-06-02T02:06:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.3376055,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "icao:base_airline": "CMP",
     "lbl:latitude": 37.617421,
     "lbl:longitude": -122.380916,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260601-A-CMP-2326",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N434UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KS846722s4"
+    },
     "wof:country": "US",
     "wof:created": 1780416508,
     "wof:geomhash": "3123a4aff4021144fa8973299956ba97",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 2031421891,
     "wof:involves": [
+      1947304617,
+      1159284211,
+      1159292085,
       102527513,
       102533269,
-      1159285413,
-      1947304617,
-      1159284211
+      1159285413
     ],
-    "wof:lastmodified": 1780416508,
+    "wof:lastmodified": 1780417115,
     "wof:name": "UA2866 (SEA-SFO)",
     "wof:parent_id": 1947304617,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 2031422215,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-06-01",
-    "date:inception_upper": "2026-06-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-01",
+    "date:cessation_lower": "2026-06-01",
+    "date:cessation_upper": "2026-06-01",
+    "date:inception_lower": "2026-06-02",
+    "date:inception_upper": "2026-06-02",
+    "edtf:cessation": "2026-06-01T05:42:42-07:00",
+    "edtf:inception": "2026-06-02T07:04:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": 8.702347499999995,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "icao:base_airline": "ANA",
     "lbl:latitude": 37.618742,
     "lbl:longitude": -122.392935,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260601-A-ANA-7010",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N782UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO51080303"
+    },
     "wof:country": "US",
     "wof:created": 1780416545,
     "wof:geomhash": "99c2bdbe61e95eb26a51b43b0c172358",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 2031422215,
     "wof:involves": [
-      102527513,
       102541591,
       1159285413,
       1947304157,
-      1159283875
+      1159283875,
+      1159289985,
+      102527513
     ],
-    "wof:lastmodified": 1780416545,
+    "wof:lastmodified": 1780417099,
     "wof:name": "UA876 (HND-SFO)",
     "wof:parent_id": 1947304157,
     "wof:placetype": "custom",
