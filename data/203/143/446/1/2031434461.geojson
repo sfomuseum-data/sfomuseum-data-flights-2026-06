@@ -2,10 +2,12 @@
   "id": 2031434461,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-02",
+    "date:cessation_upper": "2026-06-02",
     "date:inception_lower": "2026-06-02",
     "date:inception_upper": "2026-06-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-02",
+    "edtf:cessation": "2026-06-02T19:00:00Z",
+    "edtf:inception": "2026-06-02T01:50:54-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -113.8106995,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.620304,
     "lbl:longitude": -122.388827,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102536481,
     "sfomuseum:base_flight_id": "20260602-D-ACA-5310",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N14230",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "148195384",
+      "swim:gufi": "KO525513Rb"
+    },
     "wof:country": "US",
     "wof:created": 1780503324,
     "wof:geomhash": "ae49e61cad725fa4577f8355bb7297ad",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 2031434461,
     "wof:involves": [
+      1159289871,
       102536481,
       102527513,
       1159285413,
       1947304453,
       1159283597
     ],
-    "wof:lastmodified": 1780503324,
+    "wof:lastmodified": 1780503487,
     "wof:name": "UA1212 (SFO-PVR)",
     "wof:parent_id": 1947304453,
     "wof:placetype": "custom",

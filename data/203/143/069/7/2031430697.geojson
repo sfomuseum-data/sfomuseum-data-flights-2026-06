@@ -2,10 +2,12 @@
   "id": 2031430697,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-02",
+    "date:cessation_upper": "2026-06-02",
     "date:inception_lower": "2026-06-02",
     "date:inception_upper": "2026-06-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-02",
+    "edtf:cessation": "2026-06-02T14:38:00Z",
+    "edtf:inception": "2026-06-02T03:13:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2026-06-02",
@@ -21,9 +23,11 @@
     "geom:latitude": 31.0794145,
     "geom:longitude": -2.117622499999996,
     "iata:airline": "UA",
+    "icao:aircraft": "B789",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61776,
     "lbl:longitude": -122.3918,
+    "sfomuseum:aircraft_id": 1159293215,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102550865,
@@ -48,6 +52,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "148242133"
+    },
     "wof:country": "US",
     "wof:created": 1780502895,
     "wof:geomhash": "9b7a8ac18e2e6d9aa22af32dfdd43b07",
@@ -83,12 +90,13 @@
     ],
     "wof:id": 2031430697,
     "wof:involves": [
-      102527513,
       102550865,
       1159285413,
-      1947304137
+      1947304137,
+      1159293215,
+      102527513
     ],
-    "wof:lastmodified": 1780502895,
+    "wof:lastmodified": 1780503458,
     "wof:name": "UA3871 (XMN-SFO)",
     "wof:parent_id": 1947304137,
     "wof:placetype": "custom",

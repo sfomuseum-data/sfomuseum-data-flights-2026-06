@@ -2,10 +2,12 @@
   "id": 2031434569,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-03",
+    "date:cessation_upper": "2026-06-03",
     "date:inception_lower": "2026-06-02",
     "date:inception_upper": "2026-06-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-02",
+    "edtf:cessation": "2026-06-03T01:53:00Z",
+    "edtf:inception": "2026-06-02T08:27:07-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -105.1326535,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.621107,
     "lbl:longitude": -122.389874,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533631,
     "sfomuseum:base_flight_id": "20260602-D-ACA-4185",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N774UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "148231907",
+      "swim:gufi": "KO763703Ro"
+    },
     "wof:country": "US",
     "wof:created": 1780503336,
     "wof:geomhash": "7a75cc81bf790964b92a4927d3978f50",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 2031434569,
     "wof:involves": [
-      102533631,
-      102527513,
       1159285413,
       1947304475,
-      1159283597
+      1159283597,
+      1159289985,
+      102533631,
+      102527513
     ],
-    "wof:lastmodified": 1780503336,
+    "wof:lastmodified": 1780503471,
     "wof:name": "UA1777 (SFO-ORD)",
     "wof:parent_id": 1947304475,
     "wof:placetype": "custom",

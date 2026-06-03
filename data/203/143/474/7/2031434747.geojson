@@ -2,10 +2,12 @@
   "id": 2031434747,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-02",
+    "date:cessation_upper": "2026-06-02",
     "date:inception_lower": "2026-06-02",
     "date:inception_upper": "2026-06-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-02",
+    "edtf:cessation": "2026-06-02T20:13:00Z",
+    "edtf:inception": "2026-06-02T15:54:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -101.315247,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.616825,
     "lbl:longitude": -122.381021,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102528181,
     "sfomuseum:base_flight_id": "20260602-D-ANZ-9391",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N811UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "148195326",
+      "swim:gufi": "KO524283A8"
+    },
     "wof:country": "US",
     "wof:created": 1780503357,
     "wof:geomhash": "d7bea1763df143b6882335af1c301bcf",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 2031434747,
     "wof:involves": [
+      1159283697,
+      1159289407,
       102528181,
       102527513,
       1159285413,
-      1947304607,
-      1159283697
+      1947304607
     ],
-    "wof:lastmodified": 1780503357,
+    "wof:lastmodified": 1780503472,
     "wof:name": "UA2836 (SFO-PIT)",
     "wof:parent_id": 1947304607,
     "wof:placetype": "custom",

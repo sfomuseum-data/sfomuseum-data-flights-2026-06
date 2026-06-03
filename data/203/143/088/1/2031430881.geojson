@@ -2,10 +2,12 @@
   "id": 2031430881,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-06-02",
-    "date:inception_upper": "2026-06-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-02",
+    "date:cessation_lower": "2026-06-02",
+    "date:cessation_upper": "2026-06-02",
+    "date:inception_lower": "2026-06-03",
+    "date:inception_upper": "2026-06-03",
+    "edtf:cessation": "2026-06-02T12:32:33-07:00",
+    "edtf:inception": "2026-06-03T01:04:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -119.2977885,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.618774,
     "lbl:longitude": -122.384852,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260602-A-ACA-4964",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N443UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KU009504DS"
+    },
     "wof:country": "US",
     "wof:created": 1780502918,
     "wof:geomhash": "e506e1cc6e68aaf992ce3bac53e4e4fa",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 2031430881,
     "wof:involves": [
+      1947304513,
+      1159283597,
+      1159292085,
       102527513,
       102527733,
-      1159285413,
-      1947304513,
-      1159283597
+      1159285413
     ],
-    "wof:lastmodified": 1780502918,
+    "wof:lastmodified": 1780503459,
     "wof:name": "UA649 (BOI-SFO)",
     "wof:parent_id": 1947304513,
     "wof:placetype": "custom",

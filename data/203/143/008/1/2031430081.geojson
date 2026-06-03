@@ -2,10 +2,12 @@
   "id": 2031430081,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-06-02",
-    "date:inception_upper": "2026-06-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-02",
+    "date:cessation_lower": "2026-06-02",
+    "date:cessation_upper": "2026-06-02",
+    "date:inception_lower": "2026-06-03",
+    "date:inception_upper": "2026-06-03",
+    "edtf:cessation": "2026-06-02T15:21:28-07:00",
+    "edtf:inception": "2026-06-03T03:11:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2026-06-02",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.7414645,
     "geom:longitude": -113.521581,
     "iata:airline": "WN",
+    "icao:aircraft": "B38M",
     "icao:airline": "SWA",
     "lbl:latitude": 37.616987,
     "lbl:longitude": -122.382479,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102531189,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N8973S",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "148167308",
+      "swim:gufi": "KD005684Ne"
+    },
     "wof:country": "US",
     "wof:created": 1780502821,
     "wof:geomhash": "736fe0d2ebd38878be6950e82908a686",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 2031430081,
     "wof:involves": [
-      102527513,
       102531189,
       1159285591,
-      1947304625
+      1947304625,
+      1528104575,
+      102527513
     ],
-    "wof:lastmodified": 1780502821,
+    "wof:lastmodified": 1780503450,
     "wof:name": "WN1667 (DEN-SFO)",
     "wof:parent_id": 1947304625,
     "wof:placetype": "custom",

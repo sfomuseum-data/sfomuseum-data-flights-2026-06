@@ -2,10 +2,12 @@
   "id": 2031430965,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-02",
+    "date:cessation_upper": "2026-06-02",
     "date:inception_lower": "2026-06-02",
     "date:inception_upper": "2026-06-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-02",
+    "edtf:cessation": "2026-06-02T21:21:00Z",
+    "edtf:inception": "2026-06-02T17:15:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2026-06-02",
@@ -21,9 +23,11 @@
     "geom:latitude": 49.395798,
     "geom:longitude": -136.169672,
     "iata:airline": "UA",
+    "icao:aircraft": "B77W",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617615,
     "lbl:longitude": -122.390247,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102531979,
@@ -48,6 +52,10 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "148264744",
+      "swim:gufi": "KS703533zN"
+    },
     "wof:country": "US",
     "wof:created": 1780502927,
     "wof:geomhash": "40576486fbb454d3a66da49d62a0ae33",
@@ -83,12 +91,13 @@
     ],
     "wof:id": 2031430965,
     "wof:involves": [
+      1947304141,
+      1159289993,
       102527513,
       102531979,
-      1159285413,
-      1947304141
+      1159285413
     ],
-    "wof:lastmodified": 1780502927,
+    "wof:lastmodified": 1780503460,
     "wof:name": "UA877 (ANC-SFO)",
     "wof:parent_id": 1947304141,
     "wof:placetype": "custom",

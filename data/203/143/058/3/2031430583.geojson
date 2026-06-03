@@ -2,10 +2,12 @@
   "id": 2031430583,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-02",
+    "date:cessation_upper": "2026-06-02",
     "date:inception_lower": "2026-06-02",
     "date:inception_upper": "2026-06-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-02",
+    "edtf:cessation": "2026-06-02T05:10:24-07:00",
+    "edtf:inception": "2026-06-02T15:40:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -108.8546935,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "icao:base_airline": "UAE",
     "lbl:latitude": 37.620244,
     "lbl:longitude": -122.387813,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260602-A-UAE-6032",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N779UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "148194515",
+      "swim:gufi": "KH5200130M"
+    },
     "wof:country": "US",
     "wof:created": 1780502881,
     "wof:geomhash": "25dc9d98eae1cd54f40654c6c4fb6929",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 2031430583,
     "wof:involves": [
-      102527513,
       102534097,
       1159285413,
       1947304463,
-      1159284333
+      1159284333,
+      1159289985,
+      102527513
     ],
-    "wof:lastmodified": 1780502881,
+    "wof:lastmodified": 1780503456,
     "wof:name": "UA2358 (IAH-SFO)",
     "wof:parent_id": 1947304463,
     "wof:placetype": "custom",

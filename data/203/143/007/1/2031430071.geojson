@@ -2,10 +2,12 @@
   "id": 2031430071,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-02",
+    "date:cessation_upper": "2026-06-02",
     "date:inception_lower": "2026-06-02",
     "date:inception_upper": "2026-06-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-02",
+    "edtf:cessation": "2026-06-02T13:45:12-07:00",
+    "edtf:inception": "2026-06-02T23:23:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2026-06-02",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.8721885,
     "geom:longitude": -104.5237975,
     "iata:airline": "WN",
+    "icao:aircraft": "B38M",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102525035,
@@ -34,7 +38,17 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N8944Q",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "148236034",
+      "swim:gufi": "KM763843go"
+    },
     "wof:country": "US",
     "wof:created": 1780502820,
     "wof:geomhash": "462e561a68f133085fb895c49eddc748",
@@ -46,12 +60,12 @@
     ],
     "wof:id": 2031430071,
     "wof:involves": [
+      1528104575,
       102527513,
       102525035,
-      1159285591,
-      -1
+      1159285591
     ],
-    "wof:lastmodified": 1780502820,
+    "wof:lastmodified": 1780503450,
     "wof:name": "WN1010 (BNA-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

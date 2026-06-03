@@ -2,10 +2,12 @@
   "id": 2031430701,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-02",
+    "date:cessation_upper": "2026-06-02",
     "date:inception_lower": "2026-06-02",
     "date:inception_upper": "2026-06-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-02",
+    "edtf:cessation": "2026-06-02T19:51:00Z",
+    "edtf:inception": "2026-06-02T15:51:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2026-06-02",
@@ -21,9 +23,11 @@
     "geom:latitude": 49.395798,
     "geom:longitude": -136.169672,
     "iata:airline": "UA",
+    "icao:aircraft": "B773",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104579,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102531979,
@@ -35,6 +39,9 @@
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "148272755"
+    },
     "wof:country": "US",
     "wof:created": 1780502896,
     "wof:geomhash": "40576486fbb454d3a66da49d62a0ae33",
@@ -46,12 +53,12 @@
     ],
     "wof:id": 2031430701,
     "wof:involves": [
+      1528104579,
       102527513,
       102531979,
-      1159285413,
-      -1
+      1159285413
     ],
-    "wof:lastmodified": 1780502896,
+    "wof:lastmodified": 1780503458,
     "wof:name": "UA3889 (ANC-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

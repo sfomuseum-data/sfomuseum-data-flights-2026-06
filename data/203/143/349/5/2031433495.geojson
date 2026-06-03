@@ -2,10 +2,12 @@
   "id": 2031433495,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-02",
+    "date:cessation_upper": "2026-06-02",
     "date:inception_lower": "2026-06-02",
     "date:inception_upper": "2026-06-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-02",
+    "edtf:cessation": "2026-06-02T10:39:00Z",
+    "edtf:inception": "2026-06-02T07:12:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "F9",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -109.7109545,
     "iata:airline": "F9",
     "iata:base_airline": "",
+    "icao:aircraft": "A321",
     "icao:airline": "FFT",
     "icao:base_airline": "VOI",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159284401,
     "sfomuseum:arrival_id": 102528541,
     "sfomuseum:base_flight_id": "20260602-D-VOI-2699",
@@ -39,7 +43,14 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
+    "swim:tail_number": "N708FR",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "148170631"
+    },
     "wof:country": "US",
     "wof:created": 1780503216,
     "wof:geomhash": "5e0f3a871c366f60ae43a6e5fe25b717",
@@ -54,10 +65,10 @@
       102528541,
       102527513,
       1159284401,
-      -1,
-      1360700749
+      1360700749,
+      1159289411
     ],
-    "wof:lastmodified": 1780503216,
+    "wof:lastmodified": 1780503480,
     "wof:name": "F94000 (SFO-DFW)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
