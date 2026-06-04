@@ -2,10 +2,12 @@
   "id": 2031441287,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-04",
+    "date:cessation_upper": "2026-06-04",
     "date:inception_lower": "2026-06-03",
     "date:inception_upper": "2026-06-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-03",
+    "edtf:cessation": "2026-06-04T11:19:00Z",
+    "edtf:inception": "2026-06-03T16:11:52-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -98.07939400000001,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "ASA",
     "icao:base_airline": "QTR",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102534365,
     "sfomuseum:base_flight_id": "20260603-D-QTR-3406",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N297AK",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO168115Y5"
+    },
     "wof:country": "US",
     "wof:created": 1780589566,
     "wof:geomhash": "1348792a172720778d3219cc18ccd8ee",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 2031441287,
     "wof:involves": [
+      1159286153,
+      1377564285,
       102534365,
       102527513,
       1159283813,
-      1947304289,
-      1159286153
+      1947304289
     ],
-    "wof:lastmodified": 1780589566,
+    "wof:lastmodified": 1780589935,
     "wof:name": "AS486 (SFO-JFK)",
     "wof:parent_id": 1947304289,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 2031443315,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-06-03",
-    "date:inception_upper": "2026-06-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-03",
+    "date:cessation_lower": "2026-06-04",
+    "date:cessation_upper": "2026-06-04",
+    "date:inception_lower": "2026-06-04",
+    "date:inception_upper": "2026-06-04",
+    "edtf:cessation": "2026-06-04T07:11:00Z",
+    "edtf:inception": "2026-06-04T06:00:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -120.38022649999999,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B737",
     "icao:airline": "UAL",
     "icao:base_airline": "CMP",
     "lbl:latitude": 37.619367,
     "lbl:longitude": -122.38387,
+    "sfomuseum:aircraft_id": 1159289869,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533795,
     "sfomuseum:base_flight_id": "20260603-D-CMP-1071",
@@ -39,6 +43,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +60,9 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "148253857"
+    },
     "wof:country": "US",
     "wof:created": 1780589809,
     "wof:geomhash": "602be2a828e3460cadf44be5b1c2e36b",
@@ -88,13 +98,14 @@
     ],
     "wof:id": 2031443315,
     "wof:involves": [
+      1159289869,
       102533795,
       102527513,
       1159285413,
       1947304527,
       1159284211
     ],
-    "wof:lastmodified": 1780589809,
+    "wof:lastmodified": 1780589958,
     "wof:name": "UA2179 (SFO-LAX)",
     "wof:parent_id": 1947304527,
     "wof:placetype": "custom",

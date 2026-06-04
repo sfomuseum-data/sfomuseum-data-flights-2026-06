@@ -2,10 +2,12 @@
   "id": 2031443461,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-06-03",
-    "date:inception_upper": "2026-06-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-03",
+    "date:cessation_lower": "2026-06-04",
+    "date:cessation_upper": "2026-06-04",
+    "date:inception_lower": "2026-06-04",
+    "date:inception_upper": "2026-06-04",
+    "edtf:cessation": "2026-06-04T10:11:00Z",
+    "edtf:inception": "2026-06-04T05:26:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2026-06-03",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.1546165,
     "geom:longitude": -98.2742345,
     "iata:airline": "UA",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618742,
     "lbl:longitude": -122.392935,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102530049,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N74007",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO132265VX"
+    },
     "wof:country": "US",
     "wof:created": 1780589825,
     "wof:geomhash": "5f8ba203e186fe379420b736bcf5de4f",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 2031443461,
     "wof:involves": [
+      1159289985,
       102530049,
       102527513,
       1159285413,
       1947304157
     ],
-    "wof:lastmodified": 1780589825,
+    "wof:lastmodified": 1780589961,
     "wof:name": "UA3904 (SFO-EWR)",
     "wof:parent_id": 1947304157,
     "wof:placetype": "custom",

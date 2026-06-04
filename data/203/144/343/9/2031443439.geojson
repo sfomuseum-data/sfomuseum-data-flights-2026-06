@@ -2,10 +2,12 @@
   "id": 2031443439,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-04",
+    "date:cessation_upper": "2026-06-04",
     "date:inception_lower": "2026-06-03",
     "date:inception_upper": "2026-06-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-03",
+    "edtf:cessation": "2026-06-04T04:36:00Z",
+    "edtf:inception": "2026-06-03T13:03:28-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -117.19416749999999,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.617532,
     "lbl:longitude": -122.382384,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102526751,
     "sfomuseum:base_flight_id": "20260603-D-ACA-4465",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N69810",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "148249304",
+      "swim:gufi": "KO057245DC"
+    },
     "wof:country": "US",
     "wof:created": 1780589823,
     "wof:geomhash": "2a19f056fd5d16c52f22f1bf5dc85c9c",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 2031443439,
     "wof:involves": [
+      1947304619,
+      1159283597,
+      1377564285,
       102526751,
       102527513,
-      1159285413,
-      1947304619,
-      1159283597
+      1159285413
     ],
-    "wof:lastmodified": 1780589823,
+    "wof:lastmodified": 1780589960,
     "wof:name": "UA298 (SFO-PHX)",
     "wof:parent_id": 1947304619,
     "wof:placetype": "custom",

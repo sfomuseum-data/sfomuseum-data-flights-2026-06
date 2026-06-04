@@ -2,10 +2,12 @@
   "id": 2031443239,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-04",
+    "date:cessation_upper": "2026-06-04",
     "date:inception_lower": "2026-06-03",
     "date:inception_upper": "2026-06-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-03",
+    "edtf:cessation": "2026-06-04T05:55:47Z",
+    "edtf:inception": "2026-06-03T14:50:58-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -121.76404,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "icao:base_airline": "CMP",
     "lbl:latitude": 37.61756,
     "lbl:longitude": -122.381052,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102530507,
     "sfomuseum:base_flight_id": "20260603-D-CMP-1466",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N443UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO125125dl"
+    },
     "wof:country": "US",
     "wof:created": 1780589800,
     "wof:geomhash": "398b6cf59cf3bdf390f5834c7a336099",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 2031443239,
     "wof:involves": [
+      1159292085,
       102530507,
       102527513,
       1159285413,
       1947304609,
       1159284211
     ],
-    "wof:lastmodified": 1780589800,
+    "wof:lastmodified": 1780589957,
     "wof:name": "UA1809 (SFO-RDM)",
     "wof:parent_id": 1947304609,
     "wof:placetype": "custom",

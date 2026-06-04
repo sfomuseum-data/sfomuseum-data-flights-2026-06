@@ -2,10 +2,12 @@
   "id": 2031439141,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-03",
+    "date:cessation_upper": "2026-06-03",
     "date:inception_lower": "2026-06-03",
     "date:inception_upper": "2026-06-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-03",
+    "edtf:cessation": "2026-06-03T18:18:00Z",
+    "edtf:inception": "2026-06-03T09:23:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2026-06-03",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.5860375,
     "geom:longitude": 8.702347499999995,
     "iata:airline": "UA",
+    "icao:aircraft": "B77W",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61836,
     "lbl:longitude": -122.393229,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102541591,
@@ -48,6 +52,10 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "148251637",
+      "swim:gufi": "KO602544Cc"
+    },
     "wof:country": "US",
     "wof:created": 1780589308,
     "wof:geomhash": "99c2bdbe61e95eb26a51b43b0c172358",
@@ -83,12 +91,13 @@
     ],
     "wof:id": 2031439141,
     "wof:involves": [
+      1159289993,
       102527513,
       102541591,
       1159285413,
       1947304133
     ],
-    "wof:lastmodified": 1780589308,
+    "wof:lastmodified": 1780589962,
     "wof:name": "UA3026 (HND-SFO)",
     "wof:parent_id": 1947304133,
     "wof:placetype": "custom",

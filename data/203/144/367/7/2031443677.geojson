@@ -2,10 +2,12 @@
   "id": 2031443677,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-06-03",
-    "date:inception_upper": "2026-06-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-03",
+    "date:cessation_lower": "2026-06-04",
+    "date:cessation_upper": "2026-06-04",
+    "date:inception_lower": "2026-06-04",
+    "date:inception_upper": "2026-06-04",
+    "edtf:cessation": "2026-06-04T12:09:26Z",
+    "edtf:inception": "2026-06-04T01:36:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -60.1448105,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.61844,
     "lbl:longitude": -122.392214,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102545733,
     "sfomuseum:base_flight_id": "20260603-D-ACA-4803",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N76021",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO781914QC"
+    },
     "wof:country": "US",
     "wof:created": 1780589851,
     "wof:geomhash": "1b844caa247a357e6d3574dc4c3eb3e8",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 2031443677,
     "wof:involves": [
+      1159289985,
       102545733,
       102527513,
       1159285413,
       1947304153,
       1159283597
     ],
-    "wof:lastmodified": 1780589851,
+    "wof:lastmodified": 1780589962,
     "wof:name": "UA672 (SFO-BCN)",
     "wof:parent_id": 1947304153,
     "wof:placetype": "custom",

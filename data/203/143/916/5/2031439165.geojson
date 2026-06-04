@@ -2,10 +2,12 @@
   "id": 2031439165,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-06-03",
-    "date:inception_upper": "2026-06-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-03",
+    "date:cessation_lower": "2026-06-04",
+    "date:cessation_upper": "2026-06-04",
+    "date:inception_lower": "2026-06-04",
+    "date:inception_upper": "2026-06-04",
+    "edtf:cessation": "2026-06-04T19:40:00Z",
+    "edtf:inception": "2026-06-04T13:13:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2026-06-03",
@@ -21,9 +23,11 @@
     "geom:latitude": 23.805925,
     "geom:longitude": -103.289872,
     "iata:airline": "UA",
+    "icao:aircraft": "B38M",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102537555,
@@ -34,7 +38,14 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "148285561",
+      "swim:gufi": "KO806094PU"
+    },
     "wof:country": "US",
     "wof:created": 1780589310,
     "wof:geomhash": "9c84d4ab308d032a739e55bf25018e3b",
@@ -46,12 +57,12 @@
     ],
     "wof:id": 2031439165,
     "wof:involves": [
+      1528104575,
       102527513,
       102537555,
-      1159285413,
-      -1
+      1159285413
     ],
-    "wof:lastmodified": 1780589310,
+    "wof:lastmodified": 1780589962,
     "wof:name": "UA3900 (SJO-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

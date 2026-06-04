@@ -2,10 +2,12 @@
   "id": 2031442831,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-04",
+    "date:cessation_upper": "2026-06-04",
     "date:inception_lower": "2026-06-03",
     "date:inception_upper": "2026-06-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-03",
+    "edtf:cessation": "2026-06-04T11:25:10Z",
+    "edtf:inception": "2026-06-03T05:08:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2026-06-03",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.3996545,
     "geom:longitude": -99.5210065,
     "iata:airline": "WN",
+    "icao:aircraft": "B38M",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102532047,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,17 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N9009U",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "148251653",
+      "swim:gufi": "KO082165HW"
+    },
     "wof:country": "US",
     "wof:created": 1780589751,
     "wof:geomhash": "ff243e97b2d4ce40e0a4accb79115371",
@@ -49,9 +63,9 @@
       102532047,
       102527513,
       1159285591,
-      -1
+      1528104575
     ],
-    "wof:lastmodified": 1780589751,
+    "wof:lastmodified": 1780589952,
     "wof:name": "WN4209 (SFO-BWI)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

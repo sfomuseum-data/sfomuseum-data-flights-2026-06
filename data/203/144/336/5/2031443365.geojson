@@ -2,10 +2,12 @@
   "id": 2031443365,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-04",
+    "date:cessation_upper": "2026-06-04",
     "date:inception_lower": "2026-06-03",
     "date:inception_upper": "2026-06-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-03",
+    "edtf:cessation": "2026-06-04T02:12:00Z",
+    "edtf:inception": "2026-06-03T21:32:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -99.70629299999999,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.619197,
     "lbl:longitude": -122.384496,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 1746879047,
     "sfomuseum:base_flight_id": "20260603-D-ANZ-2777",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N17321",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "148314416",
+      "swim:gufi": "KO727924AL"
+    },
     "wof:country": "US",
     "wof:created": 1780589814,
     "wof:geomhash": "df4d5906f2523703f9da91c779be1785",
@@ -92,9 +105,10 @@
       102527513,
       1159285413,
       1947304515,
-      1159283697
+      1159283697,
+      1528104575
     ],
-    "wof:lastmodified": 1780589814,
+    "wof:lastmodified": 1780589959,
     "wof:name": "UA2386 (SFO-DCA)",
     "wof:parent_id": 1947304515,
     "wof:placetype": "custom",

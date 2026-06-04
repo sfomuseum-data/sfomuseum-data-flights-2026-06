@@ -2,10 +2,12 @@
   "id": 2031441743,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-06-03",
-    "date:inception_upper": "2026-06-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-03",
+    "date:cessation_lower": "2026-06-04",
+    "date:cessation_upper": "2026-06-04",
+    "date:inception_lower": "2026-06-04",
+    "date:inception_upper": "2026-06-04",
+    "edtf:cessation": "2026-06-04T09:54:53Z",
+    "edtf:inception": "2026-06-04T03:33:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "CM",
     "flysfo:date": "2026-06-03",
@@ -21,9 +23,11 @@
     "geom:latitude": 23.344675,
     "geom:longitude": -100.87722099999999,
     "iata:airline": "CM",
+    "icao:aircraft": "B39M",
     "icao:airline": "CMP",
     "lbl:latitude": 37.611664,
     "lbl:longitude": -122.390495,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159284211,
     "sfomuseum:arrival_id": 102547051,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "HP9908",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -83,12 +93,13 @@
     ],
     "wof:id": 2031441743,
     "wof:involves": [
-      102547051,
       102527513,
       1159284211,
-      1947304095
+      1947304095,
+      1528104577,
+      102547051
     ],
-    "wof:lastmodified": 1780589619,
+    "wof:lastmodified": 1780589939,
     "wof:name": "CM409 (SFO-PTY)",
     "wof:parent_id": 1947304095,
     "wof:placetype": "custom",

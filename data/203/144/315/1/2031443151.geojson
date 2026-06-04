@@ -2,10 +2,12 @@
   "id": 2031443151,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-03",
+    "date:cessation_upper": "2026-06-03",
     "date:inception_lower": "2026-06-03",
     "date:inception_upper": "2026-06-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-03",
+    "edtf:cessation": "2026-06-03T23:01:00Z",
+    "edtf:inception": "2026-06-03T19:33:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -108.8546935,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "UAL",
     "icao:base_airline": "CCA",
     "lbl:latitude": 37.620791,
     "lbl:longitude": -122.390014,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102534097,
     "sfomuseum:base_flight_id": "20260603-D-CCA-7344",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N38454",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "148304127",
+      "swim:gufi": "KO663534SH"
+    },
     "wof:country": "US",
     "wof:created": 1780589788,
     "wof:geomhash": "4d8eca8dfd12d13a56951180b27dbf13",
@@ -92,9 +106,10 @@
       102527513,
       1159285413,
       1947304473,
-      1159283605
+      1159283605,
+      1377564285
     ],
-    "wof:lastmodified": 1780589788,
+    "wof:lastmodified": 1780589955,
     "wof:name": "UA1387 (SFO-IAH)",
     "wof:parent_id": 1947304473,
     "wof:placetype": "custom",
