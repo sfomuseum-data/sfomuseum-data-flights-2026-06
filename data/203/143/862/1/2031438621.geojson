@@ -1,0 +1,72 @@
+{
+  "id": 2031438621,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2026-06-03",
+    "date:inception_upper": "2026-06-03",
+    "edtf:cessation": "",
+    "edtf:inception": "2026-06-03",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "TP",
+    "flysfo:date": "2026-06-03",
+    "flysfo:estimated_timestamp": -1,
+    "flysfo:event": "A",
+    "flysfo:flight_number": "TP237",
+    "flysfo:gate": "",
+    "flysfo:journey": "LIS-SFO",
+    "flysfo:scheduled_timestamp": 1780522500,
+    "flysfo:timestamp": 1780522500,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,37.617990,-9.135591,38.772844",
+    "geom:latitude": 38.195417,
+    "geom:longitude": -65.753267,
+    "iata:airline": "TP",
+    "icao:airline": "TAP",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159285271,
+    "sfomuseum:arrival_id": 102527513,
+    "sfomuseum:departure_id": 102535643,
+    "sfomuseum:flight_id": "20260603-A-TAP-237",
+    "sfomuseum:flight_number": [
+      "TAP237",
+      "TP237"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1780589247,
+    "wof:geomhash": "d927879de9f350bec45f63af3f2c3973",
+    "wof:hierarchy": [
+      {
+        "custom_id": 2031438621,
+        "flight_id": 2031438621
+      }
+    ],
+    "wof:id": 2031438621,
+    "wof:involves": [
+      102527513,
+      102535643,
+      1159285271,
+      -1
+    ],
+    "wof:lastmodified": 1780589247,
+    "wof:name": "TP237 (LIS-SFO)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2026-06",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    37.61799,
+    -9.135591,
+    38.772844
+  ],
+  "geometry": {"coordinates":[[-9.135591,38.772844],[-122.370943,37.61799]],"type":"MultiPoint"}
+}
