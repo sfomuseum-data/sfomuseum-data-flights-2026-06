@@ -2,10 +2,12 @@
   "id": 2031447413,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-04",
+    "date:cessation_upper": "2026-06-04",
     "date:inception_lower": "2026-06-04",
     "date:inception_upper": "2026-06-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-04",
+    "edtf:cessation": "2026-06-04T15:41:00Z",
+    "edtf:inception": "2026-06-04T14:32:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2026-06-04",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.175762,
     "geom:longitude": -119.778435,
     "iata:airline": "WN",
+    "icao:aircraft": "B38M",
     "icao:airline": "SWA",
     "lbl:latitude": 37.617092,
     "lbl:longitude": -122.381656,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102528997,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N8974K",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "148364315",
+      "swim:gufi": "KL457115Z3"
+    },
     "wof:country": "US",
     "wof:created": 1780675661,
     "wof:geomhash": "d1d4873ced1d6ea3128e45b0b2070718",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 2031447413,
     "wof:involves": [
+      1528104575,
       102527513,
       102528997,
       1159285591,
       1947304597
     ],
-    "wof:lastmodified": 1780675661,
+    "wof:lastmodified": 1780676379,
     "wof:name": "WN4607 (SAN-SFO)",
     "wof:parent_id": 1947304597,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 2031452485,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-05",
+    "date:cessation_upper": "2026-06-05",
     "date:inception_lower": "2026-06-04",
     "date:inception_upper": "2026-06-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-04",
+    "edtf:cessation": "2026-06-05T01:42:00Z",
+    "edtf:inception": "2026-06-04T22:04:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2026-06-04",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.800514,
     "geom:longitude": -105.1326535,
     "iata:airline": "UA",
+    "icao:aircraft": "A21N",
     "icao:airline": "UAL",
     "lbl:latitude": 37.621173,
     "lbl:longitude": -122.390131,
+    "sfomuseum:aircraft_id": 1377564297,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533631,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N14559",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "148487164",
+      "swim:gufi": "KO727515vl"
+    },
     "wof:country": "US",
     "wof:created": 1780676254,
     "wof:geomhash": "7a75cc81bf790964b92a4927d3978f50",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 2031452485,
     "wof:involves": [
-      102533631,
-      102527513,
       1159285413,
-      1947304491
+      1947304491,
+      1377564297,
+      102533631,
+      102527513
     ],
-    "wof:lastmodified": 1780676254,
+    "wof:lastmodified": 1780676376,
     "wof:name": "UA3034 (SFO-ORD)",
     "wof:parent_id": 1947304491,
     "wof:placetype": "custom",

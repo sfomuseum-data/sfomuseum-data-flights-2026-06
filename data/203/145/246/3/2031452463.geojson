@@ -2,10 +2,12 @@
   "id": 2031452463,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-04",
+    "date:cessation_upper": "2026-06-04",
     "date:inception_lower": "2026-06-04",
     "date:inception_upper": "2026-06-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-04",
+    "edtf:cessation": "2026-06-04T20:58:00Z",
+    "edtf:inception": "2026-06-04T17:51:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -109.7109545,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.61756,
     "lbl:longitude": -122.381052,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102528541,
     "sfomuseum:base_flight_id": "20260604-D-ACA-5156",
@@ -39,6 +43,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +60,9 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "148384557"
+    },
     "wof:country": "US",
     "wof:created": 1780676252,
     "wof:geomhash": "5e0f3a871c366f60ae43a6e5fe25b717",
@@ -88,13 +98,14 @@
     ],
     "wof:id": 2031452463,
     "wof:involves": [
+      1159289407,
       102528541,
       102527513,
       1159285413,
       1947304609,
       1159283597
     ],
-    "wof:lastmodified": 1780676252,
+    "wof:lastmodified": 1780676376,
     "wof:name": "UA2842 (SFO-DFW)",
     "wof:parent_id": 1947304609,
     "wof:placetype": "custom",

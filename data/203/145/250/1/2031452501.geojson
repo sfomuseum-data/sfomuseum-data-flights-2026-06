@@ -2,10 +2,12 @@
   "id": 2031452501,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-04",
+    "date:cessation_upper": "2026-06-04",
     "date:inception_lower": "2026-06-04",
     "date:inception_upper": "2026-06-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-04",
+    "edtf:cessation": "2026-06-04T18:27:00Z",
+    "edtf:inception": "2026-06-04T14:27:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2026-06-04",
@@ -21,9 +23,11 @@
     "geom:latitude": 49.395798,
     "geom:longitude": -136.169672,
     "iata:airline": "UA",
+    "icao:aircraft": "B77W",
     "icao:airline": "UAL",
     "lbl:latitude": 37.621107,
     "lbl:longitude": -122.389874,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102531979,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N2352U",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "148428725",
+      "swim:gufi": "KO44006517"
+    },
     "wof:country": "US",
     "wof:created": 1780676256,
     "wof:geomhash": "24c5d8bcd340273688237ae435bbe348",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 2031452501,
     "wof:involves": [
-      102531979,
-      102527513,
       1159285413,
-      1947304475
+      1947304475,
+      1159289993,
+      102531979,
+      102527513
     ],
-    "wof:lastmodified": 1780676256,
+    "wof:lastmodified": 1780676377,
     "wof:name": "UA3879 (SFO-ANC)",
     "wof:parent_id": 1947304475,
     "wof:placetype": "custom",

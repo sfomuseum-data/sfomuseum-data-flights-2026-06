@@ -2,10 +2,12 @@
   "id": 2031452503,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-04",
+    "date:cessation_upper": "2026-06-04",
     "date:inception_lower": "2026-06-04",
     "date:inception_upper": "2026-06-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-04",
+    "edtf:cessation": "2026-06-04T23:46:00Z",
+    "edtf:inception": "2026-06-04T19:52:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2026-06-04",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.800514,
     "geom:longitude": -105.1326535,
     "iata:airline": "UA",
+    "icao:aircraft": "A321",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533631,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,13 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "148472900"
+    },
     "wof:country": "US",
     "wof:created": 1780676256,
     "wof:geomhash": "7a75cc81bf790964b92a4927d3978f50",
@@ -49,9 +59,9 @@
       102533631,
       102527513,
       1159285413,
-      -1
+      1159289411
     ],
-    "wof:lastmodified": 1780676256,
+    "wof:lastmodified": 1780676377,
     "wof:name": "UA3883 (SFO-ORD)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

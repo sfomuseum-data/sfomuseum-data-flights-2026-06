@@ -2,10 +2,12 @@
   "id": 2031448929,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-04",
+    "date:cessation_upper": "2026-06-04",
     "date:inception_lower": "2026-06-04",
     "date:inception_upper": "2026-06-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-04",
+    "edtf:cessation": "2026-06-04T18:08:00Z",
+    "edtf:inception": "2026-06-04T15:10:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -109.7109545,
     "iata:airline": "AA",
     "iata:base_airline": "",
+    "icao:aircraft": "A321",
     "icao:airline": "AAL",
     "icao:base_airline": "FIN",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102528541,
     "sfomuseum:base_flight_id": "20260604-D-FIN-5711",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N986AN",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "148368687",
+      "swim:gufi": "KO4957254l"
+    },
     "wof:country": "US",
     "wof:created": 1780675846,
     "wof:geomhash": "5e0f3a871c366f60ae43a6e5fe25b717",
@@ -92,9 +106,10 @@
       102527513,
       1159283849,
       1947304317,
-      1159284389
+      1159284389,
+      1159289411
     ],
-    "wof:lastmodified": 1780675846,
+    "wof:lastmodified": 1780676388,
     "wof:name": "AA2904 (SFO-DFW)",
     "wof:parent_id": 1947304317,
     "wof:placetype": "custom",

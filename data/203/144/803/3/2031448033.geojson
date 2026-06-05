@@ -2,10 +2,12 @@
   "id": 2031448033,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-06-04",
-    "date:inception_upper": "2026-06-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-04",
+    "date:cessation_lower": "2026-06-04",
+    "date:cessation_upper": "2026-06-04",
+    "date:inception_lower": "2026-06-05",
+    "date:inception_upper": "2026-06-05",
+    "edtf:cessation": "2026-06-04T16:08:30-07:00",
+    "edtf:inception": "2026-06-05T02:43:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -110.006986,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.618678,
     "lbl:longitude": -122.385955,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260604-A-ACA-3775",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N483UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "148334104",
+      "swim:gufi": "KH051316mA"
+    },
     "wof:country": "US",
     "wof:created": 1780675736,
     "wof:geomhash": "62f9f5a2734b9c5938b0b415e9e4a515",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 2031448033,
     "wof:involves": [
+      1159283597,
+      1159292085,
       102527513,
       102521851,
       1159285413,
-      1947304481,
-      1159283597
+      1947304481
     ],
-    "wof:lastmodified": 1780675736,
+    "wof:lastmodified": 1780676384,
     "wof:name": "UA292 (AUS-SFO)",
     "wof:parent_id": 1947304481,
     "wof:placetype": "custom",

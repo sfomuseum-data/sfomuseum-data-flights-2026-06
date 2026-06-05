@@ -2,10 +2,12 @@
   "id": 2031452423,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-06-04",
-    "date:inception_upper": "2026-06-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-04",
+    "date:cessation_lower": "2026-06-05",
+    "date:cessation_upper": "2026-06-05",
+    "date:inception_lower": "2026-06-05",
+    "date:inception_upper": "2026-06-05",
+    "edtf:cessation": "2026-06-05T06:16:00Z",
+    "edtf:inception": "2026-06-05T03:17:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -109.7109545,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "icao:base_airline": "ANA",
     "lbl:latitude": 37.617921,
     "lbl:longitude": -122.38181,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102528541,
     "sfomuseum:base_flight_id": "20260604-D-ANA-7372",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N431UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO05807627"
+    },
     "wof:country": "US",
     "wof:created": 1780676247,
     "wof:geomhash": "5e0f3a871c366f60ae43a6e5fe25b717",
@@ -92,9 +105,10 @@
       102527513,
       1159285413,
       1947304623,
-      1159283875
+      1159283875,
+      1159292085
     ],
-    "wof:lastmodified": 1780676247,
+    "wof:lastmodified": 1780676376,
     "wof:name": "UA2478 (SFO-DFW)",
     "wof:parent_id": 1947304623,
     "wof:placetype": "custom",

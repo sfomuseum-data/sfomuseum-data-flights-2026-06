@@ -2,10 +2,12 @@
   "id": 2031448339,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-06-04",
-    "date:inception_upper": "2026-06-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-04",
+    "date:cessation_lower": "2026-06-05",
+    "date:cessation_upper": "2026-06-05",
+    "date:inception_lower": "2026-06-05",
+    "date:inception_upper": "2026-06-05",
+    "edtf:cessation": "2026-06-04T23:41:13-07:00",
+    "edtf:inception": "2026-06-05T01:01:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": 14.401222499999996,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B789",
     "icao:airline": "UAL",
     "icao:base_airline": "AVA",
     "lbl:latitude": 37.617321,
     "lbl:longitude": -122.389477,
+    "sfomuseum:aircraft_id": 1159293215,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260604-A-AVA-2191",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N29985",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO440926Ml"
+    },
     "wof:country": "US",
     "wof:created": 1780675774,
     "wof:geomhash": "f3115fe3d28c66ab4b94072923e0b1bb",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 2031448339,
     "wof:involves": [
+      1159293215,
       102527513,
       102557783,
       1159285413,
       1947304155,
       1159285749
     ],
-    "wof:lastmodified": 1780675774,
+    "wof:lastmodified": 1780676386,
     "wof:name": "UA870 (SYD-SFO)",
     "wof:parent_id": 1947304155,
     "wof:placetype": "custom",

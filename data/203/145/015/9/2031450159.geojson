@@ -2,10 +2,12 @@
   "id": 2031450159,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-04",
+    "date:cessation_upper": "2026-06-04",
     "date:inception_lower": "2026-06-04",
     "date:inception_upper": "2026-06-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-04",
+    "edtf:cessation": "2026-06-04T16:11:00Z",
+    "edtf:inception": "2026-06-04T00:53:10-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.484166,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "ASA",
     "icao:base_airline": "CFG",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102532251,
     "sfomuseum:base_flight_id": "20260604-D-CFG-5280",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N469AS",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "148366673",
+      "swim:gufi": "KO491525ZH"
+    },
     "wof:country": "US",
     "wof:created": 1780675991,
     "wof:geomhash": "a0e250e9237d15725a2a6f51d6b7a6b6",
@@ -92,9 +106,10 @@
       102527513,
       1159283813,
       1947304293,
-      1159284193
+      1159284193,
+      1377564285
     ],
-    "wof:lastmodified": 1780675991,
+    "wof:lastmodified": 1780676357,
     "wof:name": "AS1410 (SFO-PDX)",
     "wof:parent_id": 1947304293,
     "wof:placetype": "custom",

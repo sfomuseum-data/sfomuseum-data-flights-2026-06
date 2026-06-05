@@ -2,10 +2,12 @@
   "id": 2031450803,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-05",
+    "date:cessation_upper": "2026-06-05",
     "date:inception_lower": "2026-06-04",
     "date:inception_upper": "2026-06-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-04",
+    "edtf:cessation": "2026-06-05T01:33:42Z",
+    "edtf:inception": "2026-06-04T07:19:11-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -103.4008145,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "B763",
     "icao:airline": "DAL",
     "icao:base_airline": "KAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289965,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102526927,
     "sfomuseum:base_flight_id": "20260604-D-KAL-3644",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N179DN",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +63,10 @@
       1763588123,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "148404556",
+      "swim:gufi": "KO717615oK"
+    },
     "wof:country": "US",
     "wof:created": 1780676065,
     "wof:geomhash": "8306f5516cededf93440c49d2c7be198",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 2031450803,
     "wof:involves": [
+      1159284625,
+      1159289965,
       102526927,
       102527513,
       1159284261,
-      1763588251,
-      1159284625
+      1763588251
     ],
-    "wof:lastmodified": 1780676065,
+    "wof:lastmodified": 1780676362,
     "wof:name": "DL531 (SFO-ATL)",
     "wof:parent_id": 1763588251,
     "wof:placetype": "custom",

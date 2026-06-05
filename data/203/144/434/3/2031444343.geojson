@@ -2,10 +2,12 @@
   "id": 2031444343,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-04",
+    "date:cessation_upper": "2026-06-04",
     "date:inception_lower": "2026-06-04",
     "date:inception_upper": "2026-06-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-04",
+    "edtf:cessation": "2026-06-04T06:55:00Z",
+    "edtf:inception": "2026-06-04T01:01:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:date": "2026-06-04",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.130638000000005,
     "geom:longitude": -98.07939400000001,
     "iata:airline": "AA",
+    "icao:aircraft": "A321",
     "icao:airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102534365,
@@ -34,7 +38,17 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N103NN",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "148331723",
+      "swim:gufi": "KN000526wK"
+    },
     "wof:country": "US",
     "wof:created": 1780675268,
     "wof:geomhash": "ba4d31d1826c6198b5ffa8fdb1249c5d",
@@ -46,12 +60,12 @@
     ],
     "wof:id": 2031444343,
     "wof:involves": [
+      1159289411,
       102527513,
       102534365,
-      1159283849,
-      -1
+      1159283849
     ],
-    "wof:lastmodified": 1780675268,
+    "wof:lastmodified": 1780676356,
     "wof:name": "AA177 (JFK-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

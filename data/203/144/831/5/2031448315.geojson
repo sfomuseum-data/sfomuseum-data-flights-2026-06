@@ -2,10 +2,12 @@
   "id": 2031448315,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-04",
+    "date:cessation_upper": "2026-06-04",
     "date:inception_lower": "2026-06-04",
     "date:inception_upper": "2026-06-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-04",
+    "edtf:cessation": "2026-06-04T23:14:09Z",
+    "edtf:inception": "2026-06-04T21:41:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2026-06-04",
@@ -21,9 +23,11 @@
     "geom:latitude": 42.529906499999996,
     "geom:longitude": -122.3376055,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533269,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N448UA",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "148403404",
+      "swim:gufi": "KS727135tU"
+    },
     "wof:country": "US",
     "wof:created": 1780675771,
     "wof:geomhash": "3123a4aff4021144fa8973299956ba97",
@@ -46,12 +59,12 @@
     ],
     "wof:id": 2031448315,
     "wof:involves": [
+      1159292085,
       102527513,
       102533269,
-      1159285413,
-      -1
+      1159285413
     ],
-    "wof:lastmodified": 1780675771,
+    "wof:lastmodified": 1780676386,
     "wof:name": "UA8205 (SEA-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
