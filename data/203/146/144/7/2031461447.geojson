@@ -2,10 +2,12 @@
   "id": 2031461447,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-06",
+    "date:cessation_upper": "2026-06-06",
     "date:inception_lower": "2026-06-05",
     "date:inception_upper": "2026-06-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-05",
+    "edtf:cessation": "2026-06-06T02:24:00Z",
+    "edtf:inception": "2026-06-05T10:46:27-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.3376055,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.617532,
     "lbl:longitude": -122.382384,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533269,
     "sfomuseum:base_flight_id": "20260605-D-ANZ-9406",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N87527",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO834696hr"
+    },
     "wof:country": "US",
     "wof:created": 1780762593,
     "wof:geomhash": "4036ee3c983703867dbe0486453848b1",
@@ -92,9 +105,10 @@
       102527513,
       1159285413,
       1947304619,
-      1159283697
+      1159283697,
+      1159289871
     ],
-    "wof:lastmodified": 1780762593,
+    "wof:lastmodified": 1780762728,
     "wof:name": "UA2279 (SFO-SEA)",
     "wof:parent_id": 1947304619,
     "wof:placetype": "custom",

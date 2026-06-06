@@ -2,10 +2,12 @@
   "id": 2031461871,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-06-05",
-    "date:inception_upper": "2026-06-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-05",
+    "date:cessation_lower": "2026-06-06",
+    "date:cessation_upper": "2026-06-06",
+    "date:inception_lower": "2026-06-06",
+    "date:inception_upper": "2026-06-06",
+    "edtf:cessation": "2026-06-06T01:14:46Z",
+    "edtf:inception": "2026-06-06T00:23:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2026-06-05",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.907347,
     "geom:longitude": -120.3621325,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 1746879083,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,17 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N435UA",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "148515215",
+      "swim:gufi": "KO8196369Q"
+    },
     "wof:country": "US",
     "wof:created": 1780762640,
     "wof:geomhash": "5b5841a3ebf3c57d9843115edfb8ee6b",
@@ -46,12 +60,12 @@
     ],
     "wof:id": 2031461871,
     "wof:involves": [
-      1746879083,
-      102527513,
       1159285413,
-      -1
+      1159292085,
+      1746879083,
+      102527513
     ],
-    "wof:lastmodified": 1780762640,
+    "wof:lastmodified": 1780762732,
     "wof:name": "UA8192 (SFO-BUR)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

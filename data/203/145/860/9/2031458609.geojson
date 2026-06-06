@@ -2,10 +2,12 @@
   "id": 2031458609,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-06",
+    "date:cessation_upper": "2026-06-06",
     "date:inception_lower": "2026-06-05",
     "date:inception_upper": "2026-06-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-05",
+    "edtf:cessation": "2026-06-06T04:45:28Z",
+    "edtf:inception": "2026-06-05T03:36:38-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AI",
     "flysfo:date": "2026-06-05",
@@ -21,9 +23,11 @@
     "geom:latitude": 37.535978,
     "geom:longitude": 2.1453445,
     "iata:airline": "AI",
+    "icao:aircraft": "B77W",
     "icao:airline": "AIC",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159283649,
     "sfomuseum:arrival_id": 102556451,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "VTALR",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "148479374"
+    },
     "wof:country": "US",
     "wof:created": 1780762281,
     "wof:geomhash": "76fab8ba90cc172f777e745d124625d2",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 2031458609,
     "wof:involves": [
+      1947304075,
+      1159289993,
       102556451,
       102527513,
-      1159283649,
-      1947304075
+      1159283649
     ],
-    "wof:lastmodified": 1780762281,
+    "wof:lastmodified": 1780762737,
     "wof:name": "AI174 (SFO-ICN)",
     "wof:parent_id": 1947304075,
     "wof:placetype": "custom",

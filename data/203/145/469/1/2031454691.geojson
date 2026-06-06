@@ -2,10 +2,12 @@
   "id": 2031454691,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-06",
+    "date:cessation_upper": "2026-06-06",
     "date:inception_lower": "2026-06-05",
     "date:inception_upper": "2026-06-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-05",
+    "edtf:cessation": "2026-06-06T00:56:40Z",
+    "edtf:inception": "2026-06-05T22:05:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -116.044202,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "ASA",
     "icao:base_airline": "QFA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260605-A-QFA-3755",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N803AK",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "148506304",
+      "swim:gufi": "KL848256f8"
+    },
     "wof:country": "US",
     "wof:created": 1780761838,
     "wof:geomhash": "57b2b594ef41523ab9fe7c26d147f9bd",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 2031454691,
     "wof:involves": [
+      1528104575,
       102527513,
       102536441,
       1159283813,
       1947304271,
       1159285043
     ],
-    "wof:lastmodified": 1780761838,
+    "wof:lastmodified": 1780762727,
     "wof:name": "AS1379 (SJD-SFO)",
     "wof:parent_id": 1947304271,
     "wof:placetype": "custom",

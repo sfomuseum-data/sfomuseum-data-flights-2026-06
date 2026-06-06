@@ -2,10 +2,12 @@
   "id": 2031460809,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-06-05",
-    "date:inception_upper": "2026-06-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-05",
+    "date:cessation_lower": "2026-06-06",
+    "date:cessation_upper": "2026-06-06",
+    "date:inception_lower": "2026-06-06",
+    "date:inception_upper": "2026-06-06",
+    "edtf:cessation": "2026-06-06T09:52:30Z",
+    "edtf:inception": "2026-06-06T00:08:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "SK",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -54.860681,
     "iata:airline": "SK",
     "iata:base_airline": "",
+    "icao:aircraft": "A359",
     "icao:airline": "SAS",
     "icao:base_airline": "AFR",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564293,
     "sfomuseum:airline_id": 1159285129,
     "sfomuseum:arrival_id": 102544207,
     "sfomuseum:base_flight_id": "20260605-D-AFR-4359",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "SERSE",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "148420549"
+    },
     "wof:country": "US",
     "wof:created": 1780762523,
     "wof:geomhash": "6cbb76e93301e33133b7541a51de6b35",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 2031460809,
     "wof:involves": [
+      1947304093,
+      1159283627,
+      1377564293,
       102544207,
       102527513,
-      1159285129,
-      1947304093,
-      1159283627
+      1159285129
     ],
-    "wof:lastmodified": 1780762523,
+    "wof:lastmodified": 1780762724,
     "wof:name": "SK936 (SFO-CPH)",
     "wof:parent_id": 1947304093,
     "wof:placetype": "custom",

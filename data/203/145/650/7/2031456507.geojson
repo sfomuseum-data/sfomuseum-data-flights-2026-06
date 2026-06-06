@@ -2,10 +2,12 @@
   "id": 2031456507,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-06-05",
-    "date:inception_upper": "2026-06-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-05",
+    "date:cessation_lower": "2026-06-05",
+    "date:cessation_upper": "2026-06-05",
+    "date:inception_lower": "2026-06-06",
+    "date:inception_upper": "2026-06-06",
+    "edtf:cessation": "2026-06-05T16:52:42-07:00",
+    "edtf:inception": "2026-06-06T05:42:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2026-06-05",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.175762,
     "geom:longitude": -119.778435,
     "iata:airline": "WN",
+    "icao:aircraft": "B38M",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102528997,
@@ -34,7 +38,17 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N8859Q",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "148433883",
+      "swim:gufi": "KL052397kG"
+    },
     "wof:country": "US",
     "wof:created": 1780762047,
     "wof:geomhash": "d1d4873ced1d6ea3128e45b0b2070718",
@@ -46,12 +60,12 @@
     ],
     "wof:id": 2031456507,
     "wof:involves": [
+      1528104575,
       102527513,
       102528997,
-      1159285591,
-      -1
+      1159285591
     ],
-    "wof:lastmodified": 1780762047,
+    "wof:lastmodified": 1780762743,
     "wof:name": "WN4772 (SAN-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

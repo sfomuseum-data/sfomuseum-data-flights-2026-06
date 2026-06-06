@@ -2,10 +2,12 @@
   "id": 2031461859,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-06-05",
-    "date:inception_upper": "2026-06-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-05",
+    "date:cessation_lower": "2026-06-06",
+    "date:cessation_upper": "2026-06-06",
+    "date:inception_lower": "2026-06-06",
+    "date:inception_upper": "2026-06-06",
+    "edtf:cessation": "2026-06-06T11:55:57Z",
+    "edtf:inception": "2026-06-05T17:16:53-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2026-06-05",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.283618000000004,
     "geom:longitude": -99.9123225,
     "iata:airline": "UA",
+    "icao:aircraft": "B739",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102528817,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N66831",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:gufi": "KO1925475N"
+    },
     "wof:country": "US",
     "wof:created": 1780762639,
     "wof:geomhash": "1c4ce661f6692034a082b31062a17f5e",
@@ -46,12 +59,12 @@
     ],
     "wof:id": 2031461859,
     "wof:involves": [
+      1377564285,
       102528817,
       102527513,
-      1159285413,
-      -1
+      1159285413
     ],
-    "wof:lastmodified": 1780762639,
+    "wof:lastmodified": 1780762732,
     "wof:name": "UA8137 (SFO-IAD)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 2031453447,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-05",
+    "date:cessation_upper": "2026-06-05",
     "date:inception_lower": "2026-06-05",
     "date:inception_upper": "2026-06-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-05",
+    "edtf:cessation": "2026-06-05T10:11:01-07:00",
+    "edtf:inception": "2026-06-05T22:33:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:date": "2026-06-05",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.525337,
     "geom:longitude": -117.19416749999999,
     "iata:airline": "AA",
+    "icao:aircraft": "A321",
     "icao:airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102526751,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N134AN",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "148503244",
+      "swim:gufi": "KA747426va"
+    },
     "wof:country": "US",
     "wof:created": 1780761674,
     "wof:geomhash": "c9fdc5df38b6a105de4fe30ae6ada830",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 2031453447,
     "wof:involves": [
+      1159289411,
       102527513,
       102526751,
       1159283849,
       1947304309
     ],
-    "wof:lastmodified": 1780761674,
+    "wof:lastmodified": 1780762720,
     "wof:name": "AA2860 (PHX-SFO)",
     "wof:parent_id": 1947304309,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 2031454825,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-05",
+    "date:cessation_upper": "2026-06-05",
     "date:inception_lower": "2026-06-05",
     "date:inception_upper": "2026-06-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-05",
+    "edtf:cessation": "2026-06-05T11:00:02-07:00",
+    "edtf:inception": "2026-06-05T21:41:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:date": "2026-06-05",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.576414,
     "geom:longitude": -110.4218635,
     "iata:airline": "AS",
+    "icao:aircraft": "B739",
     "icao:airline": "ASA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102527373,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N495AS",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "148509535",
+      "swim:gufi": "KH725566Cu"
+    },
     "wof:country": "US",
     "wof:created": 1780761854,
     "wof:geomhash": "d45c6baaf0d56697f52acbb8a9e14867",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 2031454825,
     "wof:involves": [
+      1377564285,
       102527513,
       102527373,
       1159283813,
       1947304263
     ],
-    "wof:lastmodified": 1780761854,
+    "wof:lastmodified": 1780762728,
     "wof:name": "AS9413 (SAT-SFO)",
     "wof:parent_id": 1947304263,
     "wof:placetype": "custom",

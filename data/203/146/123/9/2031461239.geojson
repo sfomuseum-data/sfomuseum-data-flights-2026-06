@@ -2,10 +2,12 @@
   "id": 2031461239,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-06",
+    "date:cessation_upper": "2026-06-06",
     "date:inception_lower": "2026-06-05",
     "date:inception_upper": "2026-06-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-05",
+    "edtf:cessation": "2026-06-06T05:26:00Z",
+    "edtf:inception": "2026-06-05T12:27:49-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -109.134272,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "icao:base_airline": "UAE",
     "lbl:latitude": 37.617532,
     "lbl:longitude": -122.382384,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102524739,
     "sfomuseum:base_flight_id": "20260605-D-UAE-6371",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N483UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO033237OE"
+    },
     "wof:country": "US",
     "wof:created": 1780762570,
     "wof:geomhash": "b2b4de685cac2a2e83e7d43e9bbb14d9",
@@ -92,9 +105,10 @@
       102527513,
       1159285413,
       1947304619,
-      1159284333
+      1159284333,
+      1159292085
     ],
-    "wof:lastmodified": 1780762570,
+    "wof:lastmodified": 1780762727,
     "wof:name": "UA1321 (SFO-OMA)",
     "wof:parent_id": 1947304619,
     "wof:placetype": "custom",

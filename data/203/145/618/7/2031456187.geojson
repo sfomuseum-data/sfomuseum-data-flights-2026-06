@@ -2,10 +2,12 @@
   "id": 2031456187,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-05",
+    "date:cessation_upper": "2026-06-05",
     "date:inception_lower": "2026-06-05",
     "date:inception_upper": "2026-06-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-05",
+    "edtf:cessation": "2026-06-05T10:03:26-07:00",
+    "edtf:inception": "2026-06-05T23:02:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "MX",
     "flysfo:date": "2026-06-05",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.861199,
     "geom:longitude": -119.808415,
     "iata:airline": "MX",
+    "icao:aircraft": "BCS3",
     "icao:airline": "MXY",
     "lbl:latitude": 37.614645,
     "lbl:longitude": -122.382263,
+    "sfomuseum:aircraft_id": 1813375783,
     "sfomuseum:airline_id": 1763552131,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102530129,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N239BZ",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,9 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "148511634"
+    },
     "wof:country": "US",
     "wof:created": 1780762010,
     "wof:geomhash": "6d8f05e22cdd419a749a10658572882e",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 2031456187,
     "wof:involves": [
+      1947304673,
+      1813375783,
       102527513,
       102530129,
-      1763552131,
-      1947304673
+      1763552131
     ],
-    "wof:lastmodified": 1780762010,
+    "wof:lastmodified": 1780762740,
     "wof:name": "MX608 (SBD-SFO)",
     "wof:parent_id": 1947304673,
     "wof:placetype": "custom",

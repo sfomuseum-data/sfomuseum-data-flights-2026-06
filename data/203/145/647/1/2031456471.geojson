@@ -2,10 +2,12 @@
   "id": 2031456471,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-05",
+    "date:cessation_upper": "2026-06-05",
     "date:inception_lower": "2026-06-05",
     "date:inception_upper": "2026-06-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-05",
+    "edtf:cessation": "2026-06-05T02:06:50-07:00",
+    "edtf:inception": "2026-06-05T14:58:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2026-06-05",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.8494965,
     "geom:longitude": -118.7636915,
     "iata:airline": "WN",
+    "icao:aircraft": "B737",
     "icao:airline": "SWA",
     "lbl:latitude": 37.616969,
     "lbl:longitude": -122.381363,
+    "sfomuseum:aircraft_id": 1159289869,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102527209,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N555LV",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "148462559",
+      "swim:gufi": "KL473826FP"
+    },
     "wof:country": "US",
     "wof:created": 1780762043,
     "wof:geomhash": "fcf5095e8d1a14d003993bc5070a7f0f",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 2031456471,
     "wof:involves": [
+      1159289869,
       102527513,
       102527209,
       1159285591,
       1947304599
     ],
-    "wof:lastmodified": 1780762043,
+    "wof:lastmodified": 1780762742,
     "wof:name": "WN2934 (LAS-SFO)",
     "wof:parent_id": 1947304599,
     "wof:placetype": "custom",
