@@ -2,10 +2,12 @@
   "id": 2031464945,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-06",
+    "date:cessation_upper": "2026-06-06",
     "date:inception_lower": "2026-06-06",
     "date:inception_upper": "2026-06-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-06",
+    "edtf:cessation": "2026-06-06T20:22:02Z",
+    "edtf:inception": "2026-06-06T07:43:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AZ",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -55.0628825,
     "iata:airline": "AZ",
     "iata:base_airline": "",
+    "icao:aircraft": "A339",
     "icao:airline": "ITY",
     "icao:base_airline": "ETD",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1393786509,
     "sfomuseum:airline_id": 1763699293,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260606-A-ETD-3018",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "EIHJS",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -88,13 +98,14 @@
     ],
     "wof:id": 2031464945,
     "wof:involves": [
+      1159285587,
+      1393786509,
       102527513,
       102547941,
       1763699293,
-      1947304093,
-      1159285587
+      1947304093
     ],
-    "wof:lastmodified": 1780848379,
+    "wof:lastmodified": 1780849076,
     "wof:name": "AZ640 (FCO-SFO)",
     "wof:parent_id": 1947304093,
     "wof:placetype": "custom",

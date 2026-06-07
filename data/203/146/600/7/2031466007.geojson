@@ -2,10 +2,12 @@
   "id": 2031466007,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-06",
+    "date:cessation_upper": "2026-06-06",
     "date:inception_lower": "2026-06-06",
     "date:inception_upper": "2026-06-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-06",
+    "edtf:cessation": "2026-06-06T21:32:00Z",
+    "edtf:inception": "2026-06-06T19:20:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2026-06-06",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.7414645,
     "geom:longitude": -113.521581,
     "iata:airline": "UA",
+    "icao:aircraft": "B789",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620818,
     "lbl:longitude": -122.389182,
+    "sfomuseum:aircraft_id": 1159293215,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102531189,
@@ -34,6 +38,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +55,9 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "148587252"
+    },
     "wof:country": "US",
     "wof:created": 1780848500,
     "wof:geomhash": "736fe0d2ebd38878be6950e82908a686",
@@ -83,12 +93,13 @@
     ],
     "wof:id": 2031466007,
     "wof:involves": [
+      1159293215,
       102527513,
       102531189,
       1159285413,
       1947304455
     ],
-    "wof:lastmodified": 1780848500,
+    "wof:lastmodified": 1780849080,
     "wof:name": "UA3934 (DEN-SFO)",
     "wof:parent_id": 1947304455,
     "wof:placetype": "custom",

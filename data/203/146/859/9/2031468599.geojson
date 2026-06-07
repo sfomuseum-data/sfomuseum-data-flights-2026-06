@@ -2,10 +2,12 @@
   "id": 2031468599,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-06",
+    "date:cessation_upper": "2026-06-06",
     "date:inception_lower": "2026-06-06",
     "date:inception_upper": "2026-06-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-06",
+    "edtf:cessation": "2026-06-06T20:11:00Z",
+    "edtf:inception": "2026-06-06T17:09:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:date": "2026-06-06",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.9120825,
     "geom:longitude": -110.006986,
     "iata:airline": "DL",
+    "icao:aircraft": "A319",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102521851,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N357NB",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "148569875",
+      "swim:gufi": "KO584417K9"
+    },
     "wof:country": "US",
     "wof:created": 1780848792,
     "wof:geomhash": "f1e29c4a83094711ef061292cfad3358",
@@ -86,9 +100,10 @@
       102521851,
       102527513,
       1159284261,
-      1947304669
+      1947304669,
+      1159289407
     ],
-    "wof:lastmodified": 1780848792,
+    "wof:lastmodified": 1780849090,
     "wof:name": "DL381 (SFO-AUS)",
     "wof:parent_id": 1947304669,
     "wof:placetype": "custom",

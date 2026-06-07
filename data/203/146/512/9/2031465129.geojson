@@ -2,10 +2,12 @@
   "id": 2031465129,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-07",
+    "date:cessation_upper": "2026-06-07",
     "date:inception_lower": "2026-06-06",
     "date:inception_upper": "2026-06-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-06",
+    "edtf:cessation": "2026-06-07T03:53:55Z",
+    "edtf:inception": "2026-06-06T16:00:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "LO",
     "flysfo:date": "2026-06-06",
@@ -21,9 +23,11 @@
     "geom:latitude": 44.894602,
     "geom:longitude": -50.698282,
     "iata:airline": "LO",
+    "icao:aircraft": "B789",
     "icao:airline": "LOT",
     "lbl:latitude": 37.611747,
     "lbl:longitude": -122.39043,
+    "sfomuseum:aircraft_id": 1159293215,
     "sfomuseum:airline_id": 1159284705,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102542051,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "SPLSC",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "148562664"
+    },
     "wof:country": "US",
     "wof:created": 1780848400,
     "wof:geomhash": "1954d77428ab4c71ee39d262b7abdced",
@@ -86,9 +99,10 @@
       102527513,
       102542051,
       1159284705,
-      1947304083
+      1947304083,
+      1159293215
     ],
-    "wof:lastmodified": 1780848400,
+    "wof:lastmodified": 1780849077,
     "wof:name": "LO37 (WAW-SFO)",
     "wof:parent_id": 1947304083,
     "wof:placetype": "custom",

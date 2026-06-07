@@ -2,10 +2,12 @@
   "id": 2031465983,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-06",
+    "date:cessation_upper": "2026-06-06",
     "date:inception_lower": "2026-06-06",
     "date:inception_upper": "2026-06-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-06",
+    "edtf:cessation": "2026-06-06T00:16:41-07:00",
+    "edtf:inception": "2026-06-06T13:03:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.79198650000001,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "icao:base_airline": "AVA",
     "lbl:latitude": 37.618578,
     "lbl:longitude": -122.385434,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260606-A-AVA-2270",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N459UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "148548429",
+      "swim:gufi": "KS4390271K"
+    },
     "wof:country": "US",
     "wof:created": 1780848498,
     "wof:geomhash": "68b06bbd791163721a20ab955d143e55",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 2031465983,
     "wof:involves": [
+      1159285749,
+      1159292085,
       102527513,
       102533927,
       1159285413,
-      1947304495,
-      1159285749
+      1947304495
     ],
-    "wof:lastmodified": 1780848498,
+    "wof:lastmodified": 1780849079,
     "wof:name": "UA335 (EUG-SFO)",
     "wof:parent_id": 1947304495,
     "wof:placetype": "custom",

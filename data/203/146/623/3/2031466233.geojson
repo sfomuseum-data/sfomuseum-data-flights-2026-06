@@ -2,10 +2,12 @@
   "id": 2031466233,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-06",
+    "date:cessation_upper": "2026-06-06",
     "date:inception_lower": "2026-06-06",
     "date:inception_upper": "2026-06-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-06",
+    "edtf:cessation": "2026-06-06T03:52:33-07:00",
+    "edtf:inception": "2026-06-06T12:18:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2026-06-06",
@@ -21,9 +23,11 @@
     "geom:latitude": 31.846425,
     "geom:longitude": -101.2547305,
     "iata:airline": "UA",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102530841,
@@ -34,7 +38,17 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N17423",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "148542993",
+      "swim:gufi": "KR405247lp"
+    },
     "wof:country": "US",
     "wof:created": 1780848527,
     "wof:geomhash": "d17d7e3187ba5afa3de1a7310fca2526",
@@ -46,12 +60,12 @@
     ],
     "wof:id": 2031466233,
     "wof:involves": [
+      1528104577,
       102527513,
       102530841,
-      1159285413,
-      -1
+      1159285413
     ],
-    "wof:lastmodified": 1780848527,
+    "wof:lastmodified": 1780849080,
     "wof:name": "UA8158 (FLL-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

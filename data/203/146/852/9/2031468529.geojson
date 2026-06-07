@@ -2,10 +2,12 @@
   "id": 2031468529,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-06-06",
-    "date:inception_upper": "2026-06-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-06",
+    "date:cessation_lower": "2026-06-06",
+    "date:cessation_upper": "2026-06-06",
+    "date:inception_lower": "2026-06-07",
+    "date:inception_upper": "2026-06-07",
+    "edtf:cessation": "2026-06-06T15:03:46Z",
+    "edtf:inception": "2026-06-06T18:41:26-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "CM",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -100.87722099999999,
     "iata:airline": "CM",
     "iata:base_airline": "",
+    "icao:aircraft": "B39M",
     "icao:airline": "CMP",
     "icao:base_airline": "EVA",
     "lbl:latitude": 37.611747,
     "lbl:longitude": -122.39043,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159284211,
     "sfomuseum:arrival_id": 102547051,
     "sfomuseum:base_flight_id": "20260606-D-EVA-3181",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "HP9924",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "148535914"
+    },
     "wof:country": "US",
     "wof:created": 1780848784,
     "wof:geomhash": "a1b63305ba93684d4b5beab1220ffb8e",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 2031468529,
     "wof:involves": [
+      1947304083,
+      1159284349,
+      1528104577,
       102547051,
       102527513,
-      1159284211,
-      1947304083,
-      1159284349
+      1159284211
     ],
-    "wof:lastmodified": 1780848784,
+    "wof:lastmodified": 1780849090,
     "wof:name": "CM383 (SFO-PTY)",
     "wof:parent_id": 1947304083,
     "wof:placetype": "custom",
