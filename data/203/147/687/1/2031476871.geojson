@@ -2,10 +2,12 @@
   "id": 2031476871,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-08",
+    "date:cessation_upper": "2026-06-08",
     "date:inception_lower": "2026-06-07",
     "date:inception_upper": "2026-06-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-07",
+    "edtf:cessation": "2026-06-08T06:49:50Z",
+    "edtf:inception": "2026-06-07T12:36:16-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -136.169672,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "ASA",
     "icao:base_airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102531979,
     "sfomuseum:base_flight_id": "20260607-D-AAL-7475",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N519AS",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO050512jX"
+    },
     "wof:country": "US",
     "wof:created": 1780935191,
     "wof:geomhash": "24c5d8bcd340273688237ae435bbe348",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 2031476871,
     "wof:involves": [
+      1159289871,
       102531979,
       102527513,
       1159283813,
       1947304267,
       1159283849
     ],
-    "wof:lastmodified": 1780935191,
+    "wof:lastmodified": 1780935590,
     "wof:name": "AS1448 (SFO-ANC)",
     "wof:parent_id": 1947304267,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 2031474749,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-07",
+    "date:cessation_upper": "2026-06-07",
     "date:inception_lower": "2026-06-07",
     "date:inception_upper": "2026-06-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-07",
+    "edtf:cessation": "2026-06-07T10:54:10-07:00",
+    "edtf:inception": "2026-06-07T23:56:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -120.3621325,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.617921,
     "lbl:longitude": -122.38181,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260607-A-ACA-3990",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N447UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "148677425",
+      "swim:gufi": "KL8060019o"
+    },
     "wof:country": "US",
     "wof:created": 1780934949,
     "wof:geomhash": "579cc6c0d5668ba584a946b357aa3191",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 2031474749,
     "wof:involves": [
+      1159292085,
       102527513,
       1746879083,
       1159285413,
       1947304623,
       1159283597
     ],
-    "wof:lastmodified": 1780934949,
+    "wof:lastmodified": 1780935570,
     "wof:name": "UA357 (BUR-SFO)",
     "wof:parent_id": 1947304623,
     "wof:placetype": "custom",

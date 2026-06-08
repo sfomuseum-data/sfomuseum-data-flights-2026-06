@@ -2,10 +2,12 @@
   "id": 2031475045,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-06-07",
-    "date:inception_upper": "2026-06-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-07",
+    "date:cessation_lower": "2026-06-08",
+    "date:cessation_upper": "2026-06-08",
+    "date:inception_lower": "2026-06-08",
+    "date:inception_upper": "2026-06-08",
+    "edtf:cessation": "2026-06-07T23:57:35-07:00",
+    "edtf:inception": "2026-06-08T00:50:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": 14.401222499999996,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B789",
     "icao:airline": "UAL",
     "icao:base_airline": "AVA",
     "lbl:latitude": 37.61776,
     "lbl:longitude": -122.3918,
+    "sfomuseum:aircraft_id": 1159293215,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260607-A-AVA-2191",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N27959",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "148607433",
+      "swim:gufi": "KO449112aS"
+    },
     "wof:country": "US",
     "wof:created": 1780934982,
     "wof:geomhash": "f3115fe3d28c66ab4b94072923e0b1bb",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 2031475045,
     "wof:involves": [
+      1947304137,
+      1159285749,
+      1159293215,
       102527513,
       102557783,
-      1159285413,
-      1947304137,
-      1159285749
+      1159285413
     ],
-    "wof:lastmodified": 1780934982,
+    "wof:lastmodified": 1780935571,
     "wof:name": "UA870 (SYD-SFO)",
     "wof:parent_id": 1947304137,
     "wof:placetype": "custom",

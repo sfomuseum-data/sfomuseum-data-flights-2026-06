@@ -2,10 +2,12 @@
   "id": 2031479359,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-06-07",
-    "date:inception_upper": "2026-06-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-07",
+    "date:cessation_lower": "2026-06-08",
+    "date:cessation_upper": "2026-06-08",
+    "date:inception_lower": "2026-06-08",
+    "date:inception_upper": "2026-06-08",
+    "edtf:cessation": "2026-06-08T03:22:00Z",
+    "edtf:inception": "2026-06-08T02:19:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -120.1186115,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.618161,
     "lbl:longitude": -122.384735,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102534161,
     "sfomuseum:base_flight_id": "20260607-D-ACA-4186",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N76503",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +63,10 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "148613348",
+      "swim:gufi": "KO048502TB"
+    },
     "wof:country": "US",
     "wof:created": 1780935476,
     "wof:geomhash": "b700d5ae3794da4176af6b85f6cd6669",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 2031479359,
     "wof:involves": [
+      1763588337,
+      1159283597,
+      1159289871,
       102534161,
       102527513,
-      1159285413,
-      1763588337,
-      1159283597
+      1159285413
     ],
-    "wof:lastmodified": 1780935476,
+    "wof:lastmodified": 1780935583,
     "wof:name": "UA589 (SFO-SNA)",
     "wof:parent_id": 1763588337,
     "wof:placetype": "custom",

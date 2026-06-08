@@ -2,10 +2,12 @@
   "id": 2031473109,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-07",
+    "date:cessation_upper": "2026-06-07",
     "date:inception_lower": "2026-06-07",
     "date:inception_upper": "2026-06-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-07",
+    "edtf:cessation": "2026-06-07T11:27:37-07:00",
+    "edtf:inception": "2026-06-07T23:48:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:date": "2026-06-07",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.525337,
     "geom:longitude": -117.19416749999999,
     "iata:airline": "DL",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102526751,
@@ -34,7 +38,17 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N650DL",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "148678210",
+      "swim:gufi": "KA813611hy"
+    },
     "wof:country": "US",
     "wof:created": 1780934759,
     "wof:geomhash": "c9fdc5df38b6a105de4fe30ae6ada830",
@@ -46,12 +60,12 @@
     ],
     "wof:id": 2031473109,
     "wof:involves": [
+      1159289939,
       102527513,
       102526751,
-      1159284261,
-      -1
+      1159284261
     ],
-    "wof:lastmodified": 1780934759,
+    "wof:lastmodified": 1780935565,
     "wof:name": "DL8892 (PHX-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 2031472327,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-06-07",
-    "date:inception_upper": "2026-06-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-07",
+    "date:cessation_lower": "2026-06-07",
+    "date:cessation_upper": "2026-06-07",
+    "date:inception_lower": "2026-06-08",
+    "date:inception_upper": "2026-06-08",
+    "edtf:cessation": "2026-06-07T16:18:30-07:00",
+    "edtf:inception": "2026-06-08T01:37:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -136.169672,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "ASA",
     "icao:base_airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260607-A-AAL-9274",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N214AK",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KS13991216"
+    },
     "wof:country": "US",
     "wof:created": 1780934667,
     "wof:geomhash": "40576486fbb454d3a66da49d62a0ae33",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 2031472327,
     "wof:involves": [
+      1377564285,
       102527513,
       102531979,
       1159283813,
       1947304293,
       1159283849
     ],
-    "wof:lastmodified": 1780934667,
+    "wof:lastmodified": 1780935563,
     "wof:name": "AS1449 (ANC-SFO)",
     "wof:parent_id": 1947304293,
     "wof:placetype": "custom",

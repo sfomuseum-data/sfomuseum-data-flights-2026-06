@@ -2,10 +2,12 @@
   "id": 2031479233,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-06-07",
-    "date:inception_upper": "2026-06-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-07",
+    "date:cessation_lower": "2026-06-08",
+    "date:cessation_upper": "2026-06-08",
+    "date:inception_lower": "2026-06-08",
+    "date:inception_upper": "2026-06-08",
+    "edtf:cessation": "2026-06-08T11:39:11Z",
+    "edtf:inception": "2026-06-08T00:32:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -55.0628825,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.61844,
     "lbl:longitude": -122.392214,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102547941,
     "sfomuseum:base_flight_id": "20260607-D-ACA-4875",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N799UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO737831AT"
+    },
     "wof:country": "US",
     "wof:created": 1780935461,
     "wof:geomhash": "033526ec5f586bb6dd7c4e05cd770e88",
@@ -92,9 +105,10 @@
       102527513,
       1159285413,
       1947304153,
-      1159283597
+      1159283597,
+      1159289985
     ],
-    "wof:lastmodified": 1780935461,
+    "wof:lastmodified": 1780935583,
     "wof:name": "UA507 (SFO-FCO)",
     "wof:parent_id": 1947304153,
     "wof:placetype": "custom",

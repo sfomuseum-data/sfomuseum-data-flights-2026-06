@@ -2,10 +2,12 @@
   "id": 2031474127,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-06-07",
-    "date:inception_upper": "2026-06-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-07",
+    "date:cessation_lower": "2026-06-08",
+    "date:cessation_upper": "2026-06-08",
+    "date:inception_lower": "2026-06-08",
+    "date:inception_upper": "2026-06-08",
+    "edtf:cessation": "2026-06-07T17:00:20-07:00",
+    "edtf:inception": "2026-06-08T05:27:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2026-06-07",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.525337,
     "geom:longitude": -117.19416749999999,
     "iata:airline": "WN",
+    "icao:aircraft": "B738",
     "icao:airline": "SWA",
     "lbl:latitude": 37.616838,
     "lbl:longitude": -122.380969,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102526751,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N8686A",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,9 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KA111162hM"
+    },
     "wof:country": "US",
     "wof:created": 1780934877,
     "wof:geomhash": "c9fdc5df38b6a105de4fe30ae6ada830",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 2031474127,
     "wof:involves": [
+      1159289871,
       102527513,
       102526751,
       1159285591,
       1947304621
     ],
-    "wof:lastmodified": 1780934877,
+    "wof:lastmodified": 1780935568,
     "wof:name": "WN4101 (PHX-SFO)",
     "wof:parent_id": 1947304621,
     "wof:placetype": "custom",

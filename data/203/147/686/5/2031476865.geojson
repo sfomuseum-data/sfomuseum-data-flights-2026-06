@@ -2,10 +2,12 @@
   "id": 2031476865,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-07",
+    "date:cessation_upper": "2026-06-07",
     "date:inception_lower": "2026-06-07",
     "date:inception_upper": "2026-06-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-07",
+    "edtf:cessation": "2026-06-07T16:49:00Z",
+    "edtf:inception": "2026-06-07T01:19:25-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:date": "2026-06-07",
@@ -21,9 +23,11 @@
     "geom:latitude": 41.602067,
     "geom:longitude": -122.484166,
     "iata:airline": "AS",
+    "icao:aircraft": "B738",
     "icao:airline": "ASA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102532251,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N538AS",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "148637701",
+      "swim:gufi": "KO491521KR"
+    },
     "wof:country": "US",
     "wof:created": 1780935191,
     "wof:geomhash": "a0e250e9237d15725a2a6f51d6b7a6b6",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 2031476865,
     "wof:involves": [
+      1947304267,
+      1159289871,
       102532251,
       102527513,
-      1159283813,
-      1947304267
+      1159283813
     ],
-    "wof:lastmodified": 1780935191,
+    "wof:lastmodified": 1780935575,
     "wof:name": "AS1410 (SFO-PDX)",
     "wof:parent_id": 1947304267,
     "wof:placetype": "custom",

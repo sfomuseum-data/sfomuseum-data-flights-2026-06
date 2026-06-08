@@ -2,10 +2,12 @@
   "id": 2031474107,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-06-07",
-    "date:inception_upper": "2026-06-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-07",
+    "date:cessation_lower": "2026-06-08",
+    "date:cessation_upper": "2026-06-08",
+    "date:inception_lower": "2026-06-08",
+    "date:inception_upper": "2026-06-08",
+    "edtf:cessation": "2026-06-07T17:37:35-07:00",
+    "edtf:inception": "2026-06-08T03:41:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2026-06-07",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.702760999999995,
     "geom:longitude": -105.058423,
     "iata:airline": "WN",
+    "icao:aircraft": "B38M",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102531205,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N9002W",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:gufi": "KG009162J4"
+    },
     "wof:country": "US",
     "wof:created": 1780934875,
     "wof:geomhash": "bbd014edfd8455b7d9e062bec23e52e6",
@@ -46,12 +59,12 @@
     ],
     "wof:id": 2031474107,
     "wof:involves": [
-      102527513,
       102531205,
       1159285591,
-      -1
+      1528104575,
+      102527513
     ],
-    "wof:lastmodified": 1780934875,
+    "wof:lastmodified": 1780935568,
     "wof:name": "WN2893 (MDW-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

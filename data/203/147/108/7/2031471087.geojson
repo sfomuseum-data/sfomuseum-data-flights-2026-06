@@ -2,10 +2,12 @@
   "id": 2031471087,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-06-07",
-    "date:inception_upper": "2026-06-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-07",
+    "date:cessation_lower": "2026-06-08",
+    "date:cessation_upper": "2026-06-08",
+    "date:inception_lower": "2026-06-08",
+    "date:inception_upper": "2026-06-08",
+    "edtf:cessation": "2026-06-07T17:40:43-07:00",
+    "edtf:inception": "2026-06-08T02:18:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -98.809414,
     "iata:airline": "AA",
     "iata:base_airline": "",
+    "icao:aircraft": "A21N",
     "icao:airline": "AAL",
     "icao:base_airline": "BAW",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564297,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260607-A-BAW-4421",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N453AA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KN021402vP"
+    },
     "wof:country": "US",
     "wof:created": 1780934496,
     "wof:geomhash": "70ecaf1bff2da3af9ba52c9bde5534af",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 2031471087,
     "wof:involves": [
+      1159284021,
+      1377564297,
       102527513,
       102529403,
       1159283849,
-      1947304279,
-      1159284021
+      1947304279
     ],
-    "wof:lastmodified": 1780934496,
+    "wof:lastmodified": 1780935585,
     "wof:name": "AA3295 (PHL-SFO)",
     "wof:parent_id": 1947304279,
     "wof:placetype": "custom",

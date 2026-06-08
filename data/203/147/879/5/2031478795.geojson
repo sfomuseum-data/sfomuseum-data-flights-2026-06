@@ -2,10 +2,12 @@
   "id": 2031478795,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-07",
+    "date:cessation_upper": "2026-06-07",
     "date:inception_lower": "2026-06-07",
     "date:inception_upper": "2026-06-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-07",
+    "edtf:cessation": "2026-06-07T20:06:00Z",
+    "edtf:inception": "2026-06-07T17:51:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2026-06-07",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.7414645,
     "geom:longitude": -113.521581,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61705,
     "lbl:longitude": -122.380838,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102531189,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N816UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "148651438",
+      "swim:gufi": "KO6013414i"
+    },
     "wof:country": "US",
     "wof:created": 1780935411,
     "wof:geomhash": "976937653dbac6c9c27dd23670ba89bf",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 2031478795,
     "wof:involves": [
+      1159289407,
       102531189,
       102527513,
       1159285413,
       1947304601
     ],
-    "wof:lastmodified": 1780935411,
+    "wof:lastmodified": 1780935581,
     "wof:name": "UA1095 (SFO-DEN)",
     "wof:parent_id": 1947304601,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 2031475567,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-08",
+    "date:cessation_upper": "2026-06-08",
     "date:inception_lower": "2026-06-07",
     "date:inception_upper": "2026-06-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-07",
+    "edtf:cessation": "2026-06-08T03:39:00Z",
+    "edtf:inception": "2026-06-07T22:28:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -98.07939400000001,
     "iata:airline": "AA",
     "iata:base_airline": "",
+    "icao:aircraft": "A321",
     "icao:airline": "AAL",
     "icao:base_airline": "QFA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102534365,
     "sfomuseum:base_flight_id": "20260607-D-QFA-3205",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N105NN",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "148673149",
+      "swim:gufi": "KO750391Gu"
+    },
     "wof:country": "US",
     "wof:created": 1780935041,
     "wof:geomhash": "1348792a172720778d3219cc18ccd8ee",
@@ -92,9 +106,10 @@
       102527513,
       1159283849,
       1947304317,
-      1159285043
+      1159285043,
+      1159289411
     ],
-    "wof:lastmodified": 1780935041,
+    "wof:lastmodified": 1780935572,
     "wof:name": "AA148 (SFO-JFK)",
     "wof:parent_id": 1947304317,
     "wof:placetype": "custom",

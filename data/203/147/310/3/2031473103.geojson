@@ -2,10 +2,12 @@
   "id": 2031473103,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-07",
+    "date:cessation_upper": "2026-06-07",
     "date:inception_lower": "2026-06-07",
     "date:inception_upper": "2026-06-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-07",
+    "edtf:cessation": "2026-06-07T14:06:36-07:00",
+    "edtf:inception": "2026-06-07T22:10:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -96.6928465,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "A21N",
     "icao:airline": "DAL",
     "icao:base_airline": "ELY",
     "lbl:latitude": 37.614759,
     "lbl:longitude": -122.382707,
+    "sfomuseum:aircraft_id": 1377564297,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260607-A-ELY-4227",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N507DZ",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "148638476",
+      "swim:gufi": "KB710081Bs"
+    },
     "wof:country": "US",
     "wof:created": 1780934758,
     "wof:geomhash": "9cccd37636918a32bc446a92e7ba93ba",
@@ -92,9 +106,10 @@
       102530741,
       1159284261,
       1947304679,
-      1159284327
+      1159284327,
+      1377564297
     ],
-    "wof:lastmodified": 1780934758,
+    "wof:lastmodified": 1780935565,
     "wof:name": "DL860 (BOS-SFO)",
     "wof:parent_id": 1947304679,
     "wof:placetype": "custom",
