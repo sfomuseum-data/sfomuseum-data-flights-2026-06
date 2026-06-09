@@ -1,0 +1,72 @@
+{
+  "id": 2031488175,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2026-06-08",
+    "date:inception_upper": "2026-06-08",
+    "edtf:cessation": "",
+    "edtf:inception": "2026-06-08",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "UA",
+    "flysfo:date": "2026-06-08",
+    "flysfo:estimated_timestamp": 1780983000,
+    "flysfo:event": "D",
+    "flysfo:flight_number": "UA3887",
+    "flysfo:gate": "",
+    "flysfo:journey": "SFO-ORD",
+    "flysfo:scheduled_timestamp": 1780983000,
+    "flysfo:timestamp": 1780983000,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,37.617990,-87.894364,41.983038",
+    "geom:latitude": 39.800514,
+    "geom:longitude": -105.1326535,
+    "iata:airline": "UA",
+    "icao:airline": "UAL",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159285413,
+    "sfomuseum:arrival_id": 102533631,
+    "sfomuseum:departure_id": 102527513,
+    "sfomuseum:flight_id": "20260608-D-UAL-3887",
+    "sfomuseum:flight_number": [
+      "UAL3887",
+      "UA3887"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1781021860,
+    "wof:geomhash": "7a75cc81bf790964b92a4927d3978f50",
+    "wof:hierarchy": [
+      {
+        "custom_id": 2031488175,
+        "flight_id": 2031488175
+      }
+    ],
+    "wof:id": 2031488175,
+    "wof:involves": [
+      102533631,
+      102527513,
+      1159285413,
+      -1
+    ],
+    "wof:lastmodified": 1781021860,
+    "wof:name": "UA3887 (SFO-ORD)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2026-06",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    37.61799,
+    -87.894364,
+    41.983038
+  ],
+  "geometry": {"coordinates":[[-122.370943,37.61799],[-87.894364,41.983038]],"type":"MultiPoint"}
+}
