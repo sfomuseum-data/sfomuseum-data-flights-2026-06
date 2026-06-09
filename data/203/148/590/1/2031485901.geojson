@@ -2,10 +2,12 @@
   "id": 2031485901,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-09",
+    "date:cessation_upper": "2026-06-09",
     "date:inception_lower": "2026-06-08",
     "date:inception_upper": "2026-06-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-08",
+    "edtf:cessation": "2026-06-09T04:50:00Z",
+    "edtf:inception": "2026-06-08T13:55:26-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -120.38022649999999,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "ASA",
     "icao:base_airline": "THT",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102533795,
     "sfomuseum:base_flight_id": "20260608-D-THT-2301",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N529AS",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "148687940",
+      "swim:gufi": "KO054743NO"
+    },
     "wof:country": "US",
     "wof:created": 1781021608,
     "wof:geomhash": "602be2a828e3460cadf44be5b1c2e36b",
@@ -92,9 +106,10 @@
       102527513,
       1159283813,
       1947304311,
-      1159283747
+      1159283747,
+      1159289871
     ],
-    "wof:lastmodified": 1781021608,
+    "wof:lastmodified": 1781021989,
     "wof:name": "AS1440 (SFO-LAX)",
     "wof:parent_id": 1947304311,
     "wof:placetype": "custom",

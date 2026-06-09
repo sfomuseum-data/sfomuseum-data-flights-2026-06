@@ -2,10 +2,12 @@
   "id": 2031481455,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-08",
+    "date:cessation_upper": "2026-06-08",
     "date:inception_lower": "2026-06-08",
     "date:inception_upper": "2026-06-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-08",
+    "edtf:cessation": "2026-06-08T04:43:53-07:00",
+    "edtf:inception": "2026-06-08T12:35:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -98.2742345,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "ASA",
     "icao:base_airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260608-A-AAL-7453",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N590AS",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "148703136",
+      "swim:gufi": "KN411732wV"
+    },
     "wof:country": "US",
     "wof:created": 1781021099,
     "wof:geomhash": "5afbf99c4360a00cfc0890f48cccf304",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 2031481455,
     "wof:involves": [
-      102527513,
-      102530049,
       1159283813,
       1947304303,
-      1159283849
+      1159283849,
+      1159289871,
+      102527513,
+      102530049
     ],
-    "wof:lastmodified": 1781021099,
+    "wof:lastmodified": 1781021965,
     "wof:name": "AS364 (EWR-SFO)",
     "wof:parent_id": 1947304303,
     "wof:placetype": "custom",

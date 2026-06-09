@@ -2,10 +2,12 @@
   "id": 2031482041,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-06-08",
-    "date:inception_upper": "2026-06-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-08",
+    "date:cessation_lower": "2026-06-09",
+    "date:cessation_upper": "2026-06-09",
+    "date:inception_lower": "2026-06-09",
+    "date:inception_upper": "2026-06-09",
+    "edtf:cessation": "2026-06-08T17:14:34-07:00",
+    "edtf:inception": "2026-06-09T01:09:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:date": "2026-06-08",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.990156,
     "geom:longitude": -96.6928465,
     "iata:airline": "DL",
+    "icao:aircraft": "A21N",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564297,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102530741,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N548DN",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:gufi": "KB000603yp"
+    },
     "wof:country": "US",
     "wof:created": 1781021167,
     "wof:geomhash": "9cccd37636918a32bc446a92e7ba93ba",
@@ -46,12 +59,12 @@
     ],
     "wof:id": 2031482041,
     "wof:involves": [
+      1377564297,
       102527513,
       102530741,
-      1159284261,
-      -1
+      1159284261
     ],
-    "wof:lastmodified": 1781021167,
+    "wof:lastmodified": 1781021987,
     "wof:name": "DL2919 (BOS-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 2031480093,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-08",
+    "date:cessation_upper": "2026-06-08",
     "date:inception_lower": "2026-06-08",
     "date:inception_upper": "2026-06-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-08",
+    "edtf:cessation": "2026-06-08T13:10:25-07:00",
+    "edtf:inception": "2026-06-08T21:34:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:date": "2026-06-08",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.749471,
     "geom:longitude": -98.809414,
     "iata:airline": "AA",
+    "icao:aircraft": "A21N",
     "icao:airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564297,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102529403,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N449AN",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "148742249",
+      "swim:gufi": "KN693352m0"
+    },
     "wof:country": "US",
     "wof:created": 1781020916,
     "wof:geomhash": "70ecaf1bff2da3af9ba52c9bde5534af",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 2031480093,
     "wof:involves": [
+      1377564297,
       102527513,
       102529403,
       1159283849,
       1947304301
     ],
-    "wof:lastmodified": 1781020916,
+    "wof:lastmodified": 1781021963,
     "wof:name": "AA2045 (PHL-SFO)",
     "wof:parent_id": 1947304301,
     "wof:placetype": "custom",

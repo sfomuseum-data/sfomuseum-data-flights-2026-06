@@ -2,10 +2,12 @@
   "id": 2031480159,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-06-08",
-    "date:inception_upper": "2026-06-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-08",
+    "date:cessation_lower": "2026-06-09",
+    "date:cessation_upper": "2026-06-09",
+    "date:inception_lower": "2026-06-09",
+    "date:inception_upper": "2026-06-09",
+    "edtf:cessation": "2026-06-08T17:38:11-07:00",
+    "edtf:inception": "2026-06-09T05:59:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:date": "2026-06-08",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.525337,
     "geom:longitude": -117.19416749999999,
     "iata:airline": "AA",
+    "icao:aircraft": "B738",
     "icao:airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102526751,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N860NN",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "148689530",
+      "swim:gufi": "KA153423Eo"
+    },
     "wof:country": "US",
     "wof:created": 1781020924,
     "wof:geomhash": "c9fdc5df38b6a105de4fe30ae6ada830",
@@ -86,9 +100,10 @@
       102527513,
       102526751,
       1159283849,
-      1947304301
+      1947304301,
+      1159289871
     ],
-    "wof:lastmodified": 1781020924,
+    "wof:lastmodified": 1781021985,
     "wof:name": "AA686 (PHX-SFO)",
     "wof:parent_id": 1947304301,
     "wof:placetype": "custom",

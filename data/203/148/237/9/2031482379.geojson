@@ -2,10 +2,12 @@
   "id": 2031482379,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-06-08",
-    "date:inception_upper": "2026-06-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-08",
+    "date:cessation_lower": "2026-06-08",
+    "date:cessation_upper": "2026-06-08",
+    "date:inception_lower": "2026-06-09",
+    "date:inception_upper": "2026-06-09",
+    "edtf:cessation": "2026-06-08T15:32:01-07:00",
+    "edtf:inception": "2026-06-09T04:17:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "F9",
     "flysfo:date": "2026-06-08",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.175762,
     "geom:longitude": -119.778435,
     "iata:airline": "F9",
+    "icao:aircraft": "A20N",
     "icao:airline": "FFT",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564295,
     "sfomuseum:airline_id": 1159284401,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102528997,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N369FR",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "148687411",
+      "swim:gufi": "KL0455331V"
+    },
     "wof:country": "US",
     "wof:created": 1781021206,
     "wof:geomhash": "d1d4873ced1d6ea3128e45b0b2070718",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 2031482379,
     "wof:involves": [
+      1377564295,
       102527513,
       102528997,
       1159284401,
       1947304273
     ],
-    "wof:lastmodified": 1781021206,
+    "wof:lastmodified": 1781021968,
     "wof:name": "F93383 (SAN-SFO)",
     "wof:parent_id": 1947304273,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 2031482003,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-06-08",
-    "date:inception_upper": "2026-06-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-08",
+    "date:cessation_lower": "2026-06-08",
+    "date:cessation_upper": "2026-06-08",
+    "date:inception_lower": "2026-06-09",
+    "date:inception_upper": "2026-06-09",
+    "edtf:cessation": "2026-06-08T16:56:12-07:00",
+    "edtf:inception": "2026-06-09T01:57:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:date": "2026-06-08",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.918425,
     "geom:longitude": -102.86132599999999,
     "iata:airline": "DL",
+    "icao:aircraft": "B739",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102525635,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N860DN",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "148679600",
+      "swim:gufi": "KC849602Pq"
+    },
     "wof:country": "US",
     "wof:created": 1781021163,
     "wof:geomhash": "a23858bb4e93419105e139a22bd92749",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 2031482003,
     "wof:involves": [
+      1377564285,
       102527513,
       102525635,
       1159284261,
       1947304307
     ],
-    "wof:lastmodified": 1781021163,
+    "wof:lastmodified": 1781021967,
     "wof:name": "DL1327 (DTW-SFO)",
     "wof:parent_id": 1947304307,
     "wof:placetype": "custom",

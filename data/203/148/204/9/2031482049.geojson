@@ -2,10 +2,12 @@
   "id": 2031482049,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-08",
+    "date:cessation_upper": "2026-06-08",
     "date:inception_lower": "2026-06-08",
     "date:inception_upper": "2026-06-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-08",
+    "edtf:cessation": "2026-06-08T08:04:05-07:00",
+    "edtf:inception": "2026-06-08T16:26:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -98.07939400000001,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "icao:base_airline": "KQA",
     "lbl:latitude": 37.614676,
     "lbl:longitude": -122.38248,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260608-A-KQA-7009",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N710TW",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "148715727",
+      "swim:gufi": "KN519612EH"
+    },
     "wof:country": "US",
     "wof:created": 1781021168,
     "wof:geomhash": "ba4d31d1826c6198b5ffa8fdb1249c5d",
@@ -92,9 +106,10 @@
       102534365,
       1159284261,
       1947304681,
-      1159284603
+      1159284603,
+      1159289939
     ],
-    "wof:lastmodified": 1781021168,
+    "wof:lastmodified": 1781021967,
     "wof:name": "DL363 (JFK-SFO)",
     "wof:parent_id": 1947304681,
     "wof:placetype": "custom",

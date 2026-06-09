@@ -2,10 +2,12 @@
   "id": 2031487231,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-06-08",
-    "date:inception_upper": "2026-06-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-08",
+    "date:cessation_lower": "2026-06-09",
+    "date:cessation_upper": "2026-06-09",
+    "date:inception_lower": "2026-06-09",
+    "date:inception_upper": "2026-06-09",
+    "edtf:cessation": "2026-06-09T06:31:00Z",
+    "edtf:inception": "2026-06-09T01:49:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "MX",
     "flysfo:date": "2026-06-08",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.216654500000004,
     "geom:longitude": -101.1753305,
     "iata:airline": "MX",
+    "icao:aircraft": "BCS3",
     "icao:airline": "MXY",
     "lbl:latitude": 37.614645,
     "lbl:longitude": -122.382263,
+    "sfomuseum:aircraft_id": 1813375783,
     "sfomuseum:airline_id": 1763552131,
     "sfomuseum:arrival_id": 102531215,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N220BZ",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -83,12 +93,13 @@
     ],
     "wof:id": 2031487231,
     "wof:involves": [
+      1947304673,
+      1813375783,
       102531215,
       102527513,
-      1763552131,
-      1947304673
+      1763552131
     ],
-    "wof:lastmodified": 1781021755,
+    "wof:lastmodified": 1781021990,
     "wof:name": "MX9729 (SFO-CHS)",
     "wof:parent_id": 1947304673,
     "wof:placetype": "custom",

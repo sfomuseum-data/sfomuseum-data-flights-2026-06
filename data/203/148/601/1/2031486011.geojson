@@ -2,10 +2,12 @@
   "id": 2031486011,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-08",
+    "date:cessation_upper": "2026-06-08",
     "date:inception_lower": "2026-06-08",
     "date:inception_upper": "2026-06-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-08",
+    "edtf:cessation": "2026-06-08T19:11:00Z",
+    "edtf:inception": "2026-06-08T14:15:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:date": "2026-06-08",
@@ -21,9 +23,11 @@
     "geom:latitude": 29.799764500000002,
     "geom:longitude": -140.859366,
     "iata:airline": "AS",
+    "icao:aircraft": "B738",
     "icao:airline": "ASA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102528943,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N577AS",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "148709439",
+      "swim:gufi": "KO466402Uo"
+    },
     "wof:country": "US",
     "wof:created": 1781021620,
     "wof:geomhash": "a2498fe603884edb23014f03e0e3c121",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 2031486011,
     "wof:involves": [
+      1159289871,
       102528943,
       102527513,
       1159283813,
       1947304387
     ],
-    "wof:lastmodified": 1781021620,
+    "wof:lastmodified": 1781021989,
     "wof:name": "AS794 (SFO-LIH)",
     "wof:parent_id": 1947304387,
     "wof:placetype": "custom",
