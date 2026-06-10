@@ -2,10 +2,12 @@
   "id": 2031497081,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-09",
+    "date:cessation_upper": "2026-06-09",
     "date:inception_lower": "2026-06-09",
     "date:inception_upper": "2026-06-09",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-09",
+    "edtf:cessation": "2026-06-09T11:59:00Z",
+    "edtf:inception": "2026-06-09T08:50:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -108.8546935,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "icao:base_airline": "UAE",
     "lbl:latitude": 37.621107,
     "lbl:longitude": -122.389874,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102534097,
     "sfomuseum:base_flight_id": "20260609-D-UAE-6414",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N213UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "148771534",
+      "swim:gufi": "KO249243DD"
+    },
     "wof:country": "US",
     "wof:created": 1781108478,
     "wof:geomhash": "4d8eca8dfd12d13a56951180b27dbf13",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 2031497081,
     "wof:involves": [
+      1159289985,
       102534097,
       102527513,
       1159285413,
       1947304475,
       1159284333
     ],
-    "wof:lastmodified": 1781108478,
+    "wof:lastmodified": 1781108615,
     "wof:name": "UA604 (SFO-IAH)",
     "wof:parent_id": 1947304475,
     "wof:placetype": "custom",

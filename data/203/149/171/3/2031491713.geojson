@@ -2,10 +2,12 @@
   "id": 2031491713,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-09",
+    "date:cessation_upper": "2026-06-09",
     "date:inception_lower": "2026-06-09",
     "date:inception_upper": "2026-06-09",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-09",
+    "edtf:cessation": "2026-06-09T11:54:32-07:00",
+    "edtf:inception": "2026-06-09T23:44:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "MX",
     "flysfo:date": "2026-06-09",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.918857,
     "geom:longitude": -117.0466615,
     "iata:airline": "MX",
+    "icao:aircraft": "BCS3",
     "icao:airline": "MXY",
     "lbl:latitude": 37.614944,
     "lbl:longitude": -122.383123,
+    "sfomuseum:aircraft_id": 1813375783,
     "sfomuseum:airline_id": 1763552131,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102532277,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N239BZ",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,9 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "148841755"
+    },
     "wof:country": "US",
     "wof:created": 1781107695,
     "wof:geomhash": "d887ded7dd7ecdf1f3f44081817da1ef",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 2031491713,
     "wof:involves": [
+      1813375783,
       102527513,
       102532277,
       1763552131,
       1947304667
     ],
-    "wof:lastmodified": 1781107695,
+    "wof:lastmodified": 1781108609,
     "wof:name": "MX2312 (PVU-SFO)",
     "wof:parent_id": 1947304667,
     "wof:placetype": "custom",

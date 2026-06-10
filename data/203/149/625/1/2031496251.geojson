@@ -2,10 +2,12 @@
   "id": 2031496251,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-09",
+    "date:cessation_upper": "2026-06-09",
     "date:inception_lower": "2026-06-09",
     "date:inception_upper": "2026-06-09",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-09",
+    "edtf:cessation": "2026-06-09T23:34:00Z",
+    "edtf:inception": "2026-06-09T20:19:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2026-06-09",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.180931,
     "geom:longitude": -106.3692875,
     "iata:airline": "WN",
+    "icao:aircraft": "B738",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 1746879059,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N8696E",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "148819165",
+      "swim:gufi": "KO5942831W"
+    },
     "wof:country": "US",
     "wof:created": 1781108358,
     "wof:geomhash": "17371a5d27e54a99ca50752d2b6a5e79",
@@ -46,12 +59,12 @@
     ],
     "wof:id": 2031496251,
     "wof:involves": [
+      1159289871,
       1746879059,
       102527513,
-      1159285591,
-      -1
+      1159285591
     ],
-    "wof:lastmodified": 1781108358,
+    "wof:lastmodified": 1781108614,
     "wof:name": "WN2305 (SFO-STL)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 2031492199,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-09",
+    "date:cessation_upper": "2026-06-09",
     "date:inception_lower": "2026-06-09",
     "date:inception_upper": "2026-06-09",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-09",
+    "edtf:cessation": "2026-06-09T23:52:26Z",
+    "edtf:inception": "2026-06-09T13:35:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "TP",
     "flysfo:date": "2026-06-09",
@@ -34,6 +36,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +54,9 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "148785083"
+    },
     "wof:country": "US",
     "wof:created": 1781107766,
     "wof:geomhash": "d927879de9f350bec45f63af3f2c3973",
@@ -88,7 +97,7 @@
       1159285271,
       1947304311
     ],
-    "wof:lastmodified": 1781107766,
+    "wof:lastmodified": 1781108589,
     "wof:name": "TP241 (LIS-SFO)",
     "wof:parent_id": 1947304311,
     "wof:placetype": "custom",

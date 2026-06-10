@@ -2,10 +2,12 @@
   "id": 2031496305,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-10",
+    "date:cessation_upper": "2026-06-10",
     "date:inception_lower": "2026-06-09",
     "date:inception_upper": "2026-06-09",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-09",
+    "edtf:cessation": "2026-06-10T02:08:00Z",
+    "edtf:inception": "2026-06-09T23:07:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2026-06-09",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.231919500000004,
     "geom:longitude": -109.610733,
     "iata:airline": "WN",
+    "icao:aircraft": "B737",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289869,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102525799,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N231WN",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "148835011",
+      "swim:gufi": "KO736343OE"
+    },
     "wof:country": "US",
     "wof:created": 1781108365,
     "wof:geomhash": "a08c5b1a6c329f228ec453404f254a51",
@@ -46,12 +59,12 @@
     ],
     "wof:id": 2031496305,
     "wof:involves": [
-      102525799,
-      102527513,
       1159285591,
-      -1
+      1159289869,
+      102525799,
+      102527513
     ],
-    "wof:lastmodified": 1781108365,
+    "wof:lastmodified": 1781108602,
     "wof:name": "WN4282 (SFO-DAL)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 2031493497,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-09",
+    "date:cessation_upper": "2026-06-09",
     "date:inception_lower": "2026-06-09",
     "date:inception_upper": "2026-06-09",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-09",
+    "edtf:cessation": "2026-06-09T19:49:00Z",
+    "edtf:inception": "2026-06-09T01:16:58-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:date": "2026-06-09",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.419367,
     "geom:longitude": -101.65686,
     "iata:airline": "AA",
+    "icao:aircraft": "A21N",
     "icao:airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564297,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102528659,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N411AN",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "148796072",
+      "swim:gufi": "KO4996731x"
+    },
     "wof:country": "US",
     "wof:created": 1781107962,
     "wof:geomhash": "6d7202e034534315a50103622977ef57",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 2031493497,
     "wof:involves": [
+      1947304277,
+      1377564297,
       102528659,
       102527513,
-      1159283849,
-      1947304277
+      1159283849
     ],
-    "wof:lastmodified": 1781107962,
+    "wof:lastmodified": 1781108594,
     "wof:name": "AA1960 (SFO-CLT)",
     "wof:parent_id": 1947304277,
     "wof:placetype": "custom",

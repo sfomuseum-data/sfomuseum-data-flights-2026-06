@@ -2,10 +2,12 @@
   "id": 2031489115,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-06-09",
-    "date:inception_upper": "2026-06-09",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-09",
+    "date:cessation_lower": "2026-06-10",
+    "date:cessation_upper": "2026-06-10",
+    "date:inception_lower": "2026-06-10",
+    "date:inception_upper": "2026-06-10",
+    "edtf:cessation": "2026-06-10T05:52:57Z",
+    "edtf:inception": "2026-06-10T00:01:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -101.3334745,
     "iata:airline": "AA",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "AAL",
     "icao:base_airline": "BAW",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260609-A-BAW-5019",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N308UK",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KR807393un"
+    },
     "wof:country": "US",
     "wof:created": 1781107301,
     "wof:geomhash": "38f88108bbae8bb050c3144d37bdc384",
@@ -92,9 +105,10 @@
       102531023,
       1159283849,
       1947304281,
-      1159284021
+      1159284021,
+      1528104575
     ],
-    "wof:lastmodified": 1781107301,
+    "wof:lastmodified": 1781108579,
     "wof:name": "AA2799 (MIA-SFO)",
     "wof:parent_id": 1947304281,
     "wof:placetype": "custom",

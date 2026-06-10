@@ -2,10 +2,12 @@
   "id": 2031492415,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-10",
+    "date:cessation_upper": "2026-06-10",
     "date:inception_lower": "2026-06-09",
     "date:inception_upper": "2026-06-09",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-09",
+    "edtf:cessation": "2026-06-10T00:15:00Z",
+    "edtf:inception": "2026-06-09T23:22:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -120.3621325,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.620818,
     "lbl:longitude": -122.389182,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260609-A-ACA-4395",
@@ -39,6 +43,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +60,9 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "148827392"
+    },
     "wof:country": "US",
     "wof:created": 1781107799,
     "wof:geomhash": "579cc6c0d5668ba584a946b357aa3191",
@@ -88,13 +98,14 @@
     ],
     "wof:id": 2031492415,
     "wof:involves": [
-      102527513,
-      1746879083,
       1159285413,
       1947304455,
-      1159283597
+      1159283597,
+      1159289407,
+      102527513,
+      1746879083
     ],
-    "wof:lastmodified": 1781107799,
+    "wof:lastmodified": 1781108590,
     "wof:name": "UA1453 (BUR-SFO)",
     "wof:parent_id": 1947304455,
     "wof:placetype": "custom",

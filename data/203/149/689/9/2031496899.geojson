@@ -2,10 +2,12 @@
   "id": 2031496899,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-06-09",
-    "date:inception_upper": "2026-06-09",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-09",
+    "date:cessation_lower": "2026-06-10",
+    "date:cessation_upper": "2026-06-10",
+    "date:inception_lower": "2026-06-10",
+    "date:inception_upper": "2026-06-10",
+    "edtf:cessation": "2026-06-10T06:41:00Z",
+    "edtf:inception": "2026-06-10T01:33:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2026-06-09",
@@ -21,9 +23,11 @@
     "geom:latitude": 29.475248999999998,
     "geom:longitude": -140.1446795,
     "iata:airline": "UA",
+    "icao:aircraft": "B38M",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620058,
     "lbl:longitude": -122.38824,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533997,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N17309",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,9 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO822203ck"
+    },
     "wof:country": "US",
     "wof:created": 1781108448,
     "wof:geomhash": "ff961493fc59fc665836e174da62aa8e",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 2031496899,
     "wof:involves": [
+      1528104575,
       102533997,
       102527513,
       1159285413,
       1947304483
     ],
-    "wof:lastmodified": 1781108448,
+    "wof:lastmodified": 1781108605,
     "wof:name": "UA3896 (SFO-HNL)",
     "wof:parent_id": 1947304483,
     "wof:placetype": "custom",
