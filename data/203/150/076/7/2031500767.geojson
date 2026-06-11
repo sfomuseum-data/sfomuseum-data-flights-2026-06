@@ -1,0 +1,72 @@
+{
+  "id": 2031500767,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2026-06-10",
+    "date:inception_upper": "2026-06-10",
+    "edtf:cessation": "",
+    "edtf:inception": "2026-06-10",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "WN",
+    "flysfo:date": "2026-06-10",
+    "flysfo:estimated_timestamp": 1781111280,
+    "flysfo:event": "A",
+    "flysfo:flight_number": "WN1350",
+    "flysfo:gate": "",
+    "flysfo:journey": "DAL-SFO",
+    "flysfo:scheduled_timestamp": 1781109900,
+    "flysfo:timestamp": 1781111280,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,32.845849,-96.850523,37.617990",
+    "geom:latitude": 35.231919500000004,
+    "geom:longitude": -109.610733,
+    "iata:airline": "WN",
+    "icao:airline": "SWA",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159285591,
+    "sfomuseum:arrival_id": 102527513,
+    "sfomuseum:departure_id": 102525799,
+    "sfomuseum:flight_id": "20260610-A-SWA-1350",
+    "sfomuseum:flight_number": [
+      "SWA1350",
+      "WN1350"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1781194071,
+    "wof:geomhash": "ecfc64ce72b903780fc129f985c12eef",
+    "wof:hierarchy": [
+      {
+        "custom_id": 2031500767,
+        "flight_id": 2031500767
+      }
+    ],
+    "wof:id": 2031500767,
+    "wof:involves": [
+      102527513,
+      102525799,
+      1159285591,
+      -1
+    ],
+    "wof:lastmodified": 1781194071,
+    "wof:name": "WN1350 (DAL-SFO)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2026-06",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    32.845849,
+    -96.850523,
+    37.61799
+  ],
+  "geometry": {"coordinates":[[-96.850523,32.845849],[-122.370943,37.61799]],"type":"MultiPoint"}
+}
