@@ -2,10 +2,12 @@
   "id": 2031504693,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-06-10",
-    "date:inception_upper": "2026-06-10",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-10",
+    "date:cessation_lower": "2026-06-11",
+    "date:cessation_upper": "2026-06-11",
+    "date:inception_lower": "2026-06-11",
+    "date:inception_upper": "2026-06-11",
+    "edtf:cessation": "2026-06-11T10:34:21Z",
+    "edtf:inception": "2026-06-11T05:34:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "B6",
     "flysfo:date": "2026-06-10",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.990156,
     "geom:longitude": -96.6928465,
     "iata:airline": "B6",
+    "icao:aircraft": "A321",
     "icao:airline": "JBU",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159284583,
     "sfomuseum:arrival_id": 102530741,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N992JB",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "148856135",
+      "swim:gufi": "KO0994654a"
+    },
     "wof:country": "US",
     "wof:created": 1781194527,
     "wof:geomhash": "92fb504f17f3373e6b03bb6769f65d8a",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 2031504693,
     "wof:involves": [
+      1947304081,
+      1159289411,
       102530741,
       102527513,
-      1159284583,
-      1947304081
+      1159284583
     ],
-    "wof:lastmodified": 1781194527,
+    "wof:lastmodified": 1781194787,
     "wof:name": "B61034 (SFO-BOS)",
     "wof:parent_id": 1947304081,
     "wof:placetype": "custom",

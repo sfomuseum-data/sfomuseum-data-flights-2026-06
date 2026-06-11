@@ -2,10 +2,12 @@
   "id": 2031498347,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-10",
+    "date:cessation_upper": "2026-06-10",
     "date:inception_lower": "2026-06-10",
     "date:inception_upper": "2026-06-10",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-10",
+    "edtf:cessation": "2026-06-10T20:06:26Z",
+    "edtf:inception": "2026-06-10T16:09:41Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AM",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -110.7258735,
     "iata:airline": "AM",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "AMX",
     "icao:base_airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159283539,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260610-A-DAL-8009",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N110JS",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "148885820"
+    },
     "wof:country": "US",
     "wof:created": 1781193775,
     "wof:geomhash": "4224d1c4c9907a232ddfbf90e60373e4",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 2031498347,
     "wof:involves": [
-      102527513,
       102536579,
       1159283539,
       1947304081,
-      1159284261
+      1159284261,
+      1528104575,
+      102527513
     ],
-    "wof:lastmodified": 1781193775,
+    "wof:lastmodified": 1781194773,
     "wof:name": "AM668 (MEX-SFO)",
     "wof:parent_id": 1947304081,
     "wof:placetype": "custom",

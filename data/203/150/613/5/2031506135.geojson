@@ -2,10 +2,12 @@
   "id": 2031506135,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-11",
+    "date:cessation_upper": "2026-06-11",
     "date:inception_lower": "2026-06-10",
     "date:inception_upper": "2026-06-10",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-10",
+    "edtf:cessation": "2026-06-11T00:18:00Z",
+    "edtf:inception": "2026-06-10T23:22:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2026-06-10",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.780291500000004,
     "geom:longitude": -120.38022649999999,
     "iata:airline": "UA",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533795,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,15 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
+    "swim:tail_number": "N37440",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "148928628",
+      "swim:gufi": "KO805684jR"
+    },
     "wof:country": "US",
     "wof:created": 1781194695,
     "wof:geomhash": "602be2a828e3460cadf44be5b1c2e36b",
@@ -46,12 +58,12 @@
     ],
     "wof:id": 2031506135,
     "wof:involves": [
+      1528104577,
       102533795,
       102527513,
-      1159285413,
-      -1
+      1159285413
     ],
-    "wof:lastmodified": 1781194695,
+    "wof:lastmodified": 1781194791,
     "wof:name": "UA8121 (SFO-LAX)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

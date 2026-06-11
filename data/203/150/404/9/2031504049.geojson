@@ -2,10 +2,12 @@
   "id": 2031504049,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-11",
+    "date:cessation_upper": "2026-06-11",
     "date:inception_lower": "2026-06-10",
     "date:inception_upper": "2026-06-10",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-10",
+    "edtf:cessation": "2026-06-11T05:39:00Z",
+    "edtf:inception": "2026-06-10T12:52:24-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -110.006986,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "DAL",
     "icao:base_airline": "KAL",
     "lbl:latitude": 37.614759,
     "lbl:longitude": -122.382707,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102521851,
     "sfomuseum:base_flight_id": "20260610-D-KAL-3278",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N363NB",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "148847629",
+      "swim:gufi": "KO026415It"
+    },
     "wof:country": "US",
     "wof:created": 1781194454,
     "wof:geomhash": "f1e29c4a83094711ef061292cfad3358",
@@ -92,9 +106,10 @@
       102527513,
       1159284261,
       1947304679,
-      1159284625
+      1159284625,
+      1159289407
     ],
-    "wof:lastmodified": 1781194454,
+    "wof:lastmodified": 1781194785,
     "wof:name": "DL1077 (SFO-AUS)",
     "wof:parent_id": 1947304679,
     "wof:placetype": "custom",

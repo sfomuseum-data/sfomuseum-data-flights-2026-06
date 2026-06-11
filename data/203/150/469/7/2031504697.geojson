@@ -2,10 +2,12 @@
   "id": 2031504697,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-06-10",
-    "date:inception_upper": "2026-06-10",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-10",
+    "date:cessation_lower": "2026-06-11",
+    "date:cessation_upper": "2026-06-11",
+    "date:inception_lower": "2026-06-11",
+    "date:inception_upper": "2026-06-11",
+    "edtf:cessation": "2026-06-11T14:23:00Z",
+    "edtf:inception": "2026-06-11T09:14:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "B6",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -96.6928465,
     "iata:airline": "B6",
     "iata:base_airline": "",
+    "icao:aircraft": "A321",
     "icao:airline": "JBU",
     "icao:base_airline": "ETD",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159284583,
     "sfomuseum:arrival_id": 102530741,
     "sfomuseum:base_flight_id": "20260610-D-ETD-8386",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N943JT",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "148858501",
+      "swim:gufi": "KO2360956f"
+    },
     "wof:country": "US",
     "wof:created": 1781194527,
     "wof:geomhash": "92fb504f17f3373e6b03bb6769f65d8a",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 2031504697,
     "wof:involves": [
-      102530741,
       102527513,
       1159284583,
       1947304307,
-      1159285587
+      1159285587,
+      1159289411,
+      102530741
     ],
-    "wof:lastmodified": 1781194527,
+    "wof:lastmodified": 1781194787,
     "wof:name": "B6134 (SFO-BOS)",
     "wof:parent_id": 1947304307,
     "wof:placetype": "custom",

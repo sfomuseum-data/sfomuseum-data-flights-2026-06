@@ -2,10 +2,12 @@
   "id": 2031500767,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-10",
+    "date:cessation_upper": "2026-06-10",
     "date:inception_lower": "2026-06-10",
     "date:inception_upper": "2026-06-10",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-10",
+    "edtf:cessation": "2026-06-10T03:01:33-07:00",
+    "edtf:inception": "2026-06-10T13:29:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2026-06-10",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.231919500000004,
     "geom:longitude": -109.610733,
     "iata:airline": "WN",
+    "icao:aircraft": "B738",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102525799,
@@ -34,7 +38,17 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N8572X",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "148871755",
+      "swim:gufi": "KF367484Uk"
+    },
     "wof:country": "US",
     "wof:created": 1781194071,
     "wof:geomhash": "ecfc64ce72b903780fc129f985c12eef",
@@ -46,12 +60,12 @@
     ],
     "wof:id": 2031500767,
     "wof:involves": [
-      102527513,
-      102525799,
       1159285591,
-      -1
+      1159289871,
+      102527513,
+      102525799
     ],
-    "wof:lastmodified": 1781194071,
+    "wof:lastmodified": 1781194773,
     "wof:name": "WN1350 (DAL-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 2031504083,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-10",
+    "date:cessation_upper": "2026-06-10",
     "date:inception_lower": "2026-06-10",
     "date:inception_upper": "2026-06-10",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-10",
+    "edtf:cessation": "2026-06-10T23:43:00Z",
+    "edtf:inception": "2026-06-10T22:48:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -120.38022649999999,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "DAL",
     "icao:base_airline": "AFR",
     "lbl:latitude": 37.615398,
     "lbl:longitude": -122.383426,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102533795,
     "sfomuseum:base_flight_id": "20260610-D-AFR-5848",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N774DE",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "148919864",
+      "swim:gufi": "KO744604SZ"
+    },
     "wof:country": "US",
     "wof:created": 1781194458,
     "wof:geomhash": "602be2a828e3460cadf44be5b1c2e36b",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 2031504083,
     "wof:involves": [
-      102533795,
-      102527513,
       1159284261,
       1947304671,
-      1159283627
+      1159283627,
+      1159289871,
+      102533795,
+      102527513
     ],
-    "wof:lastmodified": 1781194458,
+    "wof:lastmodified": 1781194785,
     "wof:name": "DL2725 (SFO-LAX)",
     "wof:parent_id": 1947304671,
     "wof:placetype": "custom",

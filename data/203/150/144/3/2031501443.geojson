@@ -2,10 +2,12 @@
   "id": 2031501443,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-10",
+    "date:cessation_upper": "2026-06-10",
     "date:inception_lower": "2026-06-10",
     "date:inception_upper": "2026-06-10",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-10",
+    "edtf:cessation": "2026-06-10T17:32:00Z",
+    "edtf:inception": "2026-06-10T02:14:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2026-06-10",
@@ -21,9 +23,11 @@
     "geom:latitude": 19.482695,
     "geom:longitude": -9.197052,
     "iata:airline": "UA",
+    "icao:aircraft": "B789",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159293215,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102551593,
@@ -35,6 +39,10 @@
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "148849707",
+      "swim:gufi": "KS564154r5"
+    },
     "wof:country": "US",
     "wof:created": 1781194152,
     "wof:geomhash": "b883d8e3c3c604f714c4dc756f6c1133",
@@ -46,12 +54,12 @@
     ],
     "wof:id": 2031501443,
     "wof:involves": [
+      1159293215,
       102527513,
       102551593,
-      1159285413,
-      -1
+      1159285413
     ],
-    "wof:lastmodified": 1781194152,
+    "wof:lastmodified": 1781194779,
     "wof:name": "UA3968 (SIN-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 2031499039,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-06-10",
-    "date:inception_upper": "2026-06-10",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-10",
+    "date:cessation_lower": "2026-06-10",
+    "date:cessation_upper": "2026-06-10",
+    "date:inception_lower": "2026-06-11",
+    "date:inception_upper": "2026-06-11",
+    "edtf:cessation": "2026-06-10T16:16:36-07:00",
+    "edtf:inception": "2026-06-11T00:39:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -99.70629299999999,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "ASA",
     "icao:base_airline": "FJI",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260610-A-FJI-5805",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N560AS",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "148927499",
+      "swim:gufi": "KW834724be"
+    },
     "wof:country": "US",
     "wof:created": 1781193861,
     "wof:geomhash": "cfff966b0a5de3ca50080923c4337cfe",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 2031499039,
     "wof:involves": [
+      1159289871,
       102527513,
       1746879047,
       1159283813,
       1947304263,
       1159283717
     ],
-    "wof:lastmodified": 1781193861,
+    "wof:lastmodified": 1781194777,
     "wof:name": "AS7 (DCA-SFO)",
     "wof:parent_id": 1947304263,
     "wof:placetype": "custom",

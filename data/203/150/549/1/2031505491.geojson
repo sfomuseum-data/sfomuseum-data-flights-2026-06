@@ -2,10 +2,12 @@
   "id": 2031505491,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-06-10",
-    "date:inception_upper": "2026-06-10",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-10",
+    "date:cessation_lower": "2026-06-11",
+    "date:cessation_upper": "2026-06-11",
+    "date:inception_lower": "2026-06-11",
+    "date:inception_upper": "2026-06-11",
+    "edtf:cessation": "2026-06-11T08:48:00Z",
+    "edtf:inception": "2026-06-11T04:05:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -139.40440999999998,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "UAL",
     "icao:base_airline": "ITY",
     "lbl:latitude": 37.618161,
     "lbl:longitude": -122.384735,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102532929,
     "sfomuseum:base_flight_id": "20260610-D-ITY-4516",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N57299",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +63,9 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO018955LJ"
+    },
     "wof:country": "US",
     "wof:created": 1781194619,
     "wof:geomhash": "8c8f659fbae3cc58419f360e0abfbe56",
@@ -92,9 +105,10 @@
       102527513,
       1159285413,
       1763588337,
-      1763699293
+      1763699293,
+      1528104575
     ],
-    "wof:lastmodified": 1781194619,
+    "wof:lastmodified": 1781194798,
     "wof:name": "UA1124 (SFO-OGG)",
     "wof:parent_id": 1763588337,
     "wof:placetype": "custom",
