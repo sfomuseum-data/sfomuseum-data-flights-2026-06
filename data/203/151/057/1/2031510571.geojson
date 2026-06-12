@@ -2,10 +2,12 @@
   "id": 2031510571,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-11",
+    "date:cessation_upper": "2026-06-11",
     "date:inception_lower": "2026-06-11",
     "date:inception_upper": "2026-06-11",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-11",
+    "edtf:cessation": "2026-06-11T14:41:00Z",
+    "edtf:inception": "2026-06-11T01:42:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2026-06-11",
@@ -21,9 +23,11 @@
     "geom:latitude": 1.8415309999999998,
     "geom:longitude": 14.401222499999996,
     "iata:airline": "UA",
+    "icao:aircraft": "B789",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159293215,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102557783,
@@ -48,6 +52,10 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "148929536",
+      "swim:gufi": "KO477015Gx"
+    },
     "wof:country": "US",
     "wof:created": 1781280556,
     "wof:geomhash": "f3115fe3d28c66ab4b94072923e0b1bb",
@@ -83,12 +91,13 @@
     ],
     "wof:id": 2031510571,
     "wof:involves": [
+      1159293215,
       102527513,
       102557783,
       1159285413,
       1947304159
     ],
-    "wof:lastmodified": 1781280556,
+    "wof:lastmodified": 1781281186,
     "wof:name": "UA3926 (SYD-SFO)",
     "wof:parent_id": 1947304159,
     "wof:placetype": "custom",

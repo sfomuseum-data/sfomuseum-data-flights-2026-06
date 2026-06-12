@@ -2,10 +2,12 @@
   "id": 2031508817,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-11",
+    "date:cessation_upper": "2026-06-11",
     "date:inception_lower": "2026-06-11",
     "date:inception_upper": "2026-06-11",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-11",
+    "edtf:cessation": "2026-06-11T10:06:47-07:00",
+    "edtf:inception": "2026-06-11T20:27:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -107.78563,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "A321",
     "icao:airline": "DAL",
     "icao:base_airline": "KLM",
     "lbl:latitude": 37.615184,
     "lbl:longitude": -122.382965,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260611-A-KLM-7416",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N101DQ",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "149003041",
+      "swim:gufi": "KP694815jy"
+    },
     "wof:country": "US",
     "wof:created": 1781280351,
     "wof:geomhash": "0c6e1b69ec0e7e239d3f5365b057a47f",
@@ -92,9 +106,10 @@
       102531131,
       1159284261,
       1947304675,
-      1159284613
+      1159284613,
+      1159289411
     ],
-    "wof:lastmodified": 1781280351,
+    "wof:lastmodified": 1781281195,
     "wof:name": "DL756 (MSP-SFO)",
     "wof:parent_id": 1947304675,
     "wof:placetype": "custom",

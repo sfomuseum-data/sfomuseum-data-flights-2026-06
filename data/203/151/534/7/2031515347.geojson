@@ -2,10 +2,12 @@
   "id": 2031515347,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-06-11",
-    "date:inception_upper": "2026-06-11",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-11",
+    "date:cessation_lower": "2026-06-12",
+    "date:cessation_upper": "2026-06-12",
+    "date:inception_lower": "2026-06-12",
+    "date:inception_upper": "2026-06-12",
+    "edtf:cessation": "2026-06-12T21:04:00Z",
+    "edtf:inception": "2026-06-11T17:40:56-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2026-06-11",
@@ -21,9 +23,11 @@
     "geom:latitude": 29.9627305,
     "geom:longitude": -4.221753499999998,
     "iata:airline": "UA",
+    "icao:aircraft": "B77W",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618209,
     "lbl:longitude": -122.391665,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102541737,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N2747U",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO147736oF"
+    },
     "wof:country": "US",
     "wof:created": 1781281104,
     "wof:geomhash": "b8fc8d95bb44b1c6b9f6cb201e4d2ca9",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 2031515347,
     "wof:involves": [
-      102541737,
       102527513,
       1159285413,
-      1947304151
+      1947304151,
+      1159289993,
+      102541737
     ],
-    "wof:lastmodified": 1781281104,
+    "wof:lastmodified": 1781281224,
     "wof:name": "UA877 (SFO-HKG)",
     "wof:parent_id": 1947304151,
     "wof:placetype": "custom",

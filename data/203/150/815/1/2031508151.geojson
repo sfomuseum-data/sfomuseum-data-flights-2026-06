@@ -2,10 +2,12 @@
   "id": 2031508151,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-11",
+    "date:cessation_upper": "2026-06-11",
     "date:inception_lower": "2026-06-11",
     "date:inception_upper": "2026-06-11",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-11",
+    "edtf:cessation": "2026-06-11T16:29:53-07:00",
+    "edtf:inception": "2026-06-11T02:01:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -140.859366,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "ASA",
     "icao:base_airline": "QTR",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260611-A-QTR-3430",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N816AK",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "148938265",
+      "swim:gufi": "KO182076c0"
+    },
     "wof:country": "US",
     "wof:created": 1781280271,
     "wof:geomhash": "46fccc0e56242535ccfd5ecb278f9a75",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 2031508151,
     "wof:involves": [
+      1528104575,
       102527513,
       102528943,
       1159283813,
       1947304289,
       1159286153
     ],
-    "wof:lastmodified": 1781280271,
+    "wof:lastmodified": 1781281190,
     "wof:name": "AS788 (LIH-SFO)",
     "wof:parent_id": 1947304289,
     "wof:placetype": "custom",

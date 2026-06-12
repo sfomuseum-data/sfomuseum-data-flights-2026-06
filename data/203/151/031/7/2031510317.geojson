@@ -2,10 +2,12 @@
   "id": 2031510317,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-11",
+    "date:cessation_upper": "2026-06-11",
     "date:inception_lower": "2026-06-11",
     "date:inception_upper": "2026-06-11",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-11",
+    "edtf:cessation": "2026-06-11T23:05:50Z",
+    "edtf:inception": "2026-06-11T20:30:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -116.044202,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.618209,
     "lbl:longitude": -122.391665,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260611-A-ACA-5098",
@@ -39,6 +43,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +61,10 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "149002289",
+      "swim:gufi": "KL698775xZ"
+    },
     "wof:country": "US",
     "wof:created": 1781280528,
     "wof:geomhash": "57b2b594ef41523ab9fe7c26d147f9bd",
@@ -88,13 +100,14 @@
     ],
     "wof:id": 2031510317,
     "wof:involves": [
-      102527513,
-      102536441,
       1159285413,
       1947304151,
-      1159283597
+      1159283597,
+      1159289871,
+      102527513,
+      102536441
     ],
-    "wof:lastmodified": 1781280528,
+    "wof:lastmodified": 1781281182,
     "wof:name": "UA1931 (SJD-SFO)",
     "wof:parent_id": 1947304151,
     "wof:placetype": "custom",

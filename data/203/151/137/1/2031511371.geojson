@@ -2,10 +2,12 @@
   "id": 2031511371,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-12",
+    "date:cessation_upper": "2026-06-12",
     "date:inception_lower": "2026-06-11",
     "date:inception_upper": "2026-06-11",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-11",
+    "edtf:cessation": "2026-06-12T10:45:06Z",
+    "edtf:inception": "2026-06-11T15:51:27-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -101.3334745,
     "iata:airline": "AA",
     "iata:base_airline": "",
+    "icao:aircraft": "A321",
     "icao:airline": "AAL",
     "icao:base_airline": "GLO",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102531023,
     "sfomuseum:base_flight_id": "20260611-D-GLO-6303",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N178US",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO150366Gp"
+    },
     "wof:country": "US",
     "wof:created": 1781280648,
     "wof:geomhash": "05e474f4bf1eb5ae110c20d94aac828f",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 2031511371,
     "wof:involves": [
+      1947304317,
+      1779770725,
+      1159289411,
       102531023,
       102527513,
-      1159283849,
-      1947304317,
-      1779770725
+      1159283849
     ],
-    "wof:lastmodified": 1781280648,
+    "wof:lastmodified": 1781281191,
     "wof:name": "AA1545 (SFO-MIA)",
     "wof:parent_id": 1947304317,
     "wof:placetype": "custom",

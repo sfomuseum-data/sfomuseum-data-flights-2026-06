@@ -2,10 +2,12 @@
   "id": 2031514311,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-12",
+    "date:cessation_upper": "2026-06-12",
     "date:inception_lower": "2026-06-11",
     "date:inception_upper": "2026-06-11",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-11",
+    "edtf:cessation": "2026-06-12T02:55:00Z",
+    "edtf:inception": "2026-06-11T23:46:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2026-06-11",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.231919500000004,
     "geom:longitude": -109.610733,
     "iata:airline": "WN",
+    "icao:aircraft": "B737",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289869,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102525799,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N913WN",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "149014506",
+      "swim:gufi": "KO757805q5"
+    },
     "wof:country": "US",
     "wof:created": 1781280985,
     "wof:geomhash": "a08c5b1a6c329f228ec453404f254a51",
@@ -49,9 +62,9 @@
       102525799,
       102527513,
       1159285591,
-      -1
+      1159289869
     ],
-    "wof:lastmodified": 1781280985,
+    "wof:lastmodified": 1781281220,
     "wof:name": "WN1859 (SFO-DAL)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 2031515299,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-12",
+    "date:cessation_upper": "2026-06-12",
     "date:inception_lower": "2026-06-11",
     "date:inception_upper": "2026-06-11",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-11",
+    "edtf:cessation": "2026-06-12T07:29:00Z",
+    "edtf:inception": "2026-06-11T16:44:55-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2026-06-11",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.5616045,
     "geom:longitude": -121.07155499999999,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102525535,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,17 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N455UA",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "149026870",
+      "swim:gufi": "KO192786yU"
+    },
     "wof:country": "US",
     "wof:created": 1781281099,
     "wof:geomhash": "414447526a1ddeb77713c60c4ab5a7e4",
@@ -46,12 +60,12 @@
     ],
     "wof:id": 2031515299,
     "wof:involves": [
-      102525535,
       102527513,
       1159285413,
-      -1
+      1159292085,
+      102525535
     ],
-    "wof:lastmodified": 1781281099,
+    "wof:lastmodified": 1781281224,
     "wof:name": "UA8115 (SFO-RNO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

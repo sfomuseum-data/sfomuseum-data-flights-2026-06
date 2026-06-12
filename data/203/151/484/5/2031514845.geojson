@@ -2,10 +2,12 @@
   "id": 2031514845,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-12",
+    "date:cessation_upper": "2026-06-12",
     "date:inception_lower": "2026-06-11",
     "date:inception_upper": "2026-06-11",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-11",
+    "edtf:cessation": "2026-06-12T01:45:07Z",
+    "edtf:inception": "2026-06-11T22:08:42Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -53,6 +55,9 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "149092526"
+    },
     "wof:country": "US",
     "wof:created": 1781281046,
     "wof:geomhash": "17371a5d27e54a99ca50752d2b6a5e79",
@@ -94,7 +99,7 @@
       1763588337,
       1159283697
     ],
-    "wof:lastmodified": 1781281046,
+    "wof:lastmodified": 1781281222,
     "wof:name": "UA2090 (SFO-STL)",
     "wof:parent_id": 1763588337,
     "wof:placetype": "custom",

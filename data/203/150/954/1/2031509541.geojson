@@ -2,10 +2,12 @@
   "id": 2031509541,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-11",
+    "date:cessation_upper": "2026-06-11",
     "date:inception_lower": "2026-06-11",
     "date:inception_upper": "2026-06-11",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-11",
+    "edtf:cessation": "2026-06-11T21:36:18Z",
+    "edtf:inception": "2026-06-11T10:22:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "LO",
     "flysfo:date": "2026-06-11",
@@ -21,9 +23,11 @@
     "geom:latitude": 44.894602,
     "geom:longitude": -50.698282,
     "iata:airline": "LO",
+    "icao:aircraft": "B788",
     "icao:airline": "LOT",
     "lbl:latitude": 37.613288,
     "lbl:longitude": -122.389396,
+    "sfomuseum:aircraft_id": 1159289995,
     "sfomuseum:airline_id": 1159284705,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102542051,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "SPLRD",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "148949007"
+    },
     "wof:country": "US",
     "wof:created": 1781280436,
     "wof:geomhash": "1954d77428ab4c71ee39d262b7abdced",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 2031509541,
     "wof:involves": [
+      1947304087,
+      1159289995,
       102527513,
       102542051,
-      1159284705,
-      1947304087
+      1159284705
     ],
-    "wof:lastmodified": 1781280436,
+    "wof:lastmodified": 1781281205,
     "wof:name": "LO35 (WAW-SFO)",
     "wof:parent_id": 1947304087,
     "wof:placetype": "custom",
