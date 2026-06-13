@@ -2,10 +2,12 @@
   "id": 2031523907,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-06-12",
-    "date:inception_upper": "2026-06-12",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-12",
+    "date:cessation_lower": "2026-06-13",
+    "date:cessation_upper": "2026-06-13",
+    "date:inception_lower": "2026-06-13",
+    "date:inception_upper": "2026-06-13",
+    "edtf:cessation": "2026-06-13T06:55:00Z",
+    "edtf:inception": "2026-06-13T05:43:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.79198650000001,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "icao:base_airline": "DLH",
     "lbl:latitude": 37.618249,
     "lbl:longitude": -122.381477,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533927,
     "sfomuseum:base_flight_id": "20260612-D-DLH-8574",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N467UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO165127dz"
+    },
     "wof:country": "US",
     "wof:created": 1781367410,
     "wof:geomhash": "ac29143dee46faf8dc4d82fa5cfc7601",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 2031523907,
     "wof:involves": [
-      102533927,
-      102527513,
       1159285413,
       1947304631,
-      1159286015
+      1159286015,
+      1159292085,
+      102533927,
+      102527513
     ],
-    "wof:lastmodified": 1781367410,
+    "wof:lastmodified": 1781367574,
     "wof:name": "UA1508 (SFO-EUG)",
     "wof:parent_id": 1947304631,
     "wof:placetype": "custom",

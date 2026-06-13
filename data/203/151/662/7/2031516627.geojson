@@ -2,10 +2,12 @@
   "id": 2031516627,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-12",
+    "date:cessation_upper": "2026-06-12",
     "date:inception_lower": "2026-06-12",
     "date:inception_upper": "2026-06-12",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-12",
+    "edtf:cessation": "2026-06-12T22:49:13Z",
+    "edtf:inception": "2026-06-12T14:28:42Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "NH",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": 8.702347499999995,
     "iata:airline": "NH",
     "iata:base_airline": "",
+    "icao:aircraft": "B77W",
     "icao:airline": "ANA",
     "icao:base_airline": "UAL",
     "lbl:latitude": 37.617615,
     "lbl:longitude": -122.390247,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159283875,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260612-A-UAL-7939",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "JA797A",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "149060024"
+    },
     "wof:country": "US",
     "wof:created": 1781366583,
     "wof:geomhash": "99c2bdbe61e95eb26a51b43b0c172358",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 2031516627,
     "wof:involves": [
+      1947304141,
+      1159285413,
+      1159289993,
       102527513,
       102541591,
-      1159283875,
-      1947304141,
-      1159285413
+      1159283875
     ],
-    "wof:lastmodified": 1781366583,
+    "wof:lastmodified": 1781367554,
     "wof:name": "NH108 (HND-SFO)",
     "wof:parent_id": 1947304141,
     "wof:placetype": "custom",

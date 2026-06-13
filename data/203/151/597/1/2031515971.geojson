@@ -2,10 +2,12 @@
   "id": 2031515971,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-06-12",
-    "date:inception_upper": "2026-06-12",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-12",
+    "date:cessation_lower": "2026-06-12",
+    "date:cessation_upper": "2026-06-12",
+    "date:inception_lower": "2026-06-13",
+    "date:inception_upper": "2026-06-13",
+    "edtf:cessation": "2026-06-12T16:14:25-07:00",
+    "edtf:inception": "2026-06-13T00:32:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -101.3334745,
     "iata:airline": "AA",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "AAL",
     "icao:base_airline": "GLO",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260612-A-GLO-6441",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N903AN",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "149022149",
+      "swim:gufi": "KR813386nm"
+    },
     "wof:country": "US",
     "wof:created": 1781366492,
     "wof:geomhash": "38f88108bbae8bb050c3144d37bdc384",
@@ -92,9 +106,10 @@
       102531023,
       1159283849,
       1947304291,
-      1779770725
+      1779770725,
+      1159289871
     ],
-    "wof:lastmodified": 1781366492,
+    "wof:lastmodified": 1781367550,
     "wof:name": "AA2799 (MIA-SFO)",
     "wof:parent_id": 1947304291,
     "wof:placetype": "custom",

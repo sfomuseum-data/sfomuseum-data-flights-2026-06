@@ -2,10 +2,12 @@
   "id": 2031523499,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-06-12",
-    "date:inception_upper": "2026-06-12",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-12",
+    "date:cessation_lower": "2026-06-12",
+    "date:cessation_upper": "2026-06-12",
+    "date:inception_lower": "2026-06-13",
+    "date:inception_upper": "2026-06-13",
+    "edtf:cessation": "2026-06-12T16:37:50Z",
+    "edtf:inception": "2026-06-12T22:41:44-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2026-06-12",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.702760999999995,
     "geom:longitude": -105.058423,
     "iata:airline": "WN",
+    "icao:aircraft": "B738",
     "icao:airline": "SWA",
     "lbl:latitude": 37.616969,
     "lbl:longitude": -122.381363,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102531205,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N8651A",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "149054058",
+      "swim:gufi": "KO374696Ee"
+    },
     "wof:country": "US",
     "wof:created": 1781367364,
     "wof:geomhash": "b0d868dab19a217943f06d97e1bf7ce6",
@@ -86,9 +100,10 @@
       102531205,
       102527513,
       1159285591,
-      1947304599
+      1947304599,
+      1159289871
     ],
-    "wof:lastmodified": 1781367364,
+    "wof:lastmodified": 1781367571,
     "wof:name": "WN1779 (SFO-MDW)",
     "wof:parent_id": 1947304599,
     "wof:placetype": "custom",

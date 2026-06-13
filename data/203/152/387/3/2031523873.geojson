@@ -2,10 +2,12 @@
   "id": 2031523873,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-06-12",
-    "date:inception_upper": "2026-06-12",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-12",
+    "date:cessation_lower": "2026-06-13",
+    "date:cessation_upper": "2026-06-13",
+    "date:inception_lower": "2026-06-13",
+    "date:inception_upper": "2026-06-13",
+    "edtf:cessation": "2026-06-13T04:51:06Z",
+    "edtf:inception": "2026-06-13T02:03:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -109.134272,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "icao:base_airline": "UAE",
     "lbl:latitude": 37.61705,
     "lbl:longitude": -122.380838,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102524739,
     "sfomuseum:base_flight_id": "20260612-D-UAE-6371",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N448UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "149030639",
+      "swim:gufi": "KO033707l8"
+    },
     "wof:country": "US",
     "wof:created": 1781367406,
     "wof:geomhash": "b2b4de685cac2a2e83e7d43e9bbb14d9",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 2031523873,
     "wof:involves": [
+      1159292085,
       102524739,
       102527513,
       1159285413,
       1947304601,
       1159284333
     ],
-    "wof:lastmodified": 1781367406,
+    "wof:lastmodified": 1781367574,
     "wof:name": "UA1321 (SFO-OMA)",
     "wof:parent_id": 1947304601,
     "wof:placetype": "custom",

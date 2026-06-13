@@ -2,10 +2,12 @@
   "id": 2031519315,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-06-12",
-    "date:inception_upper": "2026-06-12",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-12",
+    "date:cessation_lower": "2026-06-13",
+    "date:cessation_upper": "2026-06-13",
+    "date:inception_lower": "2026-06-13",
+    "date:inception_upper": "2026-06-13",
+    "edtf:cessation": "2026-06-13T02:34:00Z",
+    "edtf:inception": "2026-06-13T00:17:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -113.521581,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A321",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.617908,
     "lbl:longitude": -122.381084,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260612-A-ACA-5293",
@@ -39,6 +43,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +60,9 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "149023015"
+    },
     "wof:country": "US",
     "wof:created": 1781366886,
     "wof:geomhash": "736fe0d2ebd38878be6950e82908a686",
@@ -88,13 +98,14 @@
     ],
     "wof:id": 2031519315,
     "wof:involves": [
-      102527513,
       102531189,
       1159285413,
       1947304603,
-      1159283597
+      1159283597,
+      1159289411,
+      102527513
     ],
-    "wof:lastmodified": 1781366886,
+    "wof:lastmodified": 1781367571,
     "wof:name": "UA1007 (DEN-SFO)",
     "wof:parent_id": 1947304603,
     "wof:placetype": "custom",

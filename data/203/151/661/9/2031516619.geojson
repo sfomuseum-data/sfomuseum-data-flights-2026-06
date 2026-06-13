@@ -2,10 +2,12 @@
   "id": 2031516619,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-12",
+    "date:cessation_upper": "2026-06-12",
     "date:inception_lower": "2026-06-12",
     "date:inception_upper": "2026-06-12",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-12",
+    "edtf:cessation": "2026-06-12T06:01:01-07:00",
+    "edtf:inception": "2026-06-12T15:45:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AM",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -110.7258735,
     "iata:airline": "AM",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "AMX",
     "icao:base_airline": "DAL",
     "lbl:latitude": 37.611664,
     "lbl:longitude": -122.390495,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159283539,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260612-A-DAL-8009",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "XAMAK",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "149069523"
+    },
     "wof:country": "US",
     "wof:created": 1781366583,
     "wof:geomhash": "4224d1c4c9907a232ddfbf90e60373e4",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 2031516619,
     "wof:involves": [
+      1947304095,
+      1159284261,
+      1528104575,
       102527513,
       102536579,
-      1159283539,
-      1947304095,
-      1159284261
+      1159283539
     ],
-    "wof:lastmodified": 1781366583,
+    "wof:lastmodified": 1781367554,
     "wof:name": "AM668 (MEX-SFO)",
     "wof:parent_id": 1947304095,
     "wof:placetype": "custom",

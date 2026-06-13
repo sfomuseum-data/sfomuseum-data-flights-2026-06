@@ -2,10 +2,12 @@
   "id": 2031519109,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-12",
+    "date:cessation_upper": "2026-06-12",
     "date:inception_lower": "2026-06-12",
     "date:inception_upper": "2026-06-12",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-12",
+    "edtf:cessation": "2026-06-12T13:42:00-07:00",
+    "edtf:inception": "2026-06-12T23:16:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2026-06-12",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.8721885,
     "geom:longitude": -104.5237975,
     "iata:airline": "WN",
+    "icao:aircraft": "B738",
     "icao:airline": "SWA",
     "lbl:latitude": 37.616969,
     "lbl:longitude": -122.381363,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102525035,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N8688J",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "149110423",
+      "swim:gufi": "KM772476tL"
+    },
     "wof:country": "US",
     "wof:created": 1781366863,
     "wof:geomhash": "462e561a68f133085fb895c49eddc748",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 2031519109,
     "wof:involves": [
-      102527513,
       102525035,
       1159285591,
-      1947304599
+      1947304599,
+      1159289871,
+      102527513
     ],
-    "wof:lastmodified": 1781366863,
+    "wof:lastmodified": 1781367570,
     "wof:name": "WN673 (BNA-SFO)",
     "wof:parent_id": 1947304599,
     "wof:placetype": "custom",

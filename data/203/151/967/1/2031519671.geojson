@@ -2,10 +2,12 @@
   "id": 2031519671,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-12",
+    "date:cessation_upper": "2026-06-12",
     "date:inception_lower": "2026-06-12",
     "date:inception_upper": "2026-06-12",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-12",
+    "edtf:cessation": "2026-06-12T02:09:40-07:00",
+    "edtf:inception": "2026-06-12T12:55:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2026-06-12",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.459714,
     "geom:longitude": -109.134272,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617908,
     "lbl:longitude": -122.381084,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102524739,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N488UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "149052745",
+      "swim:gufi": "KP425216kz"
+    },
     "wof:country": "US",
     "wof:created": 1781366927,
     "wof:geomhash": "a4023a41644574291fc7580f5443d9f4",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 2031519671,
     "wof:involves": [
+      1159292085,
       102527513,
       102524739,
       1159285413,
       1947304603
     ],
-    "wof:lastmodified": 1781366927,
+    "wof:lastmodified": 1781367576,
     "wof:name": "UA2778 (OMA-SFO)",
     "wof:parent_id": 1947304603,
     "wof:placetype": "custom",
