@@ -2,10 +2,12 @@
   "id": 2031532525,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-13",
+    "date:cessation_upper": "2026-06-13",
     "date:inception_lower": "2026-06-13",
     "date:inception_upper": "2026-06-13",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-13",
+    "edtf:cessation": "2026-06-13T15:42:06Z",
+    "edtf:inception": "2026-06-13T15:10:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "SY",
     "flysfo:date": "2026-06-13",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.5616045,
     "geom:longitude": -121.07155499999999,
     "iata:airline": "SY",
+    "icao:aircraft": "B738",
     "icao:airline": "SCX",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285227,
     "sfomuseum:arrival_id": 102525535,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,15 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N855SY",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "149236425"
+    },
     "wof:country": "US",
     "wof:created": 1781453779,
     "wof:geomhash": "414447526a1ddeb77713c60c4ab5a7e4",
@@ -46,12 +58,12 @@
     ],
     "wof:id": 2031532525,
     "wof:involves": [
-      102525535,
-      102527513,
       1159285227,
-      -1
+      1159289871,
+      102525535,
+      102527513
     ],
-    "wof:lastmodified": 1781453779,
+    "wof:lastmodified": 1781453979,
     "wof:name": "SY8286 (SFO-RNO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

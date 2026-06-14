@@ -2,10 +2,12 @@
   "id": 2031528837,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-13",
+    "date:cessation_upper": "2026-06-13",
     "date:inception_lower": "2026-06-13",
     "date:inception_upper": "2026-06-13",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-13",
+    "edtf:cessation": "2026-06-13T18:15:00Z",
+    "edtf:inception": "2026-06-13T16:15:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -116.5547415,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.617921,
     "lbl:longitude": -122.38181,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260613-A-ANZ-9488",
@@ -39,6 +43,7 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "swim:tail_number": "N447UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +58,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "149060706",
+      "swim:gufi": "KU476947Jc"
+    },
     "wof:country": "US",
     "wof:created": 1781453353,
     "wof:geomhash": "8649ee81ac1d01facd07821b56f3d6b7",
@@ -92,9 +101,10 @@
       102534217,
       1159285413,
       1947304623,
-      1159283697
+      1159283697,
+      1159292085
     ],
-    "wof:lastmodified": 1781453353,
+    "wof:lastmodified": 1781453989,
     "wof:name": "UA336 (JAC-SFO)",
     "wof:parent_id": 1947304623,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 2031529805,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-06-13",
-    "date:inception_upper": "2026-06-13",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-13",
+    "date:cessation_lower": "2026-06-14",
+    "date:cessation_upper": "2026-06-14",
+    "date:inception_lower": "2026-06-14",
+    "date:inception_upper": "2026-06-14",
+    "edtf:cessation": "2026-06-14T09:30:00Z",
+    "edtf:inception": "2026-06-14T04:44:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:date": "2026-06-13",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.130638000000005,
     "geom:longitude": -98.07939400000001,
     "iata:airline": "AA",
+    "icao:aircraft": "A321",
     "icao:airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102534365,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N111ZM",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,9 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO105921d4"
+    },
     "wof:country": "US",
     "wof:created": 1781453462,
     "wof:geomhash": "1348792a172720778d3219cc18ccd8ee",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 2031529805,
     "wof:involves": [
+      1159289411,
       102534365,
       102527513,
       1159283849,
       1947304277
     ],
-    "wof:lastmodified": 1781453462,
+    "wof:lastmodified": 1781453993,
     "wof:name": "AA9794 (SFO-JFK)",
     "wof:parent_id": 1947304277,
     "wof:placetype": "custom",

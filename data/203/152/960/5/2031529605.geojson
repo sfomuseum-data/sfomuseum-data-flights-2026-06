@@ -2,10 +2,12 @@
   "id": 2031529605,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-14",
+    "date:cessation_upper": "2026-06-14",
     "date:inception_lower": "2026-06-13",
     "date:inception_upper": "2026-06-13",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-13",
+    "edtf:cessation": "2026-06-14T01:09:00Z",
+    "edtf:inception": "2026-06-13T23:32:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -117.19416749999999,
     "iata:airline": "AA",
     "iata:base_airline": "",
+    "icao:aircraft": "A321",
     "icao:airline": "AAL",
     "icao:base_airline": "BAW",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102526751,
     "sfomuseum:base_flight_id": "20260613-D-BAW-6942",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N925UY",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "149203829",
+      "swim:gufi": "KO779907X2"
+    },
     "wof:country": "US",
     "wof:created": 1781453439,
     "wof:geomhash": "2a19f056fd5d16c52f22f1bf5dc85c9c",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 2031529605,
     "wof:involves": [
+      1159284021,
+      1159289411,
       102526751,
       102527513,
       1159283849,
-      1947304283,
-      1159284021
+      1947304283
     ],
-    "wof:lastmodified": 1781453439,
+    "wof:lastmodified": 1781453993,
     "wof:name": "AA1321 (SFO-PHX)",
     "wof:parent_id": 1947304283,
     "wof:placetype": "custom",

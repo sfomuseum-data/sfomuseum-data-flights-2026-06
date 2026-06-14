@@ -2,10 +2,12 @@
   "id": 2031533211,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-13",
+    "date:cessation_upper": "2026-06-13",
     "date:inception_lower": "2026-06-13",
     "date:inception_upper": "2026-06-13",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-13",
+    "edtf:cessation": "2026-06-13T22:03:43Z",
+    "edtf:inception": "2026-06-13T21:48:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2026-06-13",
@@ -21,9 +23,11 @@
     "geom:latitude": 37.490859,
     "geom:longitude": -122.14984899999999,
     "iata:airline": "UA",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "lbl:latitude": 37.619531,
     "lbl:longitude": -122.384262,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527529,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N78524",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "149197541",
+      "swim:gufi": "KO7443971h"
+    },
     "wof:country": "US",
     "wof:created": 1781453859,
     "wof:geomhash": "9e57705c73bd73668d4b0d529a043646",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 2031533211,
     "wof:involves": [
+      1947304531,
+      1159289871,
       102527529,
       102527513,
-      1159285413,
-      1947304531
+      1159285413
     ],
-    "wof:lastmodified": 1781453859,
+    "wof:lastmodified": 1781453984,
     "wof:name": "UA3753 (SFO-SJC)",
     "wof:parent_id": 1947304531,
     "wof:placetype": "custom",

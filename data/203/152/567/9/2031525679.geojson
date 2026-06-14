@@ -2,10 +2,12 @@
   "id": 2031525679,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-13",
+    "date:cessation_upper": "2026-06-13",
     "date:inception_lower": "2026-06-13",
     "date:inception_upper": "2026-06-13",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-13",
+    "edtf:cessation": "2026-06-13T05:38:33-07:00",
+    "edtf:inception": "2026-06-13T14:18:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AC",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -100.9996425,
     "iata:airline": "AC",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "ACA",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.616825,
     "lbl:longitude": -122.381021,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159283597,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260613-A-ANZ-4514",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "CGMJV",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "149154403",
+      "swim:gufi": "KP483237el"
+    },
     "wof:country": "US",
     "wof:created": 1781452976,
     "wof:geomhash": "c362a07ec1dacdc6f288623946bd8d01",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 2031525679,
     "wof:involves": [
+      1159283697,
+      1528104575,
       102527513,
       102555091,
       1159283597,
-      1947304607,
-      1159283697
+      1947304607
     ],
-    "wof:lastmodified": 1781452976,
+    "wof:lastmodified": 1781453963,
     "wof:name": "AC741 (YYZ-SFO)",
     "wof:parent_id": 1947304607,
     "wof:placetype": "custom",

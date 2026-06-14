@@ -2,10 +2,12 @@
   "id": 2031532909,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-14",
+    "date:cessation_upper": "2026-06-14",
     "date:inception_lower": "2026-06-13",
     "date:inception_upper": "2026-06-13",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-13",
+    "edtf:cessation": "2026-06-14T04:39:00Z",
+    "edtf:inception": "2026-06-13T14:01:57-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -121.5070865,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "icao:base_airline": "CMP",
     "lbl:latitude": 37.617532,
     "lbl:longitude": -122.382384,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527351,
     "sfomuseum:base_flight_id": "20260613-D-CMP-1471",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N478UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "149130884",
+      "swim:gufi": "KO111041vF"
+    },
     "wof:country": "US",
     "wof:created": 1781453824,
     "wof:geomhash": "6ee4dc6f06435306541ac2ffbe1ad823",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 2031532909,
     "wof:involves": [
+      1159292085,
       102527351,
       102527513,
       1159285413,
       1947304619,
       1159284211
     ],
-    "wof:lastmodified": 1781453824,
+    "wof:lastmodified": 1781453981,
     "wof:name": "UA1334 (SFO-SBP)",
     "wof:parent_id": 1947304619,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 2031532581,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-14",
+    "date:cessation_upper": "2026-06-14",
     "date:inception_lower": "2026-06-13",
     "date:inception_upper": "2026-06-13",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-13",
+    "edtf:cessation": "2026-06-14T11:15:00Z",
+    "edtf:inception": "2026-06-13T16:44:28-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2026-06-13",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.3996545,
     "geom:longitude": -99.5210065,
     "iata:airline": "WN",
+    "icao:aircraft": "B738",
     "icao:airline": "SWA",
     "lbl:latitude": 37.617092,
     "lbl:longitude": -122.381656,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102532047,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N8649A",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "149132816",
+      "swim:gufi": "KO089921BZ"
+    },
     "wof:country": "US",
     "wof:created": 1781453786,
     "wof:geomhash": "ff243e97b2d4ce40e0a4accb79115371",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 2031532581,
     "wof:involves": [
+      1159289871,
       102532047,
       102527513,
       1159285591,
       1947304597
     ],
-    "wof:lastmodified": 1781453786,
+    "wof:lastmodified": 1781453979,
     "wof:name": "WN2683 (SFO-BWI)",
     "wof:parent_id": 1947304597,
     "wof:placetype": "custom",

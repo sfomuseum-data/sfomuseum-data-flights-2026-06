@@ -2,10 +2,12 @@
   "id": 2031528619,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-13",
+    "date:cessation_upper": "2026-06-13",
     "date:inception_lower": "2026-06-13",
     "date:inception_upper": "2026-06-13",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-13",
+    "edtf:cessation": "2026-06-13T14:30:19-07:00",
+    "edtf:inception": "2026-06-13T23:51:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -140.1446795,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "icao:base_airline": "AVA",
     "lbl:latitude": 37.620534,
     "lbl:longitude": -122.388506,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260613-A-AVA-2254",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N776UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "149205296",
+      "swim:gufi": "KO108651u7"
+    },
     "wof:country": "US",
     "wof:created": 1781453327,
     "wof:geomhash": "1ad63fa22de9103ed4396c0ca683f63f",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 2031528619,
     "wof:involves": [
-      102527513,
       102533997,
       1159285413,
       1947304459,
-      1159285749
+      1159285749,
+      1159289985,
+      102527513
     ],
-    "wof:lastmodified": 1781453327,
+    "wof:lastmodified": 1781453985,
     "wof:name": "UA1818 (HNL-SFO)",
     "wof:parent_id": 1947304459,
     "wof:placetype": "custom",

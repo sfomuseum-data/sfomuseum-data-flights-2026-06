@@ -2,10 +2,12 @@
   "id": 2031529687,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-13",
+    "date:cessation_upper": "2026-06-13",
     "date:inception_lower": "2026-06-13",
     "date:inception_upper": "2026-06-13",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-13",
+    "edtf:cessation": "2026-06-13T20:08:00Z",
+    "edtf:inception": "2026-06-13T15:07:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -101.3334745,
     "iata:airline": "AA",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "AAL",
     "icao:base_airline": "GLO",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102531023,
     "sfomuseum:base_flight_id": "20260613-D-GLO-6055",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N313VA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "149159244",
+      "swim:gufi": "KO4869777g"
+    },
     "wof:country": "US",
     "wof:created": 1781453449,
     "wof:geomhash": "05e474f4bf1eb5ae110c20d94aac828f",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 2031529687,
     "wof:involves": [
+      1528104575,
       102531023,
       102527513,
       1159283849,
       1947304281,
       1779770725
     ],
-    "wof:lastmodified": 1781453449,
+    "wof:lastmodified": 1781453993,
     "wof:name": "AA369 (SFO-MIA)",
     "wof:parent_id": 1947304281,
     "wof:placetype": "custom",

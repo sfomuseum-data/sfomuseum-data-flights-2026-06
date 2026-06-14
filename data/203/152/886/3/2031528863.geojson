@@ -2,10 +2,12 @@
   "id": 2031528863,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-14",
+    "date:cessation_upper": "2026-06-14",
     "date:inception_lower": "2026-06-13",
     "date:inception_upper": "2026-06-13",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-13",
+    "edtf:cessation": "2026-06-14T00:26:00Z",
+    "edtf:inception": "2026-06-13T14:25:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2026-06-13",
@@ -21,9 +23,11 @@
     "geom:latitude": 44.5440385,
     "geom:longitude": -61.410693,
     "iata:airline": "UA",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102556703,
@@ -34,7 +38,13 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "149140780"
+    },
     "wof:country": "US",
     "wof:created": 1781453355,
     "wof:geomhash": "c7bf5337358552a3a60caed0c1e9ea63",
@@ -46,12 +56,12 @@
     ],
     "wof:id": 2031528863,
     "wof:involves": [
-      102527513,
-      102556703,
       1159285413,
-      -1
+      1159289985,
+      102527513,
+      102556703
     ],
-    "wof:lastmodified": 1781453355,
+    "wof:lastmodified": 1781453989,
     "wof:name": "UA3932 (LHR-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

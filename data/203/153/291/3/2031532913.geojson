@@ -2,10 +2,12 @@
   "id": 2031532913,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-14",
+    "date:cessation_upper": "2026-06-14",
     "date:inception_lower": "2026-06-13",
     "date:inception_upper": "2026-06-13",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-13",
+    "edtf:cessation": "2026-06-14T03:56:00Z",
+    "edtf:inception": "2026-06-13T12:49:27-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -119.778435,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.619425,
     "lbl:longitude": -122.384028,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102528997,
     "sfomuseum:base_flight_id": "20260613-D-ACA-5188",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N66893",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "149126595",
+      "swim:gufi": "KO042681Oz"
+    },
     "wof:country": "US",
     "wof:created": 1781453824,
     "wof:geomhash": "25f5345529d944df781e36098260a435",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 2031532913,
     "wof:involves": [
+      1947304517,
+      1159283597,
+      1377564285,
       102528997,
       102527513,
-      1159285413,
-      1947304517,
-      1159283597
+      1159285413
     ],
-    "wof:lastmodified": 1781453824,
+    "wof:lastmodified": 1781453981,
     "wof:name": "UA1343 (SFO-SAN)",
     "wof:parent_id": 1947304517,
     "wof:placetype": "custom",
