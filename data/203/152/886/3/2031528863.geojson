@@ -1,0 +1,72 @@
+{
+  "id": 2031528863,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2026-06-13",
+    "date:inception_upper": "2026-06-13",
+    "edtf:cessation": "",
+    "edtf:inception": "2026-06-13",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "UA",
+    "flysfo:date": "2026-06-13",
+    "flysfo:estimated_timestamp": 1781397540,
+    "flysfo:event": "A",
+    "flysfo:flight_number": "UA3932",
+    "flysfo:gate": "",
+    "flysfo:journey": "LHR-SFO",
+    "flysfo:scheduled_timestamp": 1781388000,
+    "flysfo:timestamp": 1781397540,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,37.617990,-0.450443,51.470087",
+    "geom:latitude": 44.5440385,
+    "geom:longitude": -61.410693,
+    "iata:airline": "UA",
+    "icao:airline": "UAL",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159285413,
+    "sfomuseum:arrival_id": 102527513,
+    "sfomuseum:departure_id": 102556703,
+    "sfomuseum:flight_id": "20260613-A-UAL-3932",
+    "sfomuseum:flight_number": [
+      "UAL3932",
+      "UA3932"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1781453355,
+    "wof:geomhash": "c7bf5337358552a3a60caed0c1e9ea63",
+    "wof:hierarchy": [
+      {
+        "custom_id": 2031528863,
+        "flight_id": 2031528863
+      }
+    ],
+    "wof:id": 2031528863,
+    "wof:involves": [
+      102527513,
+      102556703,
+      1159285413,
+      -1
+    ],
+    "wof:lastmodified": 1781453355,
+    "wof:name": "UA3932 (LHR-SFO)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2026-06",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    37.61799,
+    -0.450443,
+    51.470087
+  ],
+  "geometry": {"coordinates":[[-0.450443,51.470087],[-122.370943,37.61799]],"type":"MultiPoint"}
+}
