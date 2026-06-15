@@ -2,10 +2,12 @@
   "id": 2031539907,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-14",
+    "date:cessation_upper": "2026-06-14",
     "date:inception_lower": "2026-06-14",
     "date:inception_upper": "2026-06-14",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-14",
+    "edtf:cessation": "2026-06-14T19:51:00Z",
+    "edtf:inception": "2026-06-14T14:43:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -98.07939400000001,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "ASA",
     "icao:base_airline": "QTR",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102534365,
     "sfomuseum:base_flight_id": "20260614-D-QTR-4276",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N557AS",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "149240741",
+      "swim:gufi": "KO478931YP"
+    },
     "wof:country": "US",
     "wof:created": 1781540005,
     "wof:geomhash": "1348792a172720778d3219cc18ccd8ee",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 2031539907,
     "wof:involves": [
+      1159289871,
       102534365,
       102527513,
       1159283813,
       1947304275,
       1159286153
     ],
-    "wof:lastmodified": 1781540005,
+    "wof:lastmodified": 1781540425,
     "wof:name": "AS20 (SFO-JFK)",
     "wof:parent_id": 1947304275,
     "wof:placetype": "custom",

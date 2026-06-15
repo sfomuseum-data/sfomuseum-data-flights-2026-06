@@ -2,10 +2,12 @@
   "id": 2031533983,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-14",
+    "date:cessation_upper": "2026-06-14",
     "date:inception_lower": "2026-06-14",
     "date:inception_upper": "2026-06-14",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-14",
+    "edtf:cessation": "2026-06-14T10:51:25-07:00",
+    "edtf:inception": "2026-06-14T20:35:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -105.1326535,
     "iata:airline": "AA",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "AAL",
     "icao:base_airline": "BAW",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260614-A-BAW-5322",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N313VA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "149272179",
+      "swim:gufi": "KG682971ru"
+    },
     "wof:country": "US",
     "wof:created": 1781539299,
     "wof:geomhash": "81d390dcf2582f737869c573200abb8f",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 2031533983,
     "wof:involves": [
+      1528104575,
       102527513,
       102533631,
       1159283849,
       1947304317,
       1159284021
     ],
-    "wof:lastmodified": 1781539299,
+    "wof:lastmodified": 1781540386,
     "wof:name": "AA1253 (ORD-SFO)",
     "wof:parent_id": 1947304317,
     "wof:placetype": "custom",

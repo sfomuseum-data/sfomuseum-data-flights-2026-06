@@ -2,10 +2,12 @@
   "id": 2031540565,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-14",
+    "date:cessation_upper": "2026-06-14",
     "date:inception_lower": "2026-06-14",
     "date:inception_upper": "2026-06-14",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-14",
+    "edtf:cessation": "2026-06-14T23:36:00Z",
+    "edtf:inception": "2026-06-14T22:15:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -117.1757545,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "DAL",
     "icao:base_airline": "KAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527363,
     "sfomuseum:base_flight_id": "20260614-D-KAL-6743",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N867DN",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "149274215",
+      "swim:gufi": "KO7026110f"
+    },
     "wof:country": "US",
     "wof:created": 1781540081,
     "wof:geomhash": "b2ae00b77ffd1072a2eb4148779a5d9e",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 2031540565,
     "wof:involves": [
+      1159284625,
+      1377564285,
       102527363,
       102527513,
       1159284261,
-      1947304669,
-      1159284625
+      1947304669
     ],
-    "wof:lastmodified": 1781540081,
+    "wof:lastmodified": 1781540390,
     "wof:name": "DL902 (SFO-SLC)",
     "wof:parent_id": 1947304669,
     "wof:placetype": "custom",

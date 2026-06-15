@@ -2,10 +2,12 @@
   "id": 2031541233,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-15",
+    "date:cessation_upper": "2026-06-15",
     "date:inception_lower": "2026-06-14",
     "date:inception_upper": "2026-06-14",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-14",
+    "edtf:cessation": "2026-06-15T10:24:46Z",
+    "edtf:inception": "2026-06-14T23:23:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "LO",
     "flysfo:date": "2026-06-14",
@@ -21,9 +23,11 @@
     "geom:latitude": 44.894602,
     "geom:longitude": -50.698282,
     "iata:airline": "LO",
+    "icao:aircraft": "B789",
     "icao:airline": "LOT",
     "lbl:latitude": 37.613288,
     "lbl:longitude": -122.389396,
+    "sfomuseum:aircraft_id": 1159293215,
     "sfomuseum:airline_id": 1159284705,
     "sfomuseum:arrival_id": 102542051,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "SPLSE",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "149285932"
+    },
     "wof:country": "US",
     "wof:created": 1781540158,
     "wof:geomhash": "d4a923af30a85ee5be1e32ce465ff335",
@@ -83,12 +95,13 @@
     ],
     "wof:id": 2031541233,
     "wof:involves": [
+      1159293215,
       102542051,
       102527513,
       1159284705,
       1947304087
     ],
-    "wof:lastmodified": 1781540158,
+    "wof:lastmodified": 1781540396,
     "wof:name": "LO36 (SFO-WAW)",
     "wof:parent_id": 1947304087,
     "wof:placetype": "custom",

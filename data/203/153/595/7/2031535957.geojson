@@ -2,10 +2,12 @@
   "id": 2031535957,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-06-14",
-    "date:inception_upper": "2026-06-14",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-14",
+    "date:cessation_lower": "2026-06-15",
+    "date:cessation_upper": "2026-06-15",
+    "date:inception_lower": "2026-06-15",
+    "date:inception_upper": "2026-06-15",
+    "edtf:cessation": "2026-06-14T19:43:31-07:00",
+    "edtf:inception": "2026-06-15T03:41:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:date": "2026-06-14",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.130638000000005,
     "geom:longitude": -98.07939400000001,
     "iata:airline": "DL",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102534365,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N712TW",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:gufi": "KN015632nx"
+    },
     "wof:country": "US",
     "wof:created": 1781539550,
     "wof:geomhash": "ba4d31d1826c6198b5ffa8fdb1249c5d",
@@ -46,12 +59,12 @@
     ],
     "wof:id": 2031535957,
     "wof:involves": [
+      1159289939,
       102527513,
       102534365,
-      1159284261,
-      -1
+      1159284261
     ],
-    "wof:lastmodified": 1781539550,
+    "wof:lastmodified": 1781540399,
     "wof:name": "DL1732 (JFK-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
