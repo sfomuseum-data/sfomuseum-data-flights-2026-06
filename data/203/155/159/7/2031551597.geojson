@@ -2,10 +2,12 @@
   "id": 2031551597,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-06-15",
-    "date:inception_upper": "2026-06-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-15",
+    "date:cessation_lower": "2026-06-16",
+    "date:cessation_upper": "2026-06-16",
+    "date:inception_lower": "2026-06-16",
+    "date:inception_upper": "2026-06-16",
+    "edtf:cessation": "2026-06-16T03:50:00Z",
+    "edtf:inception": "2026-06-16T02:34:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -120.1186115,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B737",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.619197,
     "lbl:longitude": -122.384496,
+    "sfomuseum:aircraft_id": 1159289869,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102534161,
     "sfomuseum:base_flight_id": "20260615-D-ACA-4186",
@@ -39,6 +43,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +60,9 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "149298472"
+    },
     "wof:country": "US",
     "wof:created": 1781626728,
     "wof:geomhash": "b700d5ae3794da4176af6b85f6cd6669",
@@ -88,13 +98,14 @@
     ],
     "wof:id": 2031551597,
     "wof:involves": [
+      1947304515,
+      1159283597,
+      1159289869,
       102534161,
       102527513,
-      1159285413,
-      1947304515,
-      1159283597
+      1159285413
     ],
-    "wof:lastmodified": 1781626728,
+    "wof:lastmodified": 1781626837,
     "wof:name": "UA589 (SFO-SNA)",
     "wof:parent_id": 1947304515,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 2031551405,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-15",
+    "date:cessation_upper": "2026-06-15",
     "date:inception_lower": "2026-06-15",
     "date:inception_upper": "2026-06-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-15",
+    "edtf:cessation": "2026-06-15T09:14:00Z",
+    "edtf:inception": "2026-06-15T08:17:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2026-06-15",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.022982,
     "geom:longitude": -121.104038,
     "iata:airline": "UA",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527337,
     "sfomuseum:departure_id": 102527513,
@@ -35,6 +39,9 @@
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "149383549"
+    },
     "wof:country": "US",
     "wof:created": 1781626706,
     "wof:geomhash": "1d9a5fa2c9575ebb155d9645f1016c57",
@@ -46,12 +53,12 @@
     ],
     "wof:id": 2031551405,
     "wof:involves": [
-      102527337,
-      102527513,
       1159285413,
-      -1
+      1159289871,
+      102527337,
+      102527513
     ],
-    "wof:lastmodified": 1781626706,
+    "wof:lastmodified": 1781626832,
     "wof:name": "UA3029 (SFO-SBA)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

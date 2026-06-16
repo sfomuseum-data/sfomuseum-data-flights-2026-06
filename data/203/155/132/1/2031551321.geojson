@@ -2,10 +2,12 @@
   "id": 2031551321,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-06-15",
-    "date:inception_upper": "2026-06-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-15",
+    "date:cessation_lower": "2026-06-16",
+    "date:cessation_upper": "2026-06-16",
+    "date:inception_lower": "2026-06-16",
+    "date:inception_upper": "2026-06-16",
+    "edtf:cessation": "2026-06-16T04:23:00Z",
+    "edtf:inception": "2026-06-16T03:24:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -120.38022649999999,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.617421,
     "lbl:longitude": -122.380916,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533795,
     "sfomuseum:base_flight_id": "20260615-D-ANZ-9251",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N68880",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "149299738",
+      "swim:gufi": "KO070043Wf"
+    },
     "wof:country": "US",
     "wof:created": 1781626696,
     "wof:geomhash": "602be2a828e3460cadf44be5b1c2e36b",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 2031551321,
     "wof:involves": [
-      102533795,
       102527513,
       1159285413,
       1947304617,
-      1159283697
+      1159283697,
+      1377564285,
+      102533795
     ],
-    "wof:lastmodified": 1781626696,
+    "wof:lastmodified": 1781626831,
     "wof:name": "UA2409 (SFO-LAX)",
     "wof:parent_id": 1947304617,
     "wof:placetype": "custom",

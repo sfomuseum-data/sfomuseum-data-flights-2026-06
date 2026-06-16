@@ -2,10 +2,12 @@
   "id": 2031547233,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-15",
+    "date:cessation_upper": "2026-06-15",
     "date:inception_lower": "2026-06-15",
     "date:inception_upper": "2026-06-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-15",
+    "edtf:cessation": "2026-06-15T22:58:23Z",
+    "edtf:inception": "2026-06-15T21:53:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2026-06-15",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.8494965,
     "geom:longitude": -118.7636915,
     "iata:airline": "UA",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102527209,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N77590",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "149353487",
+      "swim:gufi": "KL7424624o"
+    },
     "wof:country": "US",
     "wof:created": 1781626222,
     "wof:geomhash": "fcf5095e8d1a14d003993bc5070a7f0f",
@@ -46,12 +59,12 @@
     ],
     "wof:id": 2031547233,
     "wof:involves": [
+      1528104577,
       102527513,
       102527209,
-      1159285413,
-      -1
+      1159285413
     ],
-    "wof:lastmodified": 1781626222,
+    "wof:lastmodified": 1781626857,
     "wof:name": "UA8270 (LAS-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

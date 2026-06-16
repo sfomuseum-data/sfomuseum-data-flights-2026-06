@@ -2,10 +2,12 @@
   "id": 2031547219,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-15",
+    "date:cessation_upper": "2026-06-15",
     "date:inception_lower": "2026-06-15",
     "date:inception_upper": "2026-06-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-15",
+    "edtf:cessation": "2026-06-15T14:40:41-07:00",
+    "edtf:inception": "2026-06-15T23:31:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2026-06-15",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.1546165,
     "geom:longitude": -98.2742345,
     "iata:airline": "UA",
+    "icao:aircraft": "B77W",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102530049,
@@ -34,7 +38,17 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N2250U",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "149360866",
+      "swim:gufi": "KN769052Vs"
+    },
     "wof:country": "US",
     "wof:created": 1781626221,
     "wof:geomhash": "5afbf99c4360a00cfc0890f48cccf304",
@@ -46,12 +60,12 @@
     ],
     "wof:id": 2031547219,
     "wof:involves": [
-      102527513,
-      102530049,
       1159285413,
-      -1
+      1159289993,
+      102527513,
+      102530049
     ],
-    "wof:lastmodified": 1781626221,
+    "wof:lastmodified": 1781626857,
     "wof:name": "UA8160 (EWR-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

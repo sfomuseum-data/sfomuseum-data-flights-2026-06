@@ -2,10 +2,12 @@
   "id": 2031547287,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-15",
+    "date:cessation_upper": "2026-06-15",
     "date:inception_lower": "2026-06-15",
     "date:inception_upper": "2026-06-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-15",
+    "edtf:cessation": "2026-06-15T23:59:00Z",
+    "edtf:inception": "2026-06-15T14:13:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -61.410693,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.617906,
     "lbl:longitude": -122.390944,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260615-A-ACA-5082",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N229UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "149312520",
+      "swim:gufi": "KU774092tR"
+    },
     "wof:country": "US",
     "wof:created": 1781626228,
     "wof:geomhash": "c7bf5337358552a3a60caed0c1e9ea63",
@@ -92,9 +105,10 @@
       102556703,
       1159285413,
       1947304145,
-      1159283597
+      1159283597,
+      1159289985
     ],
-    "wof:lastmodified": 1781626228,
+    "wof:lastmodified": 1781626858,
     "wof:name": "UA949 (LHR-SFO)",
     "wof:parent_id": 1947304145,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 2031546817,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-15",
+    "date:cessation_upper": "2026-06-15",
     "date:inception_lower": "2026-06-15",
     "date:inception_upper": "2026-06-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-15",
+    "edtf:cessation": "2026-06-15T00:14:34-07:00",
+    "edtf:inception": "2026-06-15T13:17:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -119.97934599999999,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.619425,
     "lbl:longitude": -122.384028,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260615-A-ACA-4080",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N17433",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "149316303",
+      "swim:gufi": "KL438982ld"
+    },
     "wof:country": "US",
     "wof:created": 1781626173,
     "wof:geomhash": "094b2380067f0814bdd38962ab53e3d3",
@@ -92,9 +106,10 @@
       102533575,
       1159285413,
       1947304517,
-      1159283597
+      1159283597,
+      1528104577
     ],
-    "wof:lastmodified": 1781626173,
+    "wof:lastmodified": 1781626856,
     "wof:name": "UA2363 (ONT-SFO)",
     "wof:parent_id": 1947304517,
     "wof:placetype": "custom",

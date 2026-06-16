@@ -2,10 +2,12 @@
   "id": 2031543199,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-15",
+    "date:cessation_upper": "2026-06-15",
     "date:inception_lower": "2026-06-15",
     "date:inception_upper": "2026-06-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-15",
+    "edtf:cessation": "2026-06-15T06:17:00-07:00",
+    "edtf:inception": "2026-06-15T15:19:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:date": "2026-06-15",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.419367,
     "geom:longitude": -101.65686,
     "iata:airline": "AA",
+    "icao:aircraft": "A21N",
     "icao:airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564297,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102528659,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N434AN",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "149319495",
+      "swim:gufi": "KT463052bB"
+    },
     "wof:country": "US",
     "wof:created": 1781625713,
     "wof:geomhash": "b96563c9986e04a3607ac552f48e111b",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 2031543199,
     "wof:involves": [
+      1947304291,
+      1377564297,
       102527513,
       102528659,
-      1159283849,
-      1947304291
+      1159283849
     ],
-    "wof:lastmodified": 1781625713,
+    "wof:lastmodified": 1781626821,
     "wof:name": "AA2562 (CLT-SFO)",
     "wof:parent_id": 1947304291,
     "wof:placetype": "custom",

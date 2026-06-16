@@ -2,10 +2,12 @@
   "id": 2031546261,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-15",
+    "date:cessation_upper": "2026-06-15",
     "date:inception_lower": "2026-06-15",
     "date:inception_upper": "2026-06-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-15",
+    "edtf:cessation": "2026-06-15T07:18:00Z",
+    "edtf:inception": "2026-06-15T06:04:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2026-06-15",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.8494965,
     "geom:longitude": -118.7636915,
     "iata:airline": "WN",
+    "icao:aircraft": "B38M",
     "icao:airline": "SWA",
     "lbl:latitude": 37.617908,
     "lbl:longitude": -122.381084,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102527209,
@@ -48,6 +52,9 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "149303913"
+    },
     "wof:country": "US",
     "wof:created": 1781626107,
     "wof:geomhash": "fcf5095e8d1a14d003993bc5070a7f0f",
@@ -83,12 +90,13 @@
     ],
     "wof:id": 2031546261,
     "wof:involves": [
+      1528104575,
       102527513,
       102527209,
       1159285591,
       1947304603
     ],
-    "wof:lastmodified": 1781626107,
+    "wof:lastmodified": 1781626851,
     "wof:name": "WN2345 (LAS-SFO)",
     "wof:parent_id": 1947304603,
     "wof:placetype": "custom",

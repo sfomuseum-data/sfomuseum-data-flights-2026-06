@@ -2,10 +2,12 @@
   "id": 2031543185,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-15",
+    "date:cessation_upper": "2026-06-15",
     "date:inception_lower": "2026-06-15",
     "date:inception_upper": "2026-06-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-15",
+    "edtf:cessation": "2026-06-15T06:14:03-07:00",
+    "edtf:inception": "2026-06-15T17:00:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -109.7109545,
     "iata:airline": "AA",
     "iata:base_airline": "",
+    "icao:aircraft": "A321",
     "icao:airline": "AAL",
     "icao:base_airline": "GLO",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260615-A-GLO-6173",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N171US",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "149332242",
+      "swim:gufi": "KF543312bb"
+    },
     "wof:country": "US",
     "wof:created": 1781625711,
     "wof:geomhash": "865973335526f09b753756c305bf4946",
@@ -92,9 +106,10 @@
       102528541,
       1159283849,
       1947304277,
-      1779770725
+      1779770725,
+      1159289411
     ],
-    "wof:lastmodified": 1781625711,
+    "wof:lastmodified": 1781626821,
     "wof:name": "AA2387 (DFW-SFO)",
     "wof:parent_id": 1947304277,
     "wof:placetype": "custom",
