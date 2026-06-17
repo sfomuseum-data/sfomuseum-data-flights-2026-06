@@ -2,10 +2,12 @@
   "id": 2031560251,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-16",
+    "date:cessation_upper": "2026-06-16",
     "date:inception_lower": "2026-06-16",
     "date:inception_upper": "2026-06-16",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-16",
+    "edtf:cessation": "2026-06-16T21:08:00Z",
+    "edtf:inception": "2026-06-16T19:31:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.3376055,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "UAL",
     "icao:base_airline": "ANA",
     "lbl:latitude": 37.618149,
     "lbl:longitude": -122.381669,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533269,
     "sfomuseum:base_flight_id": "20260616-D-ANA-7285",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N27271",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "149431132",
+      "swim:gufi": "KO661483Wy"
+    },
     "wof:country": "US",
     "wof:created": 1781713049,
     "wof:geomhash": "4036ee3c983703867dbe0486453848b1",
@@ -92,9 +105,10 @@
       102527513,
       1159285413,
       1947304613,
-      1159283875
+      1159283875,
+      1528104575
     ],
-    "wof:lastmodified": 1781713049,
+    "wof:lastmodified": 1781713150,
     "wof:name": "UA2744 (SFO-SEA)",
     "wof:parent_id": 1947304613,
     "wof:placetype": "custom",

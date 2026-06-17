@@ -2,10 +2,12 @@
   "id": 2031559513,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "1970-01-01",
+    "date:cessation_upper": "1970-01-01",
     "date:inception_lower": "2026-06-16",
     "date:inception_upper": "2026-06-16",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-16",
+    "edtf:cessation": "1970-01-01T00:00:00Z",
+    "edtf:inception": "2026-06-16T11:15:27-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "QR",
     "flysfo:date": "2026-06-16",
@@ -21,9 +23,11 @@
     "geom:latitude": 31.441395,
     "geom:longitude": -35.383349499999994,
     "iata:airline": "QR",
+    "icao:aircraft": "A35K",
     "icao:airline": "QTR",
     "lbl:latitude": 37.612048,
     "lbl:longitude": -122.389573,
+    "sfomuseum:aircraft_id": 1377649085,
     "sfomuseum:airline_id": 1159286153,
     "sfomuseum:arrival_id": 1729749565,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "A7ANR",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -83,12 +91,13 @@
     ],
     "wof:id": 2031559513,
     "wof:involves": [
+      1377649085,
       1729749565,
       102527513,
       1159286153,
       1947304097
     ],
-    "wof:lastmodified": 1781712967,
+    "wof:lastmodified": 1781713165,
     "wof:name": "QR738 (SFO-DOH)",
     "wof:parent_id": 1947304097,
     "wof:placetype": "custom",

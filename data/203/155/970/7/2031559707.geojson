@@ -2,10 +2,12 @@
   "id": 2031559707,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-17",
+    "date:cessation_upper": "2026-06-17",
     "date:inception_lower": "2026-06-16",
     "date:inception_upper": "2026-06-16",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-16",
+    "edtf:cessation": "2026-06-17T00:44:00Z",
+    "edtf:inception": "2026-06-16T23:30:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2026-06-16",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.175762,
     "geom:longitude": -119.778435,
     "iata:airline": "WN",
+    "icao:aircraft": "B38M",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102528997,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,15 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "149445076",
+      "swim:gufi": "KO752953H7"
+    },
     "wof:country": "US",
     "wof:created": 1781712989,
     "wof:geomhash": "25f5345529d944df781e36098260a435",
@@ -46,12 +58,12 @@
     ],
     "wof:id": 2031559707,
     "wof:involves": [
-      102528997,
       102527513,
       1159285591,
-      -1
+      1528104575,
+      102528997
     ],
-    "wof:lastmodified": 1781712989,
+    "wof:lastmodified": 1781713165,
     "wof:name": "WN458 (SFO-SAN)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

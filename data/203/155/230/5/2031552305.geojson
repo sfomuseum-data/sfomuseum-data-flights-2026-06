@@ -2,10 +2,12 @@
   "id": 2031552305,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-16",
+    "date:cessation_upper": "2026-06-16",
     "date:inception_lower": "2026-06-16",
     "date:inception_upper": "2026-06-16",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-16",
+    "edtf:cessation": "2026-06-16T07:23:13-07:00",
+    "edtf:inception": "2026-06-16T16:33:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:date": "2026-06-16",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.419367,
     "geom:longitude": -101.65686,
     "iata:airline": "AA",
+    "icao:aircraft": "A321",
     "icao:airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102528659,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N154AA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "149414237",
+      "swim:gufi": "KT536723Wb"
+    },
     "wof:country": "US",
     "wof:created": 1781712095,
     "wof:geomhash": "b96563c9986e04a3607ac552f48e111b",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 2031552305,
     "wof:involves": [
-      102527513,
-      102528659,
       1159283849,
-      1947304317
+      1947304317,
+      1159289411,
+      102527513,
+      102528659
     ],
-    "wof:lastmodified": 1781712095,
+    "wof:lastmodified": 1781713148,
     "wof:name": "AA1251 (CLT-SFO)",
     "wof:parent_id": 1947304317,
     "wof:placetype": "custom",

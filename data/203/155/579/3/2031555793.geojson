@@ -2,10 +2,12 @@
   "id": 2031555793,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-16",
+    "date:cessation_upper": "2026-06-16",
     "date:inception_lower": "2026-06-16",
     "date:inception_upper": "2026-06-16",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-16",
+    "edtf:cessation": "2026-06-16T08:13:42-07:00",
+    "edtf:inception": "2026-06-16T21:32:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -121.5070865,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "icao:base_airline": "DLH",
     "lbl:latitude": 37.618249,
     "lbl:longitude": -122.381477,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260616-A-DLH-7897",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N848UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "149441787",
+      "swim:gufi": "KL730113sV"
+    },
     "wof:country": "US",
     "wof:created": 1781712541,
     "wof:geomhash": "2af895d7dc7816e28cbc6da81f2a802b",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 2031555793,
     "wof:involves": [
-      102527513,
-      102527351,
       1159285413,
       1947304631,
-      1159286015
+      1159286015,
+      1159289407,
+      102527513,
+      102527351
     ],
-    "wof:lastmodified": 1781712541,
+    "wof:lastmodified": 1781713157,
     "wof:name": "UA1846 (SBP-SFO)",
     "wof:parent_id": 1947304631,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 2031555431,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-06-16",
-    "date:inception_upper": "2026-06-16",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-16",
+    "date:cessation_lower": "2026-06-16",
+    "date:cessation_upper": "2026-06-16",
+    "date:inception_lower": "2026-06-17",
+    "date:inception_upper": "2026-06-17",
+    "edtf:cessation": "2026-06-16T16:37:32-07:00",
+    "edtf:inception": "2026-06-17T04:42:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2026-06-16",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.525337,
     "geom:longitude": -117.19416749999999,
     "iata:airline": "WN",
+    "icao:aircraft": "B38M",
     "icao:airline": "SWA",
     "lbl:latitude": 37.616969,
     "lbl:longitude": -122.381363,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102526751,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N8540V",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -86,9 +95,10 @@
       102527513,
       102526751,
       1159285591,
-      1947304599
+      1947304599,
+      1528104575
     ],
-    "wof:lastmodified": 1781712497,
+    "wof:lastmodified": 1781713169,
     "wof:name": "WN4101 (PHX-SFO)",
     "wof:parent_id": 1947304599,
     "wof:placetype": "custom",

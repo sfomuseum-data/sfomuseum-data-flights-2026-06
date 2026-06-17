@@ -2,10 +2,12 @@
   "id": 2031559685,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-06-16",
-    "date:inception_upper": "2026-06-16",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-16",
+    "date:cessation_lower": "2026-06-16",
+    "date:cessation_upper": "2026-06-16",
+    "date:inception_lower": "2026-06-17",
+    "date:inception_upper": "2026-06-17",
+    "edtf:cessation": "2026-06-16T16:17:00Z",
+    "edtf:inception": "2026-06-16T22:38:40-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2026-06-16",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.702760999999995,
     "geom:longitude": -105.058423,
     "iata:airline": "WN",
+    "icao:aircraft": "B38M",
     "icao:airline": "SWA",
     "lbl:latitude": 37.616969,
     "lbl:longitude": -122.381363,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102531205,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N8996Q",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "149394078",
+      "swim:gufi": "KO380823LU"
+    },
     "wof:country": "US",
     "wof:created": 1781712986,
     "wof:geomhash": "b0d868dab19a217943f06d97e1bf7ce6",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 2031559685,
     "wof:involves": [
-      102531205,
-      102527513,
       1159285591,
-      1947304599
+      1947304599,
+      1528104575,
+      102531205,
+      102527513
     ],
-    "wof:lastmodified": 1781712986,
+    "wof:lastmodified": 1781713165,
     "wof:name": "WN3901 (SFO-MDW)",
     "wof:parent_id": 1947304599,
     "wof:placetype": "custom",

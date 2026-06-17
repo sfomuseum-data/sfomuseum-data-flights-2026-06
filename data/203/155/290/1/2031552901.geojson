@@ -2,10 +2,12 @@
   "id": 2031552901,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-16",
+    "date:cessation_upper": "2026-06-16",
     "date:inception_lower": "2026-06-16",
     "date:inception_upper": "2026-06-16",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-16",
+    "edtf:cessation": "2026-06-16T04:10:05-07:00",
+    "edtf:inception": "2026-06-16T12:37:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AC",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -98.057846,
     "iata:airline": "AC",
     "iata:base_airline": "",
+    "icao:aircraft": "BCS3",
     "icao:airline": "ACA",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.614645,
     "lbl:longitude": -122.382263,
+    "sfomuseum:aircraft_id": 1813375783,
     "sfomuseum:airline_id": 1159283597,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260616-A-ANZ-4703",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,9 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "149393777"
+    },
     "wof:country": "US",
     "wof:created": 1781712192,
     "wof:geomhash": "d6fced31e2f30d79d54c9b38b6916cc7",
@@ -88,13 +100,14 @@
     ],
     "wof:id": 2031552901,
     "wof:involves": [
+      1947304673,
+      1159283697,
+      1813375783,
       102527513,
       102554351,
-      1159283597,
-      1947304673,
-      1159283697
+      1159283597
     ],
-    "wof:lastmodified": 1781712192,
+    "wof:lastmodified": 1781713152,
     "wof:name": "AC757 (YUL-SFO)",
     "wof:parent_id": 1947304673,
     "wof:placetype": "custom",

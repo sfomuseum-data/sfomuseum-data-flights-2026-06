@@ -2,10 +2,12 @@
   "id": 2031555419,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-06-16",
-    "date:inception_upper": "2026-06-16",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-16",
+    "date:cessation_lower": "2026-06-16",
+    "date:cessation_upper": "2026-06-16",
+    "date:inception_lower": "2026-06-17",
+    "date:inception_upper": "2026-06-17",
+    "edtf:cessation": "2026-06-16T16:58:42-07:00",
+    "edtf:inception": "2026-06-17T02:46:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2026-06-16",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.702760999999995,
     "geom:longitude": -105.058423,
     "iata:airline": "WN",
+    "icao:aircraft": "B737",
     "icao:airline": "SWA",
     "lbl:latitude": 37.617092,
     "lbl:longitude": -122.381656,
+    "sfomuseum:aircraft_id": 1159289869,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102531205,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N274WN",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -83,12 +92,13 @@
     ],
     "wof:id": 2031555419,
     "wof:involves": [
+      1947304597,
+      1159289869,
       102527513,
       102531205,
-      1159285591,
-      1947304597
+      1159285591
     ],
-    "wof:lastmodified": 1781712496,
+    "wof:lastmodified": 1781713156,
     "wof:name": "WN2893 (MDW-SFO)",
     "wof:parent_id": 1947304597,
     "wof:placetype": "custom",

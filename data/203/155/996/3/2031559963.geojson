@@ -2,10 +2,12 @@
   "id": 2031559963,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-16",
+    "date:cessation_upper": "2026-06-16",
     "date:inception_lower": "2026-06-16",
     "date:inception_upper": "2026-06-16",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-16",
+    "edtf:cessation": "2026-06-16T21:19:00Z",
+    "edtf:inception": "2026-06-16T16:47:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -140.1446795,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B77W",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.617615,
     "lbl:longitude": -122.390247,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533997,
     "sfomuseum:base_flight_id": "20260616-D-ACA-3515",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N2644U",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "149414967",
+      "swim:gufi": "KO490713YU"
+    },
     "wof:country": "US",
     "wof:created": 1781713018,
     "wof:geomhash": "ff961493fc59fc665836e174da62aa8e",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 2031559963,
     "wof:involves": [
+      1159289993,
       102533997,
       102527513,
       1159285413,
       1947304141,
       1159283597
     ],
-    "wof:lastmodified": 1781713018,
+    "wof:lastmodified": 1781713166,
     "wof:name": "UA1175 (SFO-HNL)",
     "wof:parent_id": 1947304141,
     "wof:placetype": "custom",

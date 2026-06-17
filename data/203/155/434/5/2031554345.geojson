@@ -2,10 +2,12 @@
   "id": 2031554345,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-16",
+    "date:cessation_upper": "2026-06-16",
     "date:inception_lower": "2026-06-16",
     "date:inception_upper": "2026-06-16",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-16",
+    "edtf:cessation": "2026-06-16T10:33:06-07:00",
+    "edtf:inception": "2026-06-16T21:26:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:date": "2026-06-16",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.231919500000004,
     "geom:longitude": -109.610733,
     "iata:airline": "DL",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "lbl:latitude": 37.615398,
     "lbl:longitude": -122.383426,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102525799,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N663DN",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "149441357",
+      "swim:gufi": "KF726613k9"
+    },
     "wof:country": "US",
     "wof:created": 1781712368,
     "wof:geomhash": "ecfc64ce72b903780fc129f985c12eef",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 2031554345,
     "wof:involves": [
-      102527513,
       102525799,
       1159284261,
-      1947304671
+      1947304671,
+      1159289939,
+      102527513
     ],
-    "wof:lastmodified": 1781712368,
+    "wof:lastmodified": 1781713168,
     "wof:name": "DL8961 (DAL-SFO)",
     "wof:parent_id": 1947304671,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 2031554157,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-16",
+    "date:cessation_upper": "2026-06-16",
     "date:inception_lower": "2026-06-16",
     "date:inception_upper": "2026-06-16",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-16",
+    "edtf:cessation": "2026-06-16T10:45:51-07:00",
+    "edtf:inception": "2026-06-16T17:57:52Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "CM",
     "flysfo:date": "2026-06-16",
@@ -21,9 +23,11 @@
     "geom:latitude": 23.344675,
     "geom:longitude": -100.87722099999999,
     "iata:airline": "CM",
+    "icao:aircraft": "B39M",
     "icao:airline": "CMP",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159284211,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102547051,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "HP9931CM",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "149422053"
+    },
     "wof:country": "US",
     "wof:created": 1781712344,
     "wof:geomhash": "a24fa29091ad40e8c2dcacd18340610c",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 2031554157,
     "wof:involves": [
-      102527513,
-      102547051,
       1159284211,
-      1947304081
+      1947304081,
+      1528104577,
+      102527513,
+      102547051
     ],
-    "wof:lastmodified": 1781712344,
+    "wof:lastmodified": 1781713168,
     "wof:name": "CM408 (PTY-SFO)",
     "wof:parent_id": 1947304081,
     "wof:placetype": "custom",
