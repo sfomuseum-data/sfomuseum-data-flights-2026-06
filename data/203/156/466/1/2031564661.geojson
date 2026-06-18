@@ -2,10 +2,12 @@
   "id": 2031564661,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-17",
+    "date:cessation_upper": "2026-06-17",
     "date:inception_lower": "2026-06-17",
     "date:inception_upper": "2026-06-17",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-17",
+    "edtf:cessation": "2026-06-17T16:26:08-07:00",
+    "edtf:inception": "2026-06-17T04:51:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -120.38022649999999,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "icao:base_airline": "CMP",
     "lbl:latitude": 37.620164,
     "lbl:longitude": -122.387194,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260617-A-CMP-1060",
@@ -39,6 +43,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-approach"
+    ],
+    "swim:tail_number": "N17244",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +61,9 @@
       1914600841,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "149466397"
+    },
     "wof:country": "US",
     "wof:created": 1781798987,
     "wof:geomhash": "f16008bc2ad68c6d1bc593247c6c74a9",
@@ -92,9 +103,10 @@
       102533795,
       1159285413,
       1930457221,
-      1159284211
+      1159284211,
+      1159289871
     ],
-    "wof:lastmodified": 1781798987,
+    "wof:lastmodified": 1781799650,
     "wof:name": "UA2056 (LAX-SFO)",
     "wof:parent_id": 1930457221,
     "wof:placetype": "custom",

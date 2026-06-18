@@ -2,10 +2,12 @@
   "id": 2031567843,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-06-17",
-    "date:inception_upper": "2026-06-17",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-17",
+    "date:cessation_lower": "2026-06-17",
+    "date:cessation_upper": "2026-06-17",
+    "date:inception_lower": "2026-06-18",
+    "date:inception_upper": "2026-06-18",
+    "edtf:cessation": "2026-06-17T07:36:00Z",
+    "edtf:inception": "2026-06-17T17:53:25-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "F9",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -118.7636915,
     "iata:airline": "F9",
     "iata:base_airline": "",
+    "icao:aircraft": "A21N",
     "icao:airline": "FFT",
     "icao:base_airline": "VOI",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564297,
     "sfomuseum:airline_id": 1159284401,
     "sfomuseum:arrival_id": 102527209,
     "sfomuseum:base_flight_id": "20260617-D-VOI-2135",
@@ -39,6 +43,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N607FR",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +61,9 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "149469384"
+    },
     "wof:country": "US",
     "wof:created": 1781799353,
     "wof:geomhash": "ccf694144ef1f7a2823fe9bc7c6018ea",
@@ -88,13 +99,14 @@
     ],
     "wof:id": 2031567843,
     "wof:involves": [
-      102527209,
       102527513,
       1159284401,
       1947304273,
-      1360700749
+      1360700749,
+      1377564297,
+      102527209
     ],
-    "wof:lastmodified": 1781799353,
+    "wof:lastmodified": 1781799643,
     "wof:name": "F94402 (SFO-LAS)",
     "wof:parent_id": 1947304273,
     "wof:placetype": "custom",

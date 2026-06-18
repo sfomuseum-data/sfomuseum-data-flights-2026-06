@@ -2,10 +2,12 @@
   "id": 2031564795,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2026-06-17",
+    "date:cessation_upper": "2026-06-17",
     "date:inception_lower": "2026-06-17",
     "date:inception_upper": "2026-06-17",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-17",
+    "edtf:cessation": "2026-06-17T04:43:00Z",
+    "edtf:inception": "2026-06-17T01:18:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -108.8546935,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "icao:base_airline": "UAE",
     "lbl:latitude": 37.620533,
     "lbl:longitude": -122.389374,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260617-A-UAE-6155",
@@ -39,6 +43,7 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "swim:tail_number": "N77581",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +58,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "149458170",
+      "swim:gufi": "KH855223TH"
+    },
     "wof:country": "US",
     "wof:created": 1781799002,
     "wof:geomhash": "25dc9d98eae1cd54f40654c6c4fb6929",
@@ -88,13 +97,14 @@
     ],
     "wof:id": 2031564795,
     "wof:involves": [
+      1947304457,
+      1159284333,
+      1528104577,
       102527513,
       102534097,
-      1159285413,
-      1947304457,
-      1159284333
+      1159285413
     ],
-    "wof:lastmodified": 1781799002,
+    "wof:lastmodified": 1781799638,
     "wof:name": "UA2751 (IAH-SFO)",
     "wof:parent_id": 1947304457,
     "wof:placetype": "custom",
