@@ -1,0 +1,72 @@
+{
+  "id": 2031610909,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2026-06-22",
+    "date:inception_upper": "2026-06-22",
+    "edtf:cessation": "",
+    "edtf:inception": "2026-06-22",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "UA",
+    "flysfo:date": "2026-06-22",
+    "flysfo:estimated_timestamp": 1782187440,
+    "flysfo:event": "A",
+    "flysfo:flight_number": "UA8102",
+    "flysfo:gate": "",
+    "flysfo:journey": "SNA-SFO",
+    "flysfo:scheduled_timestamp": 1782183720,
+    "flysfo:timestamp": 1782187440,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,33.677724,-117.866280,37.617990",
+    "geom:latitude": 35.647857,
+    "geom:longitude": -120.1186115,
+    "iata:airline": "UA",
+    "icao:airline": "UAL",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159285413,
+    "sfomuseum:arrival_id": 102527513,
+    "sfomuseum:departure_id": 102534161,
+    "sfomuseum:flight_id": "20260622-A-UAL-8102",
+    "sfomuseum:flight_number": [
+      "UAL8102",
+      "UA8102"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1782230994,
+    "wof:geomhash": "01009f732d03a7803d3f7fd23cf321f4",
+    "wof:hierarchy": [
+      {
+        "custom_id": 2031610909,
+        "flight_id": 2031610909
+      }
+    ],
+    "wof:id": 2031610909,
+    "wof:involves": [
+      102527513,
+      102534161,
+      1159285413,
+      -1
+    ],
+    "wof:lastmodified": 1782230994,
+    "wof:name": "UA8102 (SNA-SFO)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2026-06",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    33.677724,
+    -117.86628,
+    37.61799
+  ],
+  "geometry": {"coordinates":[[-117.86628,33.677724],[-122.370943,37.61799]],"type":"MultiPoint"}
+}
