@@ -1,0 +1,72 @@
+{
+  "id": 2031668499,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2026-06-28",
+    "date:inception_upper": "2026-06-28",
+    "edtf:cessation": "",
+    "edtf:inception": "2026-06-28",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "MX",
+    "flysfo:date": "2026-06-28",
+    "flysfo:estimated_timestamp": -1,
+    "flysfo:event": "D",
+    "flysfo:flight_number": "MX9999",
+    "flysfo:gate": "",
+    "flysfo:journey": "SFO-SBD",
+    "flysfo:scheduled_timestamp": 1782704700,
+    "flysfo:timestamp": 1782704700,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,34.104408,-117.245887,37.617990",
+    "geom:latitude": 35.861199,
+    "geom:longitude": -119.808415,
+    "iata:airline": "MX",
+    "icao:airline": "MXY",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1763552131,
+    "sfomuseum:arrival_id": 102530129,
+    "sfomuseum:departure_id": 102527513,
+    "sfomuseum:flight_id": "20260628-D-MXY-9999",
+    "sfomuseum:flight_number": [
+      "MXY9999",
+      "MX9999"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1782749758,
+    "wof:geomhash": "b4d056e1d6e58dcf382167f77162f897",
+    "wof:hierarchy": [
+      {
+        "custom_id": 2031668499,
+        "flight_id": 2031668499
+      }
+    ],
+    "wof:id": 2031668499,
+    "wof:involves": [
+      102530129,
+      102527513,
+      1763552131,
+      -1
+    ],
+    "wof:lastmodified": 1782749758,
+    "wof:name": "MX9999 (SFO-SBD)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2026-06",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    34.104408,
+    -117.245887,
+    37.61799
+  ],
+  "geometry": {"coordinates":[[-122.370943,37.61799],[-117.245887,34.104408]],"type":"MultiPoint"}
+}
