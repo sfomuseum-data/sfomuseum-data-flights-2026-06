@@ -2,10 +2,12 @@
   "id": 2031674109,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2026-06-29",
-    "date:inception_upper": "2026-06-29",
-    "edtf:cessation": "",
-    "edtf:inception": "2026-06-29",
+    "date:cessation_lower": "2026-06-29",
+    "date:cessation_upper": "2026-06-29",
+    "date:inception_lower": "1970-01-01",
+    "date:inception_upper": "1970-01-01",
+    "edtf:cessation": "2026-06-29T00:49:04-07:00",
+    "edtf:inception": "1970-01-01T00:00:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -119.778435,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.620164,
     "lbl:longitude": -122.387194,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20260629-A-ACA-5312",
@@ -39,6 +43,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-approach"
+    ],
+    "swim:tail_number": "N37427",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -92,9 +100,10 @@
       102528997,
       1159285413,
       1930457221,
-      1159283597
+      1159283597,
+      1377564285
     ],
-    "wof:lastmodified": 1782835762,
+    "wof:lastmodified": 1782836399,
     "wof:name": "UA2830 (SAN-SFO)",
     "wof:parent_id": 1930457221,
     "wof:placetype": "custom",
