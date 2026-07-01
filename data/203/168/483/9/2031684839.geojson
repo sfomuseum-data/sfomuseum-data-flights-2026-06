@@ -1,0 +1,72 @@
+{
+  "id": 2031684839,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2026-06-30",
+    "date:inception_upper": "2026-06-30",
+    "edtf:cessation": "",
+    "edtf:inception": "2026-06-30",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "AI",
+    "flysfo:date": "2026-06-30",
+    "flysfo:estimated_timestamp": -1,
+    "flysfo:event": "D",
+    "flysfo:flight_number": "AI174",
+    "flysfo:gate": "",
+    "flysfo:journey": "SFO-ICN",
+    "flysfo:scheduled_timestamp": 1782839700,
+    "flysfo:timestamp": 1782839700,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,37.453966,126.661632,37.617990",
+    "geom:latitude": 37.535978,
+    "geom:longitude": 2.1453445,
+    "iata:airline": "AI",
+    "icao:airline": "AIC",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159283649,
+    "sfomuseum:arrival_id": 102556451,
+    "sfomuseum:departure_id": 102527513,
+    "sfomuseum:flight_id": "20260630-D-AIC-174",
+    "sfomuseum:flight_number": [
+      "AIC174",
+      "AI174"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1782922342,
+    "wof:geomhash": "76fab8ba90cc172f777e745d124625d2",
+    "wof:hierarchy": [
+      {
+        "custom_id": 2031684839,
+        "flight_id": 2031684839
+      }
+    ],
+    "wof:id": 2031684839,
+    "wof:involves": [
+      102556451,
+      102527513,
+      1159283649,
+      -1
+    ],
+    "wof:lastmodified": 1782922342,
+    "wof:name": "AI174 (SFO-ICN)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2026-06",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    37.453966,
+    126.661632,
+    37.61799
+  ],
+  "geometry": {"coordinates":[[-122.370943,37.61799],[126.661632,37.453966]],"type":"MultiPoint"}
+}
